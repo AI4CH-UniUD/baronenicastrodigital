@@ -1,1 +1,1 @@
-Repository per progetto archivio digitale Barone di Nicastro
+Repository per progetto archivio digitale Barone di Nicastro. Mandato il link di accesso a federico.siragusa784@edu.unito.it in modo che posso accedervi come admin e caricare la web app che ha realizzato in javascript
