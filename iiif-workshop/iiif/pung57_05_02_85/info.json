@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 132,
+    "height" : 174
+  }, {
+    "width" : 263,
+    "height" : 348
+  }, {
+    "width" : 525,
+    "height" : 695
+  }, {
+    "width" : 1050,
+    "height" : 1389
+  }, {
+    "width" : 2100,
+    "height" : 2778
+  }, {
+    "width" : 4200,
+    "height" : 5556
+  } ],
+  "profile" : "level0",
+  "width" : 4200,
+  "id" : "http://localhost:8000/iiif/pung57_05_02_85",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 5556
+}

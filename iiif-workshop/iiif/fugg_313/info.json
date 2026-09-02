@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 84,
+    "height" : 116
+  }, {
+    "width" : 167,
+    "height" : 232
+  }, {
+    "width" : 333,
+    "height" : 463
+  }, {
+    "width" : 666,
+    "height" : 925
+  }, {
+    "width" : 1331,
+    "height" : 1850
+  }, {
+    "width" : 2662,
+    "height" : 3700
+  } ],
+  "profile" : "level0",
+  "width" : 2662,
+  "id" : "http://localhost:8000/iiif/fugg_313",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3700
+}

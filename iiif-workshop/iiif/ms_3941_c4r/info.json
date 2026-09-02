@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 58,
+    "height" : 75
+  }, {
+    "width" : 116,
+    "height" : 150
+  }, {
+    "width" : 231,
+    "height" : 299
+  }, {
+    "width" : 462,
+    "height" : 597
+  }, {
+    "width" : 923,
+    "height" : 1193
+  }, {
+    "width" : 1845,
+    "height" : 2385
+  } ],
+  "profile" : "level0",
+  "width" : 1845,
+  "id" : "http://localhost:8000/iiif/ms_3941_c4r",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 2385
+}
