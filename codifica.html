@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Controls</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+
+  <header class="header-grid">
+
+    <!-- LEFT IMAGE -->
+    <div class="left-image">
+      <img src="img_sito/home.png" alt="Le Disgrazie del Numero Due">
+    </div>
+
+    <!-- TITLE (RIGHT TOP) -->
+    <div class="title">
+      <a href="home.html" style="text-decoration: none;">
+        <h1 style="font-style: italic;">Il Barone di Nicastro Digitale</h1>
+      </a>
+    </div>
+
+    <!-- NAVIGATION (RIGHT BOTTOM) -->
+    <nav class="navigation">
+      <ul class="nav-list">
+
+        <li class="dropdown">
+          <a href="home.html" class="dropbtn">HOME ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="progetto.html">Progetto</a></li>
+            <li><a href="mappa.html">Mappa del sito</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="" class="dropbtn">NOTA INTRODUTTIVA ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="storia.html">Storia editoriale e redazionale</a></li>
+            <li><a href="trascrizione.html">Criteri di trascrizione</a></li>
+            <li><a href="codifica.html">Criteri di codifica</a></li>
+          </ul>
+        </li>
+
+        <li><a href="main.html">TESTO</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropbtn">RISORSE ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="listperson.html">Indice dei nomi</a></li>
+            <li><a href="biblio.html">Bibliografia</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">MAPPA</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Criteri editoriali di codifica</h1>
+  <div class="image-text-block">
+    <img src="img_sito/sez_nota.jpg" class="wrap-image-right">
+    <h2>Manoscritti</h2>
+    <p>La codifica è stata svolta seguendo il <i>markup language</i> XML, secondo le linee guida del <i>Consorzio
+        TEI</i>. Non volendo presentare un'edizione critica, ma una piattaforma che restituisse le varie redazioni note,
+      la codifica è stata effettuata separatamente, ogni testimone costituisce un file XML a sé stante. Per la
+      realizzazione della sezione TESTO, si he deciso di utilizzare <code>xi:include</code>, recuperando quindi i dati
+      dai vari file XML e riunendole in un unico documento. Questo è stato sottoposto ad un singolo foglio di
+      trasformazione XSLT, per la creazione della pagina HTML, stilizzata con un foglio CSS e che si basa sulle funzioni
+      esplicitate in JavaScript.</p>
+    <p>L’uso delle parentetiche risulta piuttosto regolare; per questo motivo si è scelto di integrare le parentesi di
+      chiusura mancanti, codificando l’intervento attraverso l’elemento <code>&lt;supplied&gt;</code> e attributo
+      <code>@reason=“omitted-in-original”</code> (<i>senza contare les employes che appartengono a tutti e sette &gt;
+        (senza contare les employes che appartengono a tutti e sette
+        <code>&lt;supplied reason=“omitted-in-original”&gt;)&lt;/supplied&gt;</code></i>).</p>
+    <p>Gli interventi riguardanti accenti, apostrofi ed elisioni sono stati opportunamente segnati in sede di codifica
+      tramite l’elemento <code>&lt;w&gt;</code> e l’attributo <code>@orig</code>, nel quale è stata indicata la forma
+      effettivamente riscontrata nel manoscritto (<code>&lt;w orig=perche&gt;perché&lt;/w&gt;</code>). Analogamente,
+      sono stati reintegrati tutti gli apostrofi omessi in presenza dell’indeterminativo femminile davanti a vocale (un
+      altra donna > un’altra donna etc.).</p>
+    <p>Rare e non sempre riconducibili a Nievo le lezioni sottolineate nel manoscritto: in tale contesto, la codifica
+      <code>TEI XML</code> ha permesso di unire all’usuale resa grafica del corsivo (tramite l’elemento
+      <code>&lt;hi&gt;</code> e l’attributo <code>@rend</code> con valore <code>“italic”</code>) anche l’indicazione
+      della mano responsabile della sottolineatura (tramite l’attributo <code>@resp</code>, con valori disponibili
+      <code>“#Ippolito-Nievo”</code> e <code>“#archivista”</code>).</p>
+    <p>Le variabili fonetiche riscontrabili nei manoscritti del <i>Barone di Nicastro</i>, particolarmente evidenti in
+      relazione all’uso delle consonanti scempie e geminate per l’azione combinata di influsso dialettale e
+      ipercorrettismo, sono state tutte conservate.</p>
+    <p>L’uso combinato degli elementi <code>&lt;choice&gt;</code>, <code>&lt;abbr&gt;</code> (che codifica
+      l’abbreviazione a testo) e <code>&lt;expan&gt;</code> (che contiene il relativo scioglimento) vengono utilizzati
+      per le abbreviazioni che sono state sciolte.</p>
+    <p>Anche per quanto riguarda le parole o le lettere illeggibili, solitamente indicate con asterischi fra parentesi
+      quadre, si è scelto di ricorrere agli strumenti offerti dal vocabolario della TEI: le parole che non si sono
+      potute decifrare sono state codificate attraverso l’elemento <code>&lt;gap&gt;</code> e gli attributi congiunti
+      @reason (con valore <code>“illegible”</code>), <code>@unit</code> (con valore <code>“char”</code>, carattere
+      tipografico) e <code>@unit</code> (il cui valore è determinato dal numero delle lettere conteggiabili); per le
+      lacune dovute alla cattiva conservazione dei manoscritti si è invece fatto ricorso all’attributo
+      <code>&lt;damage&gt;</code> unito agli attributi <code>@type</code>, <code>@agent</code>,
+      <code>@extent</code>/<code>@quantity</code> per indicare la tipologia di danneggiamento, la causa (ad esempio
+      acqua, bruciature, tagli di carta, cera lacca) e l’estensione (in lettere conteggiabili, tramite l’attributo
+      <code>@extent</code>, o in millimetri, tramite <code>@quantity</code>).</p>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col footer-logos">
+        <a href="" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo" /></a>
+        <a href="" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
+            style="width: 100px;" /></a>
+        <a href="https://www.uniud.it/it" target="_blank"><img src="img_sito/logouniud.jpg" alt="Company Logo"
+            class="footer-logo" /></a>
+      </div>
+
+      <div class="footer-col">
+        <h5>Licenza</h5>
+        <small>© 2025 Il Barone di Nicastro Digitale | <a rel="license" data-spdx="CC-BY-SA-4.0"
+            href="http://creativecommons.org/licenses/bysa/4.0/"><img alt="Creative Commons License"
+              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is
+          licensed under a <a rel="license" data-spdx="CC-BY-SA-4.0"
+            href="http://creativecommons.org/licenses/bysa/4.0/">Creative Commons
+            Attribution-ShareAlike 4.0 International License</a></small>
+      </div>
+
+      <div class="footer-col">
+        <h5>Mappa del Sito</h5>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="storia.html">Nota Introduttiva</a></li>
+          <li><a href="main.html">Testo</a></li>
+          <li><a href="listperson.html">Risorse</a></li>
+          <li><a href="#">Mappa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contatti</h5>
+        <p>Bianca Del Buono</p>
+        <p>Email: <a href="mailto:biancadelbuono@homtail.it"
+            style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
