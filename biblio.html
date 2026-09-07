@@ -22,7 +22,7 @@
     <!-- TITLE (RIGHT TOP) -->
     <div class="title">
       <a href="index.html" style="text-decoration: none;">
-        <h1 style="font-style: italic;">Il Barone di Nicastro Digitale</h1>
+        <h1>Il <i>Barone di Nicastro</i> Digitale</h1>
       </a>
     </div>
 
@@ -34,13 +34,13 @@
           <a href="index.html" class="dropbtn">HOME ▼</a>
           <ul class="dropdown-content">
             <li><a href="progetto.html">Progetto</a></li>
-            <li><a href="mappa.html">Mappa del sito</a></li>
+            <li><a href="mappa.html">Presentazione del sito</a></li>
             <li><a href="contatti.html">Contatti</a></li>
           </ul>
         </li>
 
         <li class="dropdown">
-          <a href="presentazione.html" class="dropbtn">NOTA INTRODUTTIVA ▼</a>
+          <a href="" class="dropbtn">NOTA INTRODUTTIVA ▼</a>
           <ul class="dropdown-content">
             <li><a href="storia.html">Storia editoriale e redazionale</a></li>
             <li><a href="trascrizione.html">Criteri di trascrizione</a></li>
@@ -58,8 +58,10 @@
           </ul>
         </li>
 
-        <li><a href="#">MAPPA</a></li>
+        <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">MAPPA</a></li>
 
+      
+        <li><a href="#" onclick="toggleAccessibleFont(); return false;" title="Visualizzazione accessibile"><i class="fa-solid fa-universal-access"></i> ACCESSIBILITÀ</a></li>
       </ul>
     </nav>
   </header>
@@ -69,89 +71,51 @@
     <img src="img_sito/sez_materiali.png" class="wrap-image-right">
     <h2>Testi</h2>
     <ul>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Il Barone di Nicastro</i>, nota e commento di S.
-        Contarini, in Id., <i>Opere</i>, t. II, a cura di U. M. Olivieri, Milano-Napoli, Ricciardi, 2015.</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Le Confessioni d’un Italiano</i>, a cura di S.
-        Romagnoli, introduzione di C. De Michelis, Venezia, Marsilio, 2000</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Le Confessioni d’un Italiano</i>, ed. critica a
-        cura e commento di S. Casini, Parma, Fondazione Pietro Bembo - Guanda, 1999</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Il Conte pecorajo. Storia del secolo presente</i>,
-        testo critico secondo l’ed. a stampa del 1857, a cura di S. Casini, Venezia, Marsilio, 2010</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Il Conte pecorajo. Storia del secolo presente</i>,
-        testo critico secondo i mss. del 1855-56, a cura di S. Casini, Venezia, Marsilio, 2011</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Novelliere campagnuolo e altri racconti</i>, a
-        cura di I. De Luca, Torino, Einaudi, 1956</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Novelle</i>, a cura di M. Colummi Camerino,
-        Venezia, Marsilio, 2012</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Scritti politici e di attualià</i>, a cura di A.
-        Motta, Venezia, Marsilio, 2016</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Scritti di letteratura</i>, a cura di A. Motta,
-        Venezia, Marsilio, 2023</li>
-      <li><span style="font-variant: small-caps;">Nievo I.</span>, <i>Lettere</i>, a cura di M. Gorra, Venezia,
-        Marsilio, 1981</li>
+      <li id="deluca56"><span style="font-variant: small-caps;">Nievo 1956 = Nievo I.</span>, <i>Novelliere campagnuolo e altri racconti</i>, a cura di I. De Luca, Torino, Einaudi.</li>
+      <li id="gorra81"><span style="font-variant: small-caps;">Nievo 1981 = Nievo I.</span>, <i>Lettere</i>, a cura di M. Gorra, Venezia, Marsilio.</li>
+      <li id="casini99"><span style="font-variant: small-caps;">Nievo 1999 = Nievo I.</span>, <i>Le Confessioni d’un Italiano</i>, ed. critica a cura e commento di S. Casini, Parma, Fondazione Pietro Bembo - Guanda.</li>
+      <li id="demichelis2000"><span style="font-variant: small-caps;">Nievo 2000 = Nievo I.</span>, <i>Le Confessioni d’un Italiano</i>, a cura di S. Romagnoli, introduzione di C. De Michelis, Venezia, Marsilio.</li>
+      <li id="casini2010"><span style="font-variant: small-caps;">Nievo 2010 = Nievo I.</span>, <i>Il Conte pecorajo. Storia del secolo presente</i>, testo critico secondo l’ed. a stampa del 1857, a cura di S. Casini, Venezia, Marsilio.</li>
+      <li id="casini2011"><span style="font-variant: small-caps;">Nievo 2011 = Nievo I.</span>, <i>Il Conte pecorajo. Storia del secolo presente</i>, testo critico secondo i mss. del 1855-56, a cura di S. Casini, Venezia, Marsilio.</li>
+      <li><span style="font-variant: small-caps;">Nievo 2012 = Nievo I.</span>, <i>Novelle</i>, a cura di M. Colummi Camerino, Venezia, Marsilio.</li>
+      <li id="contarini2015"><span style="font-variant: small-caps;">Nievo 2015 = Nievo I.</span>, <i>Il Barone di Nicastro</i>, nota e commento di S. Contarini, in Id., <i>Opere</i>, t. II, a cura di U. M. Olivieri, Milano-Napoli, Ricciardi.</li>
+      <li id="motta2016"><span style="font-variant: small-caps;">Nievo 2016 = Nievo I.</span>, <i>Scritti politici e di attualià</i>, a cura di A. Motta, Venezia, Marsilio.</li>
+      <li id="motta2023"><span style="font-variant: small-caps;">Nievo 2023 = Nievo I.</span>, <i>Scritti di letteratura</i>, a cura di A. Motta, Venezia, Marsilio</li>
+      <li id="turchi2024"><span style="font-variant: small-caps;">Nievo 2024 = Nievo I.</span>, <i>Novelliere campagnuolo</i>, a cura di R. Turchi, Venezia, Marsilio.</li>
+      <li id="cerneaz2025"><span style="font-variant: small-caps;">Nievo 2025 = Nievo I.</span>, <i>Le Lucciole. Canzoniere 1855-1857</i>, a cura di S. Cerneaz, Venezia, Marsilio.</li>
     </ul>
 
     <h2>Letteratura critica</h2>
     <ul>
-      <li><span style="font-variant: small-caps;">Casini S.</span>, <i>Nievo e Mazzini. La rivoluzione del 1849 tra
-          biografia e finzione, in Ippolito Nievo tra letteratura e storia</i>, a cura di S. Casini, E. Ghidetti, R.
-        Turchi, Roma, Bulzoni, 2004, pp. 117-135</li>
-      <li><span style="font-variant: small-caps;">Cerneaz S.</span>, <i>Le carte di Nievo a Udine. Notizie dal fondo
-          Nievo-Ciceri della Biblioteca Civica Vincenzo Joppi</i>, in «Pisana», I (2019), pp. 149-160</li>
-      <li><span style="font-variant: small-caps;">Chaarani-Lesourd E.</span>, <i>Ippolito Nievo. Uno scrittore
-          politico</i>, Venezia, Marsilio, 2011.</li>
-      <li><span style="font-variant: small-caps;">Colummi Camerino E.</span>, <i>La corsa di prova e altre novelle</i>,
-        in <i>Ippolito Nievo centocinquant'anni dopo. Atti del Convegno. Padova 19-21 ottobre 2011</i>, a cura di E. Del
-        Tedesco, Roma-Pisa, Fabrizio Serra Editore, 2013, pp. 205-213.</li>
-      <li><span style="font-variant: small-caps;">Contarini S.</span>, <i>Il tempo della cornacchia. Satira e politica
-          ne</i> Il Brone di Nicastro <i>di Ippolito Nievo</i>, in <i>La satira in prosa. Tradizioni, forme e temi dal
-          Trecento all'Ottocento</i>, a cura di P. Rigo e C. Mazzoncini, Firenze, Cesati, 2019, pp. 163-178.</li>
-      <li><span style="font-variant: small-caps;">De Michelis C.</span>, <i>Nievo e il ’48, in Ippolito Nievo
-          centocinquant'anni dopo. Atti del Convegno. Padova 19-21 ottobre 2011</i>, a cura di E. Del Tedesco,
-        Roma-Pisa, Fabrizio Serra Editore, 2013, pp. 113-27.</li>
-      <li><span style="font-variant: small-caps;">Della Peruta S.</span>, <i>Il giornalismo italiano del Risorgimento.
-          Dal 1847 all’Unità</i>, Milano, FrancoAngeli, 2011</li>
-      <li><span style="font-variant: small-caps;">Falcetto B.</span>, «<i>Mondo, città, paesi. Geografia e letteratura
-          nella narrativa nieviana</i>», in <i>Ippolito Nievo e il Mantovano, Atti del Convegno nazionale</i>, a cura di
-        G. Grimaldi, Venezia, Marsilio, 2001, pp. 55-76.</li>
-      <li><span style="font-variant: small-caps;">Garau S.</span>, “<i>A cavalcione di questi due secoli</i>”.
-        <i>Cultura riflessa nelle</i> Confessioni d’un Italiano <i>e in altri scritti di Ippolito Nievo</i>, Roma,
-        Edizioni di Storia e Letteratura, 2010.</li>
-      <li><span style="font-variant: small-caps;">Gorra M.</span>, <i>Il diavolo nella biblioteca di Nievo, ossia Le
-          Sage e De Vigny</i>, in «Belfagor», 3, 1985, pp. 577-588</li>
-      <li><span style="font-variant: small-caps;">Gorra M.</span>, <i>Intorno agli pseudonimi nieviani</i>, in Ead.,
-        Nievo fra noi , Firenze , La Nuova Italia , 1970 , pp . 193-203.</li>
-      <li><span style="font-variant: small-caps;">Gorra M.</span>, <i>Nievo e la censura</i>, in Ead., <i>Nievo fra
-          noi</i>, Firenze , La Nuova Italia , 1970 , pp . 165-192.</li>
-      <li><span style="font-variant: small-caps;">Jorio C.</span>, <i>Ippolito Nievo e il processo
-          dell’</i>Avvocatino<i>. Con documenti inediti</i>, in «Giornale storico della letteratura italiana», CV. 315,
-        1935, pp. 221-304 e CVI. 316-7, pp. 1-38.</li>
-      <li><span style="font-variant: small-caps;">Maffei G.</span>, <i>Nievo</i>, Roma, Salerno, 2012.</li>
-      <li><span style="font-variant: small-caps;">Mantovani D.</span>, <i>Il Poeta Soldato. Ippolito Nievo
-          1831-1861</i>, Milano, Treves, 1900.</li>
-      <li><span style="font-variant: small-caps;">Mazzacurati G.</span>, <i>Pitagora a New York: per una prefazione
-          al</i> Barone di Nicastro <i>di Ippolito Nievo</i>, in Id., <i>Forma e ideologia (Dante, Boccaccio,
-          Straparola, Manzoni, Nievo, Verga, Svevo)</i>, Napoli, Liguori, 1974, pp. 269-293.</li>
-      <li><span style="font-variant: small-caps;">Morachioli S.</span>, <i>L’Italia alla rovescia. Ricerche sulla
-          caricatura giornalistica tra il 1848 e l’Unità</i>, Pisa, Edizioni della Normale, 2013.</li>
-      <li><span style="font-variant: small-caps;">Motta A.</span>, <i>Nievo, o dell’allusione</i>, in <i>Latenza.
-          Preterizioni, reticenze e silenzi del testo. Atti del XLIII Convegno Interuniversitario (Bressanone, 9-12
-          luglio 201)</i>, a cura di A. Barieri ed E. Gregori, Padova, Esedra, 2016, pp. 195-209.</li>
-      <li><span style="font-variant: small-caps;">Murru C.</span>, <i>Per una indagine sul non detto nelle riviste
-          umoristiche preunitarie 'Il Pungolo' e 'L'uomo di Pietra'</i>, in <i>Letteratura e Potere/Poteri. Atti del
-          XXIV Congresso dell’ADI (Associazione degli Italianisti) Catania, 23-25 settembre 2021</i>, a cura di A.
-        Manganaro – G. Traina – C. Tramontana, Roma, Adi editore, 2023, disponibile al seguente <a
-          href="https://www.italianisti.it/pubblicazioni/atti-di-congresso/letteratura-e-potere/MURRU.pdf">link</a>.
+      <li id="casini2004"><span style="font-variant: small-caps;">Casini 2004 = Casini S.</span>, <i>Nievo e Mazzini. La rivoluzione del 1849 tra biografia e finzione, in Ippolito Nievo tra letteratura e storia</i>, a cura di S. Casini, E. Ghidetti, R. Turchi, Roma, Bulzoni, pp. 117-135.</li>
+      <li id="cerneaz2019"><span style="font-variant: small-caps;">Cerneaz 2019 =Cerneaz S.</span>, <i>Le carte di Nievo a Udine. Notizie dal fondo Nievo-Ciceri della Biblioteca Civica Vincenzo Joppi</i>, in «Pisana», 1, pp. 149-160.</li>
+      <li id="chaaranilesourd2011"><span style="font-variant: small-caps;">Chaarani-Lesourd 2011 = Chaarani-Lesourd E.</span>, <i>Ippolito Nievo. Uno scrittore politico</i>, Venezia, Marsilio.</li>
+      <li><span style="font-variant: small-caps;">Columni Camerino 2013 = Colummi Camerino E.</span>, <i>La corsa di prova e altre novelle</i>, in <i>Ippolito Nievo centocinquant'anni dopo. Atti del Convegno. Padova 19-21 ottobre 2011</i>, a cura di E. Del Tedesco, Roma-Pisa, Fabrizio Serra Editore, pp. 205-213.</li>
+      <li id="colombi2011"><span style="font-variant: small-caps;">Colombi 2011 = Colombi R.</span>, <i>Ippolito Nievo, narratore e giornalista umorista, in Ead., Ottocento stravagante. Umorismo, satira e parodia tra Risorgimento e Italia unita</i>, Roma, Aracne, pp. 81-109.</li>
+      <li id="contarini15"><span style="font-variant: small-caps;">Contarini 2015 =</span> <i>Introduzione</i>, in Nievo 2015, pp. 575-585.</li>
+      <li id="contarini2019"><span style="font-variant: small-caps;">Contarini 2019 = Contarini S.</span>, <i>Il tempo della cornacchia. Satira e politica ne</i> Il Brone di Nicastro <i>di Ippolito Nievo</i>, in <i>La satira in prosa. Tradizioni, forme e temi dal Trecento all'Ottocento</i>, a cura di P. Rigo e C. Mazzoncini, Firenze, Cesati, pp. 163-178.</li>
+      <li id="delbuono2024"><span style="font-variant: small-caps;">Del Buono 2024 = Del Buono B.</span>, <i>Un personaggio umoristico per un «romanzetto satirico». Ancora sull’umorismo di Nievo (1857)</i>, in «P.I.S.A.N.A.», 6, pp. 211-230.</li>
+      <li id="demichelis2013"><span style="font-variant: small-caps;">De Michelis 2013 = De Michelis C.</span>, <i>Nievo e il ’48, in Ippolito Nievo centocinquant'anni dopo. Atti del Convegno. Padova 19-21 ottobre 2011</i>, a cura di E. Del Tedesco, Roma-Pisa, Fabrizio Serra Editore, pp. 113-27.</li>
+      <li id="dellaperuta2011"><span style="font-variant: small-caps;">Della Peruta 2011 = Della Peruta S.</span>, <i>Il giornalismo italiano del Risorgimento. Dal 1847 all’Unità</i>, Milano, FrancoAngeli.</li>
+      <li id="falcetto2001"><span style="font-variant: small-caps;">Falcetto 2001 = Falcetto B.</span>, «<i>Mondo, città, paesi. Geografia e letteratura nella narrativa nieviana</i>», in <i>Ippolito Nievo e il Mantovano, Atti del Convegno nazionale</i>, a cura di G. Grimaldi, Venezia, Marsilio, pp. 55-76.</li>
+      <li id="garau2010"><span style="font-variant: small-caps;">Garau 2010 = Garau S.</span>, “<i>A cavalcione di questi due secoli</i>”. <i>Cultura riflessa nelle</i> Confessioni d’un Italiano <i>e in altri scritti di Ippolito Nievo</i>, Roma, Edizioni di Storia e Letteratura.</li>
+      <li id="gorra70a"><span style="font-variant: small-caps;">Gorra 1970a = Gorra M.</span>, <i>Nievo e la censura</i>, in Ead., <i>Nievo fra noi</i>, Firenze, La Nuova Italia, pp. 165-192.</li>
+      <li id="gorra70b"><span style="font-variant: small-caps;">Gorra 1970b = Gorra M.</span>, <i>Intorno agli pseudonimi nieviani</i>, in Ead., Nievo fra noi, Firenze, La Nuova Italia, pp. 193-203.</li>
+      <li id="gorra85"><span style="font-variant: small-caps;">Gorra 1985 = Gorra M.</span>, <i>Il diavolo nella biblioteca di Nievo, ossia Le Sage e De Vigny</i>, in «Belfagor», 3, pp. 577-588</li>
+      <li id="jorio35"><span style="font-variant: small-caps;">Jorio 1935 = Jorio C.</span>, <i>Ippolito Nievo e il processo dell’</i>Avvocatino<i>. Con documenti inediti</i>, in «Giornale storico della letteratura italiana», CV. 315, pp. 221-304 e CVI. 316-7, pp. 1-38.</li>
+      <li id="maffei99"><span style="font-variant: small-caps;">Maffei 1999 = Maffei G.</span>, <i>Nievo umorista, in Effetto Sterne. La narrazione umoristica in Italia da Foscolo a Pirandello</i>, a cura di G. Mazzacurati, Pisa, Nistri-Lischi, pp. 170-230.</li>
+      <li id="maffei2012"><span style="font-variant: small-caps;">Maffei 2012 = Maffei G.</span>, <i>Nievo</i>, Roma, Salerno.</li>
+      <li id="mantovani1900"><span style="font-variant: small-caps;">Mantovani 1900 = Mantovani D.</span>, <i>Il Poeta Soldato. Ippolito Nievo 1831-1861</i>, Milano, Treves.</li>
+      <li id="mazzacurati74"><span style="font-variant: small-caps;">Mazzacurati 1974 = Mazzacurati G.</span>, <i>Pitagora a New York: per una prefazione al</i> Barone di Nicastro <i>di Ippolito Nievo</i>, in Id., <i>Forma e ideologia (Dante, Boccaccio, Straparola, Manzoni, Nievo, Verga, Svevo)</i>, Napoli, Liguori pp. 269-293.</li>
+      <li id="morachioli2013"><span style="font-variant: small-caps;">Morachioli 2013 = Morachioli S.</span>, <i>L’Italia alla rovescia. Ricerche sulla caricatura giornalistica tra il 1848 e l’Unità</i>, Pisa, Edizioni della Normale.</li>
+      <li id="motta16"><span style="font-variant: small-caps;">Motta 2016 = Motta A.</span>, <i>Nievo, o dell’allusione</i>, in <i>Latenza. Preterizioni, reticenze e silenzi del testo. Atti del XLIII Convegno Interuniversitario (Bressanone, 9-12 luglio 201)</i>, a cura di A. Barieri ed E. Gregori, Padova, Esedra, pp. 195-209.</li>
+      <li id="murru2023"><span style="font-variant: small-caps;">Murru 2023 = Murru C.</span>, <i>Per una indagine sul non detto nelle riviste umoristiche preunitarie 'Il Pungolo' e 'L'uomo di Pietra'</i>, in <i>Letteratura e Potere/Poteri. Atti del XXIV Congresso dell’ADI (Associazione degli Italianisti) Catania, 23-25 settembre 2021</i>, a cura di A. Manganaro – G. Traina – C.  Tramontana, Roma, Adi editore, disponibile al seguente <a href="https://www.italianisti.it/pubblicazioni/atti-di-congresso/letteratura-e-potere/MURRU.pdf">link</a>.
       </li>
-      <li><span style="font-variant: small-caps;">Olivieri U. M.</span>, <i>Il giornalismo nieviano: attualità e
-          territorio</i>, in <i>Ippolito Nievo: giornalismo e informazione. Atti del Convegno Nazionale di Studi su
-          Ippolito Nievo 10 ottobre 2020 – Fossalta di Portogruaro</i>, a cura di M. Santiloni, Firenze, Cesati, 2021,
-        pp. 29-39.</li>
-      <li><span style="font-variant: small-caps;">Olivieri U. M.</span>, <i>L’idillio interrotto. Forma-Romanzo e
-          “generi intercalari” in Ippolito Nievo</i>, Milano, Franco Angeli, 2002.</li>
-      <li><span style="font-variant: small-caps;">Zannini A.</span>, <i>Nievo e il 1797</i>, in <i>Ippolito Nievo
-          centocinquant'anni dopo. Atti del Convegno. Padova 19-21 ottobre 2011</i>, a cura di E. Del Tedesco,
-        Roma-Pisa, Fabrizio Serra Editore, 2013, pp. 289-304.</li>
+      <li id="olivieri2002"><span style="font-variant: small-caps;">Olivieri 2002= Olivieri U. M.</span>, <i>L’idillio interrotto. Forma-Romanzo e “generi intercalari” in Ippolito Nievo</i>, Milano, Franco Angeli.</li>
+      <li id="olivieri2021"><span style="font-variant: small-caps;">Olivieri 2021 = Olivieri U. M.</span>, <i>Il giornalismo nieviano: attualità e territorio</i>, in <i>Ippolito Nievo: giornalismo e informazione. Atti del Convegno Nazionale di Studi su Ippolito Nievo 10 ottobre 2020 – Fossalta di Portogruaro</i>, a cura di M. Santiloni, Firenze, Cesati, pp. 29-39.</li>
+      <li id="pavlovic2024"><span style="font-variant: small-caps;">Pavlovic 2024 = Pavlovic D.</span>, <i>Il materialismo vivente di Leopardi e Nievo</i>, in «P.I.S.A.N.A.», 6, pp. 177-197.</li>
+      <li id="turchi24"><span style="font-variant: small-caps;">Turchi 2024 = Turchi R.</span>, <i>Introduzione</i> in Nievo 2024, pp. 9-81.</li>
+      <li id="zannini2013"><span style="font-variant: small-caps;">Zannini 2013 = Zannini A.</span>, <i>Nievo e il 1797</i>, in <i>Ippolito Nievo centocinquant'anni dopo. Atti del Convegno. Padova 19-21 ottobre 2011</i>, a cura di E. Del Tedesco, Roma-Pisa, Fabrizio Serra Editore, pp. 289-304.</li>
     </ul>
   </div>
 
@@ -160,7 +124,7 @@
     <div class="footer-container">
       <div class="footer-col footer-logos">
         <a href="" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo" /></a>
-        <a href="https://dium.uniud.it/it/ricerca/psa-de/de/" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
+        <a href="" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
             style="width: 100px;" /></a>
         <a href="https://www.uniud.it/it" target="_blank"><img src="img_sito/logouniud.jpg" alt="Company Logo"
             class="footer-logo" /></a>

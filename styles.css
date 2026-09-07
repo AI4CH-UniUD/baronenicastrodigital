@@ -1,3 +1,12 @@
+
+:root {
+  --main-font-family: 'Palatino Linotype', Times, serif;
+}
+
+body.accessible-mode, .accessible-mode {
+  --main-font-family: 'OpenDyslexic', 'Comic Sans MS', 'Arial', Helvetica, sans-serif;
+}
+
 /* Header and Nav styling */
 header {
   background: linear-gradient(135deg, #1c3d5a, #2a5c85);
@@ -8,7 +17,7 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  font-family: 'Comic Sans MS', 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
 }
 
 .header-grid {
@@ -51,8 +60,7 @@ header {
   font-size: 4rem;
   margin: 0;
   color: white;
-  font-family: 'Comic Sans MS', 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
-  font-style: italic;
+  font-family: var(--main-font-family);
   margin-top: 5%;
 }
 
@@ -103,15 +111,15 @@ nav {
 .nav-list>li {
   position: relative;
   margin: 0;
-  padding: 1.5%;
+  padding: 0.5% 1%;
 }
 
 .nav-list a {
   text-decoration: none;
   color: white;
   font-weight: 600;
-  font-size: 1.2rem;
-  padding: 10px 14px;
+  font-size: 1.05rem;
+  padding: 8px 12px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
@@ -123,7 +131,7 @@ nav {
 }
 
 .dropdown .dropbtn {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   cursor: pointer;
   user-select: none;
   display: inline-flex;
@@ -169,16 +177,15 @@ nav {
 
 .site-title {
   font-size: 4rem;
-  font-style: italic;
   color: white;
   margin: 0;
   float: right;
-  font-family: 'Comic Sans MS', 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
 }
 
 
 body {
-  font-family: 'OpenDyslexic', 'Comic Sans MS', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
   background-color: #faf8f5;
   color: #2a3b4c;
   margin: 0;
@@ -369,8 +376,18 @@ img {
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
-.controls button:hover {
+.controls button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+}
+
+.controls button:hover .select-btn {
   background-color: #77c9d4;
+}
+
+.controls button:hover {
   transform: scale(1.02);
 }
 
@@ -381,13 +398,12 @@ img {
 
 .select-btn {
   display: flex;
-  height: 25px;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 16px;
+  justify-content: center;
+  padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
-  background-color: #57a99a00;
+  background-color: #57a99a;
 }
 
 .select-btn:hover {
@@ -396,7 +412,7 @@ img {
 
 .select-btn .btn-text {
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 500;
   color: white;
 }
 
@@ -404,7 +420,7 @@ img {
   display: flex;
   height: 21px;
   width: 21px;
-  color: #6e93f7;
+  color: #57a99a;
   font-size: 14px;
   border-radius: 50%;
   background: #fff;
@@ -523,6 +539,7 @@ img {
   right: -320px;
   /* Start off-screen */
   width: 300px;
+  max-width: 100vw;
   height: 100%;
   background-color: #fdf6e3;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
@@ -556,6 +573,7 @@ img {
   right: -300px;
   /* hidden by default */
   width: 300px;
+  max-width: 100vw;
   height: 100%;
   background-color: #f9f9f9;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
@@ -599,7 +617,7 @@ img {
   background: linear-gradient(135deg, #152d43, #1c3d5a);
   color: #e0e0e0;
   padding: 40px 20px;
-  font-family: 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
   font-size: 15px;
   margin-top: auto;
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
@@ -733,7 +751,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  font-style: italic;
 }
 
 p {
@@ -746,6 +763,9 @@ p {
 
 .show-breaks .break {
   display: inline;
+}
+
+.foreign{
 }
 
 /*s{
@@ -774,8 +794,13 @@ sup, sub{
   text-decoration-thickness: 2px;
 }
 
-.mod-archivista {
+.archivista {
   color: #ff5132;
+}
+
+.archivista-sotto{
+  text-decoration-line: underline;
+  text-decoration-color: #ff5132;
 }
 
 .pb {
@@ -786,8 +811,77 @@ sup, sub{
   margin-top: 2%;
 }
 
+.intervento1{
+    border-radius: 5px;
+    border: 2px solid #71e5fa;
+    background-color: beige !important;
+    display: block;
+    width: 55% !important;
+    margin: 2px 0 -15px auto !important;
+    padding: 5px !important;
+    font-size: 0.9em;
+    line-height: 1.3;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.intervento2{
+    border-radius: 5px;
+    border: 2px solid #60b8f4;
+    background-color: beige !important;
+    display: block;
+    width: 55% !important;
+    margin: 2px 0 -15px auto !important;
+    padding: 5px !important;
+    font-size: 0.9em;
+    line-height: 1.3;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.intervento3{
+    border-radius: 5px;
+    border: 2px solid #0d6efd;
+    background-color: beige !important;
+    display: block;
+    width: 55% !important;
+    margin: 2px 0 -15px auto !important;
+    padding: 5px !important;
+    font-size: 0.9em;
+    line-height: 1.3;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.missed-delation{
+  text-decoration-color: red;
+}
+
+.archivista{
+  color: #ff5132;
+}
+
+/* Touch Targets and Global Mobile Constraints */
+.select-btn, .pagination button, .pagination input {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+#viewer_text .box.active {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.dropdown-content {
+  max-width: 90vw;
+  white-space: normal;
+}
+
 /* Responsive Layout */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .header-grid {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -796,8 +890,14 @@ sup, sub{
       "nav";
   }
 
+  .left-image img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+
   .title h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 2%;
   }
 
@@ -810,16 +910,171 @@ sup, sub{
     padding: 2%;
   }
 
+  .nav-list a, .dropdown .dropbtn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
   .container {
     flex-direction: column;
   }
 
   .box-image {
     position: static;
-    max-height: 50vh;
+    width: 100%;
+    max-height: 60vh;
   }
 
   #viewer_text {
     flex-direction: column;
   }
+  
+  .box-text-facs, #viewer_text .box.active {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
 }
+
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 2rem;
+  }
+}
+
+
+/*Per le citazioni*/
+
+/* Stile per la citazione */
+.citazione {
+    position: relative;
+    border-bottom: 1px dotted #ccc;
+    cursor: help;
+    display: inline-block;
+    font-style: italic; /* Testo della citazione in corsivo */
+}
+
+/* Stile per il tooltip */
+.tooltip-text {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    font-style: normal; /* **Sovrascrive il corsivo ereditato** */
+}
+
+/* Mostra il tooltip al passaggio del mouse */
+.citazione:hover .tooltip-text {
+    display: block;
+}
+
+/* Mantiene il corsivo per i tag <i> all'interno del tooltip */
+.tooltip-text i {
+    font-style: italic; /* **Forza il corsivo per i tag <i>** */
+}
+
+/* Note */
+
+/* Stile per il link alla nota */
+sup a {
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: inherit; /* Mantiene il colore del testo */
+    cursor: pointer; /* Cambia il cursore in mano al passaggio */
+}
+
+/* Stile per il paragrafo della nota */
+.footnote {
+    font-size: 0.9em; /* Dimensione più piccola */
+    margin-top: 1em; /* Spaziatura sopra */
+    border-top: 1px solid #ccc; /* Linea separatrice */
+    padding-top: 0.5em; /* Spaziatura interna */
+    font-style: italic; /* Testo in corsivo (opzionale) */
+}
+
+/* TEI Choice Tooltips */
+.choice-tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+    border-bottom: 2px dotted #888;
+}
+
+.choice-tooltip-cloud {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 8px;
+    z-index: 100;
+    white-space: nowrap;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 0.95em;
+    font-style: normal;
+    text-align: center;
+}
+
+
+
+.choice-tooltip-cloud span {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+
+/* Pseudo-element for the tooltip arrow attached to the colored span */
+.choice-tooltip-cloud span::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.choice-tooltip-container:hover .choice-tooltip-cloud {
+    display: block;
+}
+
+/* Colors for specific TEI elements */
+.bg-green {
+    background-color: #57a99a; 
+}
+.bg-green::after {
+    border-top-color: #57a99a;
+}
+
+.bg-pink {
+    background-color: #d883b7; 
+}
+.bg-pink::after {
+    border-top-color: #d883b7;
+}
+
+.bg-blue {
+    background-color: #6e93f7; 
+}
+.bg-blue::after {
+    border-top-color: #6e93f7;
+}
+
+/* Make sure inner elements match parent background for arrow */
+.choice-tooltip-cloud .bg-green { background-color: #57a99a; }
+.choice-tooltip-cloud .bg-pink { background-color: #d883b7; }
+.choice-tooltip-cloud .bg-blue { background-color: #6e93f7; }

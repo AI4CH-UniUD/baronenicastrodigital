@@ -139,12 +139,24 @@ function updateTextViewer(noScroll = false) {
 }
 
 function goToTextPage(n, noScroll = false) {
-  const num = parseInt(n, 10);
-  const total = getCurrentPages().length;
-  if (!isNaN(num) && num >= 1 && num <= total) {
-    currentTextPage = num;
-    updateTextViewer(noScroll);
+  const pages = getCurrentPages();
+  const total = pages.length;
+  if (total === 0) return;
+
+  const targetStr = String(n).trim().toLowerCase();
+  let targetIndex = pages.findIndex(p => p.getAttribute('data-chapter') === `#R-${targetStr}`);
+
+  if (targetIndex !== -1) {
+    currentTextPage = targetIndex + 1;
+  } else {
+    const num = parseInt(n, 10);
+    if (!isNaN(num)) currentTextPage = num;
   }
+
+  if (currentTextPage < 1) currentTextPage = 1;
+  if (currentTextPage > total) currentTextPage = total;
+
+  updateTextViewer(noScroll);
 }
 
 function selectSingleText(viewId) {
@@ -227,13 +239,10 @@ function updateSynopticView() {
     updatePaginationUI(0, 0);
     return;
   }
-  const maxPages = activeEditionIds.reduce((acc, id) => {
-    const ed = document.getElementById(id);
-    return Math.max(acc, ed ? ed.querySelectorAll('.page').length : 0);
-  }, 0);
+  const chapterKeys = getCommonChapterKeys();
+  const maxPages = chapterKeys.length;
   if (currentSynopticPage < 1) currentSynopticPage = 1;
   if (currentSynopticPage > maxPages) currentSynopticPage = maxPages;
-  const chapterKeys = getCommonChapterKeys();
   const targetKey = chapterKeys[currentSynopticPage - 1];
   if (!targetKey) return;
   activeEditionIds.forEach(id => {
@@ -264,22 +273,74 @@ function getCommonChapterKeys() {
 }
 
 function goToSynopticPage(n) {
-  const num = parseInt(n, 10);
-  const maxPages = activeEditionIds.reduce((acc, id) => {
-    const ed = document.getElementById(id);
-    return Math.max(acc, ed ? ed.querySelectorAll(".page").length : 0);
-  }, 0);
-  if (!isNaN(num) && num >= 1 && num <= maxPages) {
-    currentSynopticPage = num;
-    updateSynopticView();
+  const chapterKeys = getCommonChapterKeys();
+  const maxPages = chapterKeys.length;
+  if (maxPages === 0) return;
+
+  const targetStr = String(n).trim().toLowerCase();
+  const targetChap = `#R-${targetStr}`;
+  let targetIndex = chapterKeys.indexOf(targetChap);
+
+  if (targetIndex !== -1) {
+    currentSynopticPage = targetIndex + 1;
+  } else {
+    const num = parseInt(n, 10);
+    if (!isNaN(num)) currentSynopticPage = num;
   }
+
+  if (currentSynopticPage < 1) currentSynopticPage = 1;
+  if (currentSynopticPage > maxPages) currentSynopticPage = maxPages;
+
+  updateSynopticView();
 }
 
 // ===== Shared UI & Navigation =====
 function updatePaginationUI(current, total) {
-  document.getElementById("pageDisplay").innerText = current;
-  document.getElementById("totalPages").innerText = total;
-  document.getElementById("pageInput").value = current;
+  let semanticLabel = current;
+  let maxSemantic = total;
+
+  if (currentLayout === 'text') {
+    const pages = getCurrentPages();
+    if (pages[current - 1]) {
+      const chap = pages[current - 1].getAttribute('data-chapter');
+      if (chap) semanticLabel = chap.replace('#R-', '');
+    }
+    let maxChap = 0;
+    pages.forEach(p => {
+      const c = p.getAttribute('data-chapter');
+      if (c) {
+        const num = parseFloat(c.replace('#R-', ''));
+        if (!isNaN(num) && num > maxChap) maxChap = num;
+      }
+    });
+    if (maxChap > 0) maxSemantic = Math.floor(maxChap);
+
+  } else if (currentLayout === 'synoptic') {
+    const chapterKeys = getCommonChapterKeys();
+    if (chapterKeys.length > 0) {
+      if (chapterKeys[current - 1]) {
+        const chap = chapterKeys[current - 1];
+        if (chap) semanticLabel = chap.replace('#R-', '');
+      }
+      let maxChap = 0;
+      chapterKeys.forEach(c => {
+        if (c) {
+          const num = parseFloat(c.replace('#R-', ''));
+          if (!isNaN(num) && num > maxChap) maxChap = num;
+        }
+      });
+      if (maxChap > 0) maxSemantic = Math.floor(maxChap);
+    }
+  }
+
+  document.getElementById("pageDisplay").innerText = semanticLabel;
+  document.getElementById("totalPages").innerText = maxSemantic;
+  document.getElementById("pageInput").value = semanticLabel;
+  
+  const text1 = currentLayout === 'facsimile' ? 'Page' : 'Chapter';
+  const text2 = currentLayout === 'facsimile' ? 'Go to page:' : 'Go to chapter:';
+  document.querySelectorAll('.pageLabel1').forEach(el => el.textContent = text1);
+  document.querySelectorAll('.pageLabel2').forEach(el => el.textContent = text2);
 }
 
 
@@ -296,12 +357,12 @@ function nextPage() {
     if (currentFacsPage < total) goToFacsPage(currentFacsPage + 1);
   } else if (currentLayout === "text") {
     const total = getCurrentPages().length;
-    if (currentTextPage < total) goToTextPage(currentTextPage + 1);
+    if (currentTextPage < total) {
+      currentTextPage++;
+      updateTextViewer();
+    }
   } else if (currentLayout === "synoptic") {
-    const maxPages = activeEditionIds.reduce((acc, id) => {
-      const ed = document.getElementById(id);
-      return Math.max(acc, ed ? ed.querySelectorAll(".page").length : 0);
-    }, 0);
+    const maxPages = getCommonChapterKeys().length;
     if (currentSynopticPage < maxPages) {
       currentSynopticPage++;
       updateSynopticView();
@@ -313,7 +374,10 @@ function prevPage() {
   if (currentLayout === "facsimile") {
     if (currentFacsPage > 1) goToFacsPage(currentFacsPage - 1);
   } else if (currentLayout === "text") {
-    if (currentTextPage > 1) goToTextPage(currentTextPage - 1);
+    if (currentTextPage > 1) {
+      currentTextPage--;
+      updateTextViewer();
+    }
   } else if (currentLayout === "synoptic") {
     if (currentSynopticPage > 1) {
       currentSynopticPage--;
@@ -597,3 +661,30 @@ document.addEventListener('DOMContentLoaded', () => {
 // removed duplicate event listeners
 
 
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+// ===== Accessible Font Toggle =====
+function toggleAccessibleFont() {
+  document.body.classList.toggle('accessible-mode');
+  const isAccessible = document.body.classList.contains('accessible-mode');
+  localStorage.setItem('accessibleFont', isAccessible);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  if (localStorage.getItem('accessibleFont') === 'true') {
+    document.body.classList.add('accessible-mode');
+  }
+});

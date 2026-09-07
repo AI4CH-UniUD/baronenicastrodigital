@@ -1,3 +1,12 @@
+
+:root {
+  --main-font-family: 'Times New Roman', Times, serif;
+}
+
+body.accessible-mode, .accessible-mode {
+  --main-font-family: 'OpenDyslexic', 'Comic Sans MS', 'Arial', Helvetica, sans-serif;
+}
+
 /* Header and Nav styling */
 header {
   background: linear-gradient(135deg, #1c3d5a, #2a5c85);
@@ -7,7 +16,7 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  font-family: 'Comic Sans MS', 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
 }
 
 .header-grid {
@@ -48,8 +57,7 @@ header {
   font-size: 4rem;
   margin: 0;
   color: white;
-  font-family: 'Comic Sans MS', 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
-  font-style: italic;
+  font-family: var(--main-font-family);
   margin-top: 5%;
 }
 
@@ -99,15 +107,15 @@ nav {
 .nav-list > li {
   position: relative;
   margin: 0;
-  padding: 1.5%;
+  padding: 0.5% 1%;
 }
 
 .nav-list a {
   text-decoration: none;
   color: white;
   font-weight: 600;
-  font-size: 1.2rem;
-  padding: 10px 14px;
+  font-size: 1.05rem;
+  padding: 8px 12px;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
@@ -119,7 +127,7 @@ nav {
 }
 
 .dropdown .dropbtn {
-  font-size: 1.2rem; 
+  font-size: 1.05rem; 
   cursor: pointer;
   user-select: none;
   display: inline-flex;
@@ -165,17 +173,16 @@ nav {
 
 .site-title {
   font-size: 4rem;
-  font-style: italic;
   color: white;
   margin: 0;
   float: right;
-  font-family: 'Comic Sans MS', 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
 }
 
 
 
 body {
-  font-family: 'OpenDyslexic', 'Comic Sans MS', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
   background-color: #faf8f5;
   color: #2a3b4c;
   margin: 0;
@@ -205,7 +212,7 @@ body {
   background: linear-gradient(135deg, #152d43, #1c3d5a);
   color: #e0e0e0;
   padding: 40px 20px;
-  font-family: 'OpenDyslexic', 'Arial', Helvetica, sans-serif;
+  font-family: var(--main-font-family);
   font-size: 15px;
   margin-top: auto;
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
@@ -324,19 +331,19 @@ body {
   }
 }
 
-.fixed-bottom-right {
+.fixed-bottom-left {
   position: fixed;
   bottom: 0;
-  right: 0;
+  left: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 10px;         /* spacing between images */
   padding: 10px;     /* optional: small padding from the edges */
   background: none;  /* or transparent */
   z-index: 9999;     /* stay above everything */
 }
 
-.fixed-bottom-right img {
+.fixed-bottom-left img {
   height: 60px;     /* choose your desired size */
   width: auto;      /* preserves aspect ratio */
   object-fit: contain;
@@ -360,13 +367,46 @@ h2 {
   font-size: 24px;
 }
 
+.home-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home-hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+.home-hero h2 {
+  align-self: flex-end;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  font-variant: small-caps;
+  text-align: right;
+  color: #555;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 0;
+  border-top: 2px solid #57a99a;
+  padding-top: 15px;
+  max-width: 80%;
+}
+
 h3 {
   font-size: 20px;
 }
 
 h4{
   font-size:18px;
-  font-style: italic;
 }
 
 ul li {
@@ -396,8 +436,6 @@ li {
   font-size: 18px;
   line-height: 1.7;
 }
-
-
 
 .image-text-block {
   margin-bottom: 1.2rem;
@@ -623,4 +661,29 @@ th, td {
   .container {
     flex-direction: column;
   }
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
