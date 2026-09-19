@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/gp4vc7ta8qb-mu8aeaid",
+  "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,91 +9,31 @@
   },
   "items": [
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/69yocjg6vl8-mu8d50t1",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/mnbnvxsaje-mu8ha994",
       "type": "Canvas",
       "height": 3833,
       "width": 2705,
       "label": {
         "en": [
-          "p 233"
+          "p. 233"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_233/full/339,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 480,
-          "width": 339
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/69yocjg6vl8-mu8d50t1/annotation-page/cccleywqgie-mu8d50t1",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/mnbnvxsaje-mu8ha994/annotation-page/2vhnk793ljy-mu8ha994",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/yt9fco74xwl-mu8d50t1",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/5a089ppm0au-mu8ha8xh",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/69yocjg6vl8-mu8d50t1",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/mnbnvxsaje-mu8ha994",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_233/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_233.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3833,
-                "width": 2705,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 85,
-                        "height": 120
-                      },
-                      {
-                        "width": 170,
-                        "height": 240
-                      },
-                      {
-                        "width": 339,
-                        "height": 480
-                      },
-                      {
-                        "width": 677,
-                        "height": 959
-                      },
-                      {
-                        "width": 1353,
-                        "height": 1917
-                      },
-                      {
-                        "width": 2705,
-                        "height": 3833
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2705,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_233",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3833
-                  }
-                ]
+                "width": 2705
               }
             }
           ]
@@ -101,91 +41,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/g10dk3q2685-mu8d9f49",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/24n1p9takq1h-mu8hap4o",
       "type": "Canvas",
       "height": 3761,
       "width": 2526,
       "label": {
         "en": [
-          "p 234"
+          "p. 234"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_234/full/316,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 471,
-          "width": 316
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/g10dk3q2685-mu8d9f49/annotation-page/faepozn9oqk-mu8d9f49",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/24n1p9takq1h-mu8hap4o/annotation-page/5jf0ml4q0u3-mu8hap4o",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/f0733ax8svn-mu8d9f48",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/hqo8ulhtupe-mu8haovc",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/g10dk3q2685-mu8d9f49",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/24n1p9takq1h-mu8hap4o",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_234/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_234.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3761,
-                "width": 2526,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 79,
-                        "height": 118
-                      },
-                      {
-                        "width": 158,
-                        "height": 236
-                      },
-                      {
-                        "width": 316,
-                        "height": 471
-                      },
-                      {
-                        "width": 632,
-                        "height": 941
-                      },
-                      {
-                        "width": 1263,
-                        "height": 1881
-                      },
-                      {
-                        "width": 2526,
-                        "height": 3761
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2526,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_234",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3761
-                  }
-                ]
+                "width": 2526
               }
             }
           ]
@@ -193,91 +73,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/951pyrbq93s-mu8d9pbz",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/fs2f6ykwktn-mu8hbby7",
       "type": "Canvas",
       "height": 3812,
       "width": 2667,
       "label": {
         "en": [
-          "p 235"
+          "p. 235"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_235/full/334,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 477,
-          "width": 334
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/951pyrbq93s-mu8d9pbz/annotation-page/owdzlgl7nc-mu8d9pbz",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/fs2f6ykwktn-mu8hbby7/annotation-page/kc8yjoj7pv-mu8hbby7",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/cg7swv1hf7e-mu8d9pbz",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/e04zu37fsm-mu8hbbmx",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/951pyrbq93s-mu8d9pbz",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/fs2f6ykwktn-mu8hbby7",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_235/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_235.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3812,
-                "width": 2667,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 84,
-                        "height": 120
-                      },
-                      {
-                        "width": 167,
-                        "height": 239
-                      },
-                      {
-                        "width": 334,
-                        "height": 477
-                      },
-                      {
-                        "width": 667,
-                        "height": 953
-                      },
-                      {
-                        "width": 1334,
-                        "height": 1906
-                      },
-                      {
-                        "width": 2667,
-                        "height": 3812
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2667,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_235",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3812
-                  }
-                ]
+                "width": 2667
               }
             }
           ]
@@ -285,91 +105,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/90dj5k35txw-mu8da0fm",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/87hdc3mwjy7-mu8hbm3n",
       "type": "Canvas",
       "height": 3724,
       "width": 2575,
       "label": {
         "en": [
-          "p 236"
+          "p. 236"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_236/full/322,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 466,
-          "width": 322
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/90dj5k35txw-mu8da0fm/annotation-page/jeae9z2kate-mu8da0fm",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/87hdc3mwjy7-mu8hbm3n/annotation-page/dhj7gebkake-mu8hbm3n",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/bge5ooiztcf-mu8da0fl",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/jifnekqu7g-mu8hblrq",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/90dj5k35txw-mu8da0fm",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/87hdc3mwjy7-mu8hbm3n",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_236/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_236.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3724,
-                "width": 2575,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 81,
-                        "height": 117
-                      },
-                      {
-                        "width": 161,
-                        "height": 233
-                      },
-                      {
-                        "width": 322,
-                        "height": 466
-                      },
-                      {
-                        "width": 644,
-                        "height": 931
-                      },
-                      {
-                        "width": 1288,
-                        "height": 1862
-                      },
-                      {
-                        "width": 2575,
-                        "height": 3724
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2575,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_236",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3724
-                  }
-                ]
+                "width": 2575
               }
             }
           ]
@@ -377,91 +137,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/f0h448evjjb-mu8da9jl",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/yjwtdlyfab-mu8hbwft",
       "type": "Canvas",
       "height": 3823,
       "width": 2641,
       "label": {
         "en": [
-          "p 237"
+          "p. 237"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_237/full/331,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 478,
-          "width": 331
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/f0h448evjjb-mu8da9jl/annotation-page/2iv63w05qyl-mu8da9jl",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/yjwtdlyfab-mu8hbwft/annotation-page/2b1z2357f4u-mu8hbwft",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/4zqvhxm46uu-mu8da9jl",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/otzyl9mcafg-mu8hbw64",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/f0h448evjjb-mu8da9jl",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/yjwtdlyfab-mu8hbwft",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_237/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_237.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3823,
-                "width": 2641,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 83,
-                        "height": 120
-                      },
-                      {
-                        "width": 166,
-                        "height": 239
-                      },
-                      {
-                        "width": 331,
-                        "height": 478
-                      },
-                      {
-                        "width": 661,
-                        "height": 956
-                      },
-                      {
-                        "width": 1321,
-                        "height": 1912
-                      },
-                      {
-                        "width": 2641,
-                        "height": 3823
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2641,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_237",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3823
-                  }
-                ]
+                "width": 2641
               }
             }
           ]
@@ -469,91 +169,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/xksem8ejb4m-mu8dai2r",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/bmotgm2l8wa-mu8hc57k",
       "type": "Canvas",
       "height": 3725,
       "width": 2486,
       "label": {
         "en": [
-          "p 238"
+          "p. 238"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_238/full/311,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 466,
-          "width": 311
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/xksem8ejb4m-mu8dai2r/annotation-page/psnko6l4bh-mu8dai2r",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/bmotgm2l8wa-mu8hc57k/annotation-page/humhqwds117-mu8hc57k",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/jbfjudcz4yn-mu8dai2r",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/1ee5lu7znye-mu8hc4uw",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/xksem8ejb4m-mu8dai2r",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/bmotgm2l8wa-mu8hc57k",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_238/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_238.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3725,
-                "width": 2486,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 78,
-                        "height": 117
-                      },
-                      {
-                        "width": 156,
-                        "height": 233
-                      },
-                      {
-                        "width": 311,
-                        "height": 466
-                      },
-                      {
-                        "width": 622,
-                        "height": 932
-                      },
-                      {
-                        "width": 1243,
-                        "height": 1863
-                      },
-                      {
-                        "width": 2486,
-                        "height": 3725
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2486,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_238",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3725
-                  }
-                ]
+                "width": 2486
               }
             }
           ]
@@ -561,183 +201,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/vy3h9z143gc-mu8daqhm",
-      "type": "Canvas",
-      "height": 3689,
-      "width": 2553,
-      "label": {
-        "en": [
-          "p 238bis"
-        ]
-      },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_238bis/full/320,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 462,
-          "width": 320
-        }
-      ],
-      "items": [
-        {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/vy3h9z143gc-mu8daqhm/annotation-page/qlhtan4vqfq-mu8daqhm",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/b3unozh4xqk-mu8daqhm",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/vy3h9z143gc-mu8daqhm",
-              "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_238bis/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3689,
-                "width": 2553,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 80,
-                        "height": 116
-                      },
-                      {
-                        "width": 160,
-                        "height": 231
-                      },
-                      {
-                        "width": 320,
-                        "height": 462
-                      },
-                      {
-                        "width": 639,
-                        "height": 923
-                      },
-                      {
-                        "width": 1277,
-                        "height": 1845
-                      },
-                      {
-                        "width": 2553,
-                        "height": 3689
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2553,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_238bis",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3689
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/uvwbeve8e0s-mu8db0sl",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/chhinn5nz8q-mu8hd8el",
       "type": "Canvas",
       "height": 4100,
       "width": 2839,
       "label": {
         "en": [
-          "p 239"
+          "p. 239"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_239/full/355,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 513,
-          "width": 355
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/uvwbeve8e0s-mu8db0sl/annotation-page/qwo89kk5vj-mu8db0sl",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/chhinn5nz8q-mu8hd8el/annotation-page/w6zg5joqss-mu8hd8el",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/k2mz622i5v-mu8db0sl",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/kdbaxnhp2fd-mu8hd843",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/uvwbeve8e0s-mu8db0sl",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/chhinn5nz8q-mu8hd8el",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_239/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_239.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4100,
-                "width": 2839,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 89,
-                        "height": 129
-                      },
-                      {
-                        "width": 178,
-                        "height": 257
-                      },
-                      {
-                        "width": 355,
-                        "height": 513
-                      },
-                      {
-                        "width": 710,
-                        "height": 1025
-                      },
-                      {
-                        "width": 1420,
-                        "height": 2050
-                      },
-                      {
-                        "width": 2839,
-                        "height": 4100
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2839,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_239",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 4100
-                  }
-                ]
+                "width": 2839
               }
             }
           ]
@@ -745,91 +233,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/fckoxn87sjg-mu8dbaah",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/83qozj40mu-mu8hdple",
       "type": "Canvas",
       "height": 3791,
       "width": 2671,
       "label": {
         "en": [
-          "p 240"
+          "p. 240"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_240/full/334,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 474,
-          "width": 334
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/fckoxn87sjg-mu8dbaah/annotation-page/ahtb82tjzfc-mu8dbaah",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/83qozj40mu-mu8hdple/annotation-page/tv7eza864st-mu8hdple",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/5231yfqo0lu-mu8dbaah",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/y9zkvasjgfq-mu8hdp7s",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/fckoxn87sjg-mu8dbaah",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/83qozj40mu-mu8hdple",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_240/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_240.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3791,
-                "width": 2671,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 84,
-                        "height": 119
-                      },
-                      {
-                        "width": 167,
-                        "height": 237
-                      },
-                      {
-                        "width": 334,
-                        "height": 474
-                      },
-                      {
-                        "width": 668,
-                        "height": 948
-                      },
-                      {
-                        "width": 1336,
-                        "height": 1896
-                      },
-                      {
-                        "width": 2671,
-                        "height": 3791
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2671,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_240",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3791
-                  }
-                ]
+                "width": 2671
               }
             }
           ]
@@ -837,91 +265,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/tiownsb2eys-mu8dbjgq",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/hqhq2yo7m3r-mu8he1j6",
       "type": "Canvas",
       "height": 3821,
       "width": 2686,
       "label": {
         "en": [
-          "p 241"
+          "p. 241"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_241/full/336,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 478,
-          "width": 336
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/tiownsb2eys-mu8dbjgq/annotation-page/okzs7jy727-mu8dbjgq",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/hqhq2yo7m3r-mu8he1j6/annotation-page/sdwjv0qas2-mu8he1j6",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/8v84tpawfp-mu8dbjgq",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/bp1cbcc863p-mu8he165",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/tiownsb2eys-mu8dbjgq",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/hqhq2yo7m3r-mu8he1j6",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_241/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_241.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3821,
-                "width": 2686,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 84,
-                        "height": 120
-                      },
-                      {
-                        "width": 168,
-                        "height": 239
-                      },
-                      {
-                        "width": 336,
-                        "height": 478
-                      },
-                      {
-                        "width": 672,
-                        "height": 956
-                      },
-                      {
-                        "width": 1343,
-                        "height": 1911
-                      },
-                      {
-                        "width": 2686,
-                        "height": 3821
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2686,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_241",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3821
-                  }
-                ]
+                "width": 2686
               }
             }
           ]
@@ -929,91 +297,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/flfua013zaf-mu8dbrw5",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/mgipe6nsu3n-mu8hebqa",
       "type": "Canvas",
       "height": 4103,
       "width": 2783,
       "label": {
         "en": [
-          "p 242"
+          "p. 242"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_242/full/348,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 513,
-          "width": 348
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/flfua013zaf-mu8dbrw5/annotation-page/v280inwzp8c-mu8dbrw5",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/mgipe6nsu3n-mu8hebqa/annotation-page/3afsfzvcw8q-mu8hebqa",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/1v6cp1dn3zt-mu8dbrw5",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/4bu7iyv2dia-mu8hebc6",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/flfua013zaf-mu8dbrw5",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/mgipe6nsu3n-mu8hebqa",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_242/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_242.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4103,
-                "width": 2783,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 87,
-                        "height": 129
-                      },
-                      {
-                        "width": 174,
-                        "height": 257
-                      },
-                      {
-                        "width": 348,
-                        "height": 513
-                      },
-                      {
-                        "width": 696,
-                        "height": 1026
-                      },
-                      {
-                        "width": 1392,
-                        "height": 2052
-                      },
-                      {
-                        "width": 2783,
-                        "height": 4103
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2783,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_242",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 4103
-                  }
-                ]
+                "width": 2783
               }
             }
           ]
@@ -1021,91 +329,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/m6d5m56qq9b-mu8dc037",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/2lbxnzwr5f-mu8hekom",
       "type": "Canvas",
       "height": 3870,
       "width": 2753,
       "label": {
         "en": [
-          "p 243"
+          "p. 243"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_243/full/345,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 484,
-          "width": 345
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/m6d5m56qq9b-mu8dc037/annotation-page/55tu8ate5xg-mu8dc037",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/2lbxnzwr5f-mu8hekom/annotation-page/dcxkhlg2sa9-mu8hekom",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/3ohcknlpfls-mu8dc037",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/mzbob6yqsvj-mu8hek8x",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/m6d5m56qq9b-mu8dc037",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/2lbxnzwr5f-mu8hekom",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_243/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_243.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3870,
-                "width": 2753,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 87,
-                        "height": 121
-                      },
-                      {
-                        "width": 173,
-                        "height": 242
-                      },
-                      {
-                        "width": 345,
-                        "height": 484
-                      },
-                      {
-                        "width": 689,
-                        "height": 968
-                      },
-                      {
-                        "width": 1377,
-                        "height": 1935
-                      },
-                      {
-                        "width": 2753,
-                        "height": 3870
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2753,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_243",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3870
-                  }
-                ]
+                "width": 2753
               }
             }
           ]
@@ -1113,91 +361,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/7e4qb89sq2b-mu8dc8xe",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/abvmc2dbu59-mu8hetdd",
       "type": "Canvas",
       "height": 3941,
       "width": 2797,
       "label": {
         "en": [
-          "p 244"
+          "p. 244"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_244/full/350,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 493,
-          "width": 350
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/7e4qb89sq2b-mu8dc8xe/annotation-page/lnfgkfr777o-mu8dc8xe",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/abvmc2dbu59-mu8hetdd/annotation-page/ozsnqgbazns-mu8hetdd",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/kj5tddzjf6e-mu8dc8xd",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/6mrjs4p5el2-mu8het1j",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/7e4qb89sq2b-mu8dc8xe",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/abvmc2dbu59-mu8hetdd",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_244/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_244.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3941,
-                "width": 2797,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 88,
-                        "height": 124
-                      },
-                      {
-                        "width": 175,
-                        "height": 247
-                      },
-                      {
-                        "width": 350,
-                        "height": 493
-                      },
-                      {
-                        "width": 700,
-                        "height": 986
-                      },
-                      {
-                        "width": 1399,
-                        "height": 1971
-                      },
-                      {
-                        "width": 2797,
-                        "height": 3941
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2797,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_244",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3941
-                  }
-                ]
+                "width": 2797
               }
             }
           ]
@@ -1205,91 +393,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/lud81pfjif-mu8dci1j",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/e7w8uv1i2sk-mu8hf332",
       "type": "Canvas",
       "height": 3941,
       "width": 2742,
       "label": {
         "en": [
-          "p 245"
+          "p. 245"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_245/full/343,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 493,
-          "width": 343
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/lud81pfjif-mu8dci1j/annotation-page/mve9y840oyg-mu8dci1j",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/e7w8uv1i2sk-mu8hf332/annotation-page/kzeqazene4-mu8hf332",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/5zrcx63pody-mu8dci1j",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/zpvhm0ta1k-mu8hf2rj",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/lud81pfjif-mu8dci1j",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/e7w8uv1i2sk-mu8hf332",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_245/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_245.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3941,
-                "width": 2742,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 86,
-                        "height": 124
-                      },
-                      {
-                        "width": 172,
-                        "height": 247
-                      },
-                      {
-                        "width": 343,
-                        "height": 493
-                      },
-                      {
-                        "width": 686,
-                        "height": 986
-                      },
-                      {
-                        "width": 1371,
-                        "height": 1971
-                      },
-                      {
-                        "width": 2742,
-                        "height": 3941
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2742,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_245",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3941
-                  }
-                ]
+                "width": 2742
               }
             }
           ]
@@ -1297,91 +425,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/84f181m85e6-mu8dcpik",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/kil6ahfsp4-mu8hfc5h",
       "type": "Canvas",
       "height": 3961,
       "width": 2786,
       "label": {
         "en": [
-          "p 246"
+          "p. 246"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_246/full/349,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 496,
-          "width": 349
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/84f181m85e6-mu8dcpik/annotation-page/q926icj3shb-mu8dcpik",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/kil6ahfsp4-mu8hfc5h/annotation-page/eycv8xcmdrh-mu8hfc5h",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/lmwiwtdzf4-mu8dcpik",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/wrp0ucfxfv-mu8hfbtr",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/84f181m85e6-mu8dcpik",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/kil6ahfsp4-mu8hfc5h",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_246/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_246.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3961,
-                "width": 2786,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 88,
-                        "height": 124
-                      },
-                      {
-                        "width": 175,
-                        "height": 248
-                      },
-                      {
-                        "width": 349,
-                        "height": 496
-                      },
-                      {
-                        "width": 697,
-                        "height": 991
-                      },
-                      {
-                        "width": 1393,
-                        "height": 1981
-                      },
-                      {
-                        "width": 2786,
-                        "height": 3961
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2786,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_246",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3961
-                  }
-                ]
+                "width": 2786
               }
             }
           ]
@@ -1389,91 +457,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/6575wltk606-mu8dcy28",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/s1pthgtqt3-mu8hfl6q",
       "type": "Canvas",
       "height": 3961,
       "width": 2825,
       "label": {
         "en": [
-          "p 247"
+          "p. 247"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_247/full/354,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 496,
-          "width": 354
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/6575wltk606-mu8dcy28/annotation-page/o6ii4s4mj48-mu8dcy28",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/s1pthgtqt3-mu8hfl6q/annotation-page/kveabuuhd2-mu8hfl6q",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/sjykwqjm61o-mu8dcy28",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/9lijc1sje76-mu8hfkvr",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/6575wltk606-mu8dcy28",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/s1pthgtqt3-mu8hfl6q",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_247/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_247.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3961,
-                "width": 2825,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 89,
-                        "height": 124
-                      },
-                      {
-                        "width": 177,
-                        "height": 248
-                      },
-                      {
-                        "width": 354,
-                        "height": 496
-                      },
-                      {
-                        "width": 707,
-                        "height": 991
-                      },
-                      {
-                        "width": 1413,
-                        "height": 1981
-                      },
-                      {
-                        "width": 2825,
-                        "height": 3961
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2825,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_247",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3961
-                  }
-                ]
+                "width": 2825
               }
             }
           ]
@@ -1481,91 +489,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/ysfne8tavw-mu8dd60x",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/jh9xgy7jm9j-mu8hftcw",
       "type": "Canvas",
       "height": 3933,
       "width": 2810,
       "label": {
         "en": [
-          "p 248"
+          "p. 248"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_248/full/352,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 492,
-          "width": 352
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/ysfne8tavw-mu8dd60x/annotation-page/drb3y42awdt-mu8dd60x",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/jh9xgy7jm9j-mu8hftcw/annotation-page/u3xfcw81frm-mu8hftcw",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/z18g9cnf07-mu8dd60x",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/ve86fyyzdz-mu8hfsyy",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/ysfne8tavw-mu8dd60x",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/jh9xgy7jm9j-mu8hftcw",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_248/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_248.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3933,
-                "width": 2810,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 88,
-                        "height": 123
-                      },
-                      {
-                        "width": 176,
-                        "height": 246
-                      },
-                      {
-                        "width": 352,
-                        "height": 492
-                      },
-                      {
-                        "width": 703,
-                        "height": 984
-                      },
-                      {
-                        "width": 1405,
-                        "height": 1967
-                      },
-                      {
-                        "width": 2810,
-                        "height": 3933
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2810,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_248",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3933
-                  }
-                ]
+                "width": 2810
               }
             }
           ]
@@ -1573,91 +521,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/xqlc2how9nn-mu8ddgo3",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/cye8u1efy8u-mu8hg1dy",
       "type": "Canvas",
       "height": 3918,
       "width": 2769,
       "label": {
         "en": [
-          "p 249"
+          "p. 249"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_249/full/347,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 490,
-          "width": 347
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/xqlc2how9nn-mu8ddgo3/annotation-page/t9piia4kebg-mu8ddgo3",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/cye8u1efy8u-mu8hg1dy/annotation-page/05vpw7hhy7pc-mu8hg1dy",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/kjnp2d1vxn-mu8ddgo3",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/ck1m5ymn40q-mu8hg105",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/xqlc2how9nn-mu8ddgo3",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/cye8u1efy8u-mu8hg1dy",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_249/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_249.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3918,
-                "width": 2769,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 87,
-                        "height": 123
-                      },
-                      {
-                        "width": 174,
-                        "height": 245
-                      },
-                      {
-                        "width": 347,
-                        "height": 490
-                      },
-                      {
-                        "width": 693,
-                        "height": 980
-                      },
-                      {
-                        "width": 1385,
-                        "height": 1959
-                      },
-                      {
-                        "width": 2769,
-                        "height": 3918
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2769,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_249",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3918
-                  }
-                ]
+                "width": 2769
               }
             }
           ]
@@ -1665,91 +553,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/mxv5e14du4-mu8ddqcn",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/dstxkdtve7s-mu8hg9xk",
       "type": "Canvas",
       "height": 3869,
       "width": 2754,
       "label": {
         "en": [
-          "p 250"
+          "p. 250"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_250/full/345,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 484,
-          "width": 345
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/mxv5e14du4-mu8ddqcn/annotation-page/tq2sncc105-mu8ddqcn",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/dstxkdtve7s-mu8hg9xk/annotation-page/3jafnzqup2c-mu8hg9xk",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/3ujv9saeojq-mu8ddqcn",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/knahjm5t9ad-mu8hg9m7",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/mxv5e14du4-mu8ddqcn",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/dstxkdtve7s-mu8hg9xk",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_250/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_250.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3869,
-                "width": 2754,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 87,
-                        "height": 121
-                      },
-                      {
-                        "width": 173,
-                        "height": 242
-                      },
-                      {
-                        "width": 345,
-                        "height": 484
-                      },
-                      {
-                        "width": 689,
-                        "height": 968
-                      },
-                      {
-                        "width": 1377,
-                        "height": 1935
-                      },
-                      {
-                        "width": 2754,
-                        "height": 3869
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2754,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_250",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3869
-                  }
-                ]
+                "width": 2754
               }
             }
           ]
@@ -1757,91 +585,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/eaae9jh4l2m-mu8ddzlp",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/1n6jdbgng07-mu8hghxm",
       "type": "Canvas",
       "height": 3767,
       "width": 2737,
       "label": {
         "en": [
-          "p 251"
+          "p. 251"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_251/full/343,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 471,
-          "width": 343
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/eaae9jh4l2m-mu8ddzlp/annotation-page/2f1sobxov4a-mu8ddzlp",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/1n6jdbgng07-mu8hghxm/annotation-page/tdwv4h70nog-mu8hghxm",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/lrr2hjwcabr-mu8ddzlo",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/dx5nqzoizu4-mu8hghjz",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/eaae9jh4l2m-mu8ddzlp",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/1n6jdbgng07-mu8hghxm",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_251/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_251.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3767,
-                "width": 2737,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 86,
-                        "height": 118
-                      },
-                      {
-                        "width": 172,
-                        "height": 236
-                      },
-                      {
-                        "width": 343,
-                        "height": 471
-                      },
-                      {
-                        "width": 685,
-                        "height": 942
-                      },
-                      {
-                        "width": 1369,
-                        "height": 1884
-                      },
-                      {
-                        "width": 2737,
-                        "height": 3767
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2737,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_251",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3767
-                  }
-                ]
+                "width": 2737
               }
             }
           ]
@@ -1849,91 +617,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/b1ulicm8gb-mu8de93l",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/nh2fu8c1pji-mu8hgpma",
       "type": "Canvas",
       "height": 3934,
       "width": 2816,
       "label": {
         "en": [
-          "p 252"
+          "p. 252"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_252/full/352,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 492,
-          "width": 352
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/b1ulicm8gb-mu8de93l/annotation-page/i02j9ya044j-mu8de93l",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/nh2fu8c1pji-mu8hgpma/annotation-page/ndbazsqel58-mu8hgpma",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/nvbtwo8l6ma-mu8de93l",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/h6dy80puagt-mu8hgp8n",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/b1ulicm8gb-mu8de93l",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/nh2fu8c1pji-mu8hgpma",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_252/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_252.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3934,
-                "width": 2816,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 88,
-                        "height": 123
-                      },
-                      {
-                        "width": 176,
-                        "height": 246
-                      },
-                      {
-                        "width": 352,
-                        "height": 492
-                      },
-                      {
-                        "width": 704,
-                        "height": 984
-                      },
-                      {
-                        "width": 1408,
-                        "height": 1967
-                      },
-                      {
-                        "width": 2816,
-                        "height": 3934
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2816,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_252",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3934
-                  }
-                ]
+                "width": 2816
               }
             }
           ]
@@ -1941,91 +649,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/o99sv0s3rc-mu8deh5z",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/4jvtliue59n-mu8hgxfc",
       "type": "Canvas",
       "height": 3943,
       "width": 2777,
       "label": {
         "en": [
-          "p 253"
+          "p. 253"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_253/full/348,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 493,
-          "width": 348
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/o99sv0s3rc-mu8deh5z/annotation-page/ei8xkfgjdpw-mu8deh5z",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/4jvtliue59n-mu8hgxfc/annotation-page/lz78nlfncv-mu8hgxfc",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/7nuaz1ufxiv-mu8deh5z",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/zt4a8vzjpoo-mu8hgx0i",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/o99sv0s3rc-mu8deh5z",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/4jvtliue59n-mu8hgxfc",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_253/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_253.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3943,
-                "width": 2777,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 87,
-                        "height": 124
-                      },
-                      {
-                        "width": 174,
-                        "height": 247
-                      },
-                      {
-                        "width": 348,
-                        "height": 493
-                      },
-                      {
-                        "width": 695,
-                        "height": 986
-                      },
-                      {
-                        "width": 1389,
-                        "height": 1972
-                      },
-                      {
-                        "width": 2777,
-                        "height": 3943
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2777,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_253",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3943
-                  }
-                ]
+                "width": 2777
               }
             }
           ]
@@ -2033,91 +681,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/59123spzi09-mu8deoyr",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/lh2quu07irr-mu8hh4gq",
       "type": "Canvas",
       "height": 3851,
       "width": 2683,
       "label": {
         "en": [
-          "p 254"
+          "p. 254"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_254/full/336,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 482,
-          "width": 336
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/59123spzi09-mu8deoyr/annotation-page/b4anijg9be-mu8deoyr",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/lh2quu07irr-mu8hh4gq/annotation-page/s5q3uxwdmrr-mu8hh4gq",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/n6qk9rfjda-mu8deoyq",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/pa74mt744z-mu8hh45x",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/59123spzi09-mu8deoyr",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/lh2quu07irr-mu8hh4gq",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_254/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_254.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3851,
-                "width": 2683,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 84,
-                        "height": 121
-                      },
-                      {
-                        "width": 168,
-                        "height": 241
-                      },
-                      {
-                        "width": 336,
-                        "height": 482
-                      },
-                      {
-                        "width": 671,
-                        "height": 963
-                      },
-                      {
-                        "width": 1342,
-                        "height": 1926
-                      },
-                      {
-                        "width": 2683,
-                        "height": 3851
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2683,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_254",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3851
-                  }
-                ]
+                "width": 2683
               }
             }
           ]
@@ -2125,91 +713,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/1nxjx9t04af-mu8dew34",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/dge808psg2v-mu8hhch5",
       "type": "Canvas",
       "height": 3843,
       "width": 2726,
       "label": {
         "en": [
-          "p 255"
+          "p. 255"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_255/full/341,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 481,
-          "width": 341
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/1nxjx9t04af-mu8dew34/annotation-page/2d7eu3mqgz2-mu8dew34",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/dge808psg2v-mu8hhch5/annotation-page/qb7htwho4oc-mu8hhch5",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/k9b5yuttxq-mu8dew34",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/8l0hfb6xen8-mu8hhc3x",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/1nxjx9t04af-mu8dew34",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/dge808psg2v-mu8hhch5",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_255/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_255.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3843,
-                "width": 2726,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 86,
-                        "height": 121
-                      },
-                      {
-                        "width": 171,
-                        "height": 241
-                      },
-                      {
-                        "width": 341,
-                        "height": 481
-                      },
-                      {
-                        "width": 682,
-                        "height": 961
-                      },
-                      {
-                        "width": 1363,
-                        "height": 1922
-                      },
-                      {
-                        "width": 2726,
-                        "height": 3843
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2726,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_255",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3843
-                  }
-                ]
+                "width": 2726
               }
             }
           ]
@@ -2217,91 +745,31 @@
       ]
     },
     {
-      "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/7cr5eyjyrvp-mu8df5x9",
+      "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/233r1nsg3yg-mu8hhjtl",
       "type": "Canvas",
       "height": 3951,
       "width": 2823,
       "label": {
         "en": [
-          "p 256"
+          "p. 256"
         ]
       },
-      "thumbnail": [
-        {
-          "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_256/full/353,/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "height": 494,
-          "width": 353
-        }
-      ],
       "items": [
         {
-          "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/7cr5eyjyrvp-mu8df5x9/annotation-page/5xc7q0g0vof-mu8df5x9",
+          "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/233r1nsg3yg-mu8hhjtl/annotation-page/07n4mugbk24-mu8hhjtl",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://example.org/gp4vc7ta8qb-mu8aeaid/annotation/i4jgj4mzhm-mu8df5x9",
+              "id": "https://example.org/aa1bxo3pqjq-mu8ha2u7/annotation/h7ud4pzkvew-mu8hhji1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://example.org/gp4vc7ta8qb-mu8aeaid/canvas/7cr5eyjyrvp-mu8df5x9",
+              "target": "https://example.org/aa1bxo3pqjq-mu8ha2u7/canvas/233r1nsg3yg-mu8hhjtl",
               "body": {
-                "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_256/full/max/0/default.jpg",
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_256.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3951,
-                "width": 2823,
-                "service": [
-                  {
-                    "tiles": [
-                      {
-                        "scaleFactors": [
-                          32,
-                          16,
-                          8,
-                          4,
-                          2,
-                          1
-                        ],
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ],
-                    "protocol": "http://iiif.io/api/image",
-                    "sizes": [
-                      {
-                        "width": 89,
-                        "height": 124
-                      },
-                      {
-                        "width": 177,
-                        "height": 247
-                      },
-                      {
-                        "width": 353,
-                        "height": 494
-                      },
-                      {
-                        "width": 706,
-                        "height": 988
-                      },
-                      {
-                        "width": 1412,
-                        "height": 1976
-                      },
-                      {
-                        "width": 2823,
-                        "height": 3951
-                      }
-                    ],
-                    "profile": "level0",
-                    "width": 2823,
-                    "id": "https://github.com/AI4CH-UniUD/baronenicastrodigital/tree/main/iiif-workshop/Fuggilozio/Aprile20/p_256",
-                    "type": "ImageService3",
-                    "@context": "http://iiif.io/api/image/3/context.json",
-                    "height": 3951
-                  }
-                ]
+                "width": 2823
               }
             }
           ]
