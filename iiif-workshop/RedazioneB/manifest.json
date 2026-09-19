@@ -1,0 +1,140 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/anazigtamg-mu8gr7f4",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/umybjyi74y-mu8gtpr8",
+      "type": "Canvas",
+      "height": 3347,
+      "width": 2745,
+      "label": {
+        "en": [
+          "B_MSS_3941_2"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/umybjyi74y-mu8gtpr8/annotation-page/4x310eprych-mu8gtpr8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/anazigtamg-mu8gr7f4/annotation/281t12e1wna-mu8gtpba",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/anazigtamg-mu8gr7f4/canvas/umybjyi74y-mu8gtpr8",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/B_MSS_3941_000002.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3347,
+                "width": 2745
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/vi86c48s56-mu8guwgg",
+      "type": "Canvas",
+      "height": 3373,
+      "width": 2777,
+      "label": {
+        "en": [
+          "B_MSS_3941_3"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/vi86c48s56-mu8guwgg/annotation-page/lxpz5dedio-mu8guwgg",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/anazigtamg-mu8gr7f4/annotation/w9blv0wogbg-mu8guvzm",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/anazigtamg-mu8gr7f4/canvas/vi86c48s56-mu8guwgg",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/B_MSS_3941_000003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3373,
+                "width": 2777
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/xj1oyvimp3s-mu8gvl4k",
+      "type": "Canvas",
+      "height": 3373,
+      "width": 2778,
+      "label": {
+        "en": [
+          "B_MSS_3941_4"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/xj1oyvimp3s-mu8gvl4k/annotation-page/u0nt725gt7d-mu8gvl4k",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/anazigtamg-mu8gr7f4/annotation/3vdqc4b2ubs-mu8gvkm2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/anazigtamg-mu8gr7f4/canvas/xj1oyvimp3s-mu8gvl4k",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/B_MSS_3941_000004.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3373,
+                "width": 2778
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/lr8wcdhv4m-mu8gw385",
+      "type": "Canvas",
+      "height": 3372,
+      "width": 2777,
+      "label": {
+        "en": [
+          "B_MSS_3941_5"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/anazigtamg-mu8gr7f4/canvas/lr8wcdhv4m-mu8gw385/annotation-page/la6dtany9ln-mu8gw385",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/anazigtamg-mu8gr7f4/annotation/dliu4f6h52m-mu8gw2z4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/anazigtamg-mu8gr7f4/canvas/lr8wcdhv4m-mu8gw385",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/B_MSS_3941_000005.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3372,
+                "width": 2777
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
