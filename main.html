@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE HTML><html>
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>La Disgrazia del Numero Due</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -11,11 +11,11 @@
    <body>
       <header class="header-grid">
          <div class="left-image"><img src="img_sito/home.png" alt="Le Disgrazie del Numero Due"></div>
-         <div class="title"><a href="index.html" style="text-decoration: none;">
+         <div class="title"><a href="home.html" style="text-decoration: none;">
                <h1>Il <i>Barone di Nicastro</i> Digitale</h1></a></div>
          <nav class="navigation">
             <ul class="nav-list">
-               <li class="dropdown"><a href="index.html" class="dropbtn">HOME ▼</a><ul class="dropdown-content">
+               <li class="dropdown"><a href="home.html" class="dropbtn">HOME ▼</a><ul class="dropdown-content">
                      <li><a href="progetto.html">Progetto</a></li>
                      <li><a href="mappa.html">Presentazione del sito</a></li>
                      <li><a href="contatti.html">Contatti</a></li>
@@ -46,7 +46,15 @@
                <li class="settings"><label><input type="checkbox" id="toggleLb">Segmentazione originaria</label></li>
                <li class="settings"><label><input type="checkbox" id="toggleDel">Cancellature</label></li>
                <li class="settings"><label><input type="checkbox" id="toggleAdd">Correzioni</label></li>
-               <li class="settings"><label><input type="checkbox">Surplus</label></li>
+               <li class="settings"><label><input type="checkbox" id="toggleSurplus">Surplus</label></li>
+            </ul>
+            <h2>Cronologia scrittura</h2>
+            <ul>
+               <li><label><input type="radio" name="chronoFilter" value="1"> Prima stesura</label></li>
+               <li><label><input type="radio" name="chronoFilter" value="2"> Primo intervento</label></li>
+               <li><label><input type="radio" name="chronoFilter" value="3"> Secondo intervento</label></li>
+               <li><label><input type="radio" name="chronoFilter" value="4"> Terzo intervento</label></li>
+               <li><label><input type="radio" name="chronoFilter" value="all" checked> Tutte le scritture</label></li>
             </ul>
          </div>
       </div>
@@ -95,6 +103,7 @@
                   <div class="box-image" id="imageBox">
                      <div class="image-zoom-overlay"><button onclick="zoomFacsimile(20)" title="Zoom In"><i class="fa-solid fa-magnifying-glass-plus"></i></button><button onclick="zoomFacsimile(-20)" title="Zoom Out"><i class="fa-solid fa-magnifying-glass-minus"></i></button><button onclick="resetFacsimileZoom()" title="Reset Zoom"><i class="fa-solid fa-expand"></i></button></div><img src="images/ms_2530_c1r.jpg" alt="Page 1"></div>
                   <div class="box-text-facs" id="facsTextBox">
+                     <h2 style="text-align:center;"><u>Le Disgrazie del Numero Due <br> Novella di Nevio</u></h2>
                      <p style="text-align:center">  </p>
                      <h3 id="ch_13">XIII.</h3>
                      <p>Pertanto appena entrato in Cadice il Governatore lo ebbe a <br class="break"> chiamare a sè. <br> Che vogliono dire tali soperchierie? sclamò il <span class="choice-tooltip-container"><span class="abbr">Sign.r</span><span class="choice-tooltip-cloud"><span class="expan bg-blue">Signor</span></span></span> Barone ‒ Io fui assaltato lungo la strada da una banda di Carlisti,  <s class="tei-del">ho la<br class="break">sciato</s> <span class="add">lasciai</span>  una migliaja di maravedì nelle mani degli ac<br class="break">cattoni di Cadice, soltanto dalla porta della città a<s class="tei-del">ll’albergo</s> <span class="add">quella dell’albergo</span> , ho una dozzina di <span class="foreign">hidalghi</span> che fa malleveria per la mia nobile persona, viaggio il mondo per sevigio della virtù,
@@ -5267,6 +5276,7 @@
             <div class="page" id="redazionea-page-12" data-chapter="#R-12">
                <div class="container">
                   <div style="flex: 1;">
+                     <h2 style="text-align:center;"><u>Le Disgrazie del Numero Due <br> Novella di Nevio</u></h2>
                      <p style="text-align:center">  </p>
                      <h3 id="ch_13">XIII.</h3>  
                      <p>Pertanto appena entrato in Cadice il Governatore lo ebbe a <br class="break"> chiamare a sè. <br> Che vogliono dire tali soperchierie? sclamò il <span class="choice-tooltip-container"><span class="abbr">Sign.r</span><span class="choice-tooltip-cloud"><span class="expan bg-blue">Signor</span></span></span> Barone ‒ Io fui assaltato lungo la strada da una banda di Carlisti,  <s class="tei-del">ho la<br class="break">sciato</s> <span class="add">lasciai</span>  una migliaja di maravedì nelle mani degli ac<br class="break">cattoni di Cadice, soltanto dalla porta della città a<s class="tei-del">ll’albergo</s> <span class="add">quella dell’albergo</span> , ho una dozzina di <span class="foreign">hidalghi</span> che fa malleveria per la mia nobile persona, viaggio il mondo per sevigio della virtù,
@@ -10014,13 +10024,13 @@
             <div class="footer-col">
                <h5>Licenza</h5><small>© 2025 Il Barone di Nicastro Digitale | <a rel="license" data-spdx="CC-BY-SA-4.0" href="http://creativecommons.org/licenses/bysa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" data-spdx="CC-BY-SA-4.0" href="http://creativecommons.org/licenses/bysa/4.0/">Creative Commons
                      Attribution-ShareAlike 4.0 International License</a></small>
-                  <h5>Citare</h5>
-        <p>DOI:</p>
-      </div>
+               <h5>Citare</h5>
+               <p>DOI:</p>
+                  </div>
             <div class="footer-col">
                <h5>Mappa del Sito</h5>
                <ul>
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="home.html">Home</a></li>
                   <li><a href="storia.html">Nota Introduttiva</a></li>
                   <li><a href="main.html">Testo</a></li>
                   <li><a href="listperson.html">Materiali</a></li>
