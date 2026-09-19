@@ -116,12 +116,9 @@
         </option>
       </select>
 
-      <button id="add-manifest" class="archivio-btn"><i class="fa-solid fa-plus"></i> Aggiungi al visualizzatore</button>
-      <button id="clear-all" class="archivio-btn archivio-btn-secondary"><i class="fa-solid fa-trash"></i> Pulisci tutto</button>
+      
+      <button id="clear-all" class="archivio-btn archivio-btn-secondary"><i class="fa-solid fa-trash"></i> Reinizializzare</button>
 
-      <div class="manifest-list" id="current-manifests" style="display: none;">
-        <h3>Manifesti attualmente aperti:</h3>
-        <div id="manifest-list-items" class="manifest-list-items"></div>
       </div>
     </div>
 
@@ -179,41 +176,40 @@
 
   <!-- Script personalizzato per gestire Mirador -->
   <script>
-    // Inizializza Mirador con la lingua italiana
+    const manifestUrls = [
+      "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Fuggilozio/Aprile30/manifest.json",
+      "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Fuggilozio/Maggio10/iiif/manifest.json",
+      "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/RedazioneA/manifest.json"
+    ];
+
+    // Inizializza Mirador con la lingua italiana e il catalogo
     const miradorInstance = Mirador.viewer({
       id: "mirador-viewer",
       language: 'it',
+      catalog: manifestUrls.map(url => ({ manifestId: url })),
       windows: [],
       workspaceControlPanel: {
         enabled: true,
       }
     });
 
-    // Aggiungi un manifesto al visualizzatore
-    document.getElementById("add-manifest").addEventListener("click", () => {
-      const select = document.getElementById("manifest-select");
-      const manifestUrl = select.value;
+    // Aggiungi un manifesto al visualizzatore automaticamente alla selezione
+    document.getElementById("manifest-select").addEventListener("change", (e) => {
+      const manifestUrl = e.target.value;
 
       if (!manifestUrl) {
-        alert("Seleziona un manifesto dal menu a tendina!");
         return;
       }
 
-      // Aggiungi il manifesto a Mirador
-      miradorInstance.store.dispatch(
-        Mirador.actions.addWindow({ manifestId: manifestUrl })
-      );
+      // Se Mirador.actions è disponibile usiamo quello, altrimenti creiamo l'action base
+      const action = (window.Mirador && window.Mirador.actions && window.Mirador.actions.addWindow) 
+                     ? window.Mirador.actions.addWindow({ manifestId: manifestUrl }) 
+                     : { type: 'mirador/ADD_WINDOW', window: { manifestId: manifestUrl, id: 'window_' + Math.random().toString(36).substr(2, 9) } };
 
-      // Mostra il contenitore se era nascosto
-      const manifestListContainer = document.getElementById("current-manifests");
-      manifestListContainer.style.display = "block";
-
-      // Aggiungi il manifesto alla lista dei manifesti aperti
-      const manifestList = document.getElementById("manifest-list-items");
-      const manifestItem = document.createElement("span");
-      manifestItem.className = "manifest-badge";
-      manifestItem.innerHTML = select.options[select.selectedIndex].text;
-      manifestList.appendChild(manifestItem);
+      miradorInstance.store.dispatch(action);
+      
+      // Resetta il selettore
+      e.target.value = "";
     });
 
     // Pulisce tutti i manifesti aperti
@@ -223,14 +219,11 @@
       const windowIds = Object.keys(state.windows);
       
       windowIds.forEach(windowId => {
-        miradorInstance.store.dispatch(
-          Mirador.actions.removeWindow(windowId)
-        );
+        const action = (window.Mirador && window.Mirador.actions && window.Mirador.actions.removeWindow)
+                       ? window.Mirador.actions.removeWindow(windowId)
+                       : { type: 'mirador/REMOVE_WINDOW', windowId: windowId };
+        miradorInstance.store.dispatch(action);
       });
-
-      // Pulisce la UI html
-      document.getElementById("manifest-list-items").innerHTML = "";
-      document.getElementById("current-manifests").style.display = "none";
     });
   </script>
 </body>
