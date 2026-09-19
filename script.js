@@ -1,4 +1,5 @@
 // ===== Utilities =====
+// Calcola l'altezza dell'header per lo scorrimento corretto della pagina
 function getHeaderOffset() {
   const header = document.querySelector("header");
   if (!header) return 0;
@@ -23,6 +24,7 @@ let currentSynopticPage = 1;
 let currentZoom = 100;
 
 // ===== Facsimile Mode =====
+// Ottiene tutte le pagine relative al facsimile attualmente selezionato
 function getFacsimilePages() {
   if (!currentFacsimileId) return [];
   const edBox = document.getElementById("facs-" + currentFacsimileId);
@@ -30,6 +32,7 @@ function getFacsimilePages() {
   return Array.from(edBox.querySelectorAll(".page"));
 }
 
+// Aumenta o diminuisce lo zoom per la visualizzazione del facsimile
 function zoomFacsimile(step) {
   currentZoom += step;
   if (currentZoom < 50) currentZoom = 50;
@@ -37,11 +40,13 @@ function zoomFacsimile(step) {
   applyZoom();
 }
 
+// Ripristina lo zoom del facsimile al 100%
 function resetFacsimileZoom() {
   currentZoom = 100;
   applyZoom();
 }
 
+// Applica il livello di zoom calcolato alle immagini del facsimile
 function applyZoom() {
   document.querySelectorAll('.box-image img').forEach(img => {
     if (currentZoom === 100) {
@@ -56,6 +61,7 @@ function applyZoom() {
   });
 }
 
+// Aggiorna la visualizzazione del facsimile mostrando solo la pagina corrente
 function updateFacsimileViewer() {
   document.querySelectorAll("#viewer_facs .page").forEach(p => p.style.display = "none");
   const pages = getFacsimilePages();
@@ -72,6 +78,7 @@ function updateFacsimileViewer() {
   requestAnimationFrame(() => scrollIntoView(pageDiv));
 }
 
+// Passa a una specifica pagina nella modalità facsimile
 function goToFacsPage(n) {
   const num = parseInt(n, 10);
   const total = getFacsimilePages().length;
@@ -81,6 +88,7 @@ function goToFacsPage(n) {
   }
 }
 
+// Seleziona un facsimile specifico e lo mostra nascondendo gli altri
 function selectFacsimile(viewId) {
   resetAll();
   currentLayout = "facsimile";
@@ -105,6 +113,7 @@ function selectFacsimile(viewId) {
 }
 
 // ===== Single-Text Mode =====
+// Ottiene le pagine dell'edizione attualmente attiva (modalità testo singolo)
 function getCurrentPages() {
   if (!currentEditionId) return [];
   const ed = document.getElementById(currentEditionId);
@@ -112,6 +121,7 @@ function getCurrentPages() {
   return Array.from(ed.querySelectorAll(".page"));
 }
 
+// Aggiorna la visualizzazione del testo singolo mostrando solo la pagina corrente
 function updateTextViewer(noScroll = false) {
   document.querySelectorAll("#viewer_text .page").forEach(p => {
     p.style.display = "none";
@@ -138,6 +148,7 @@ function updateTextViewer(noScroll = false) {
   }
 }
 
+// Passa a una determinata pagina o capitolo nella modalità a testo singolo
 function goToTextPage(n, noScroll = false) {
   const pages = getCurrentPages();
   const total = pages.length;
@@ -159,6 +170,7 @@ function goToTextPage(n, noScroll = false) {
   updateTextViewer(noScroll);
 }
 
+// Seleziona una specifica edizione e imposta la modalità testo singolo
 function selectSingleText(viewId) {
   resetAll();
   currentLayout = "text";
@@ -182,6 +194,7 @@ function selectSingleText(viewId) {
 }
 
 // ===== Synoptic Mode =====
+// Attiva o disattiva un'edizione nella modalità di visualizzazione sinottica
 function toggleView(viewId) {
   if (currentLayout !== 'synoptic') {
     resetAll();
@@ -219,6 +232,7 @@ function toggleView(viewId) {
   updateSynopticView();
 }
 
+// Aggiorna la vista sinottica mostrando i capitoli in parallelo per le edizioni selezionate
 function updateSynopticView() {
   document.querySelectorAll("#viewer_text .page").forEach(p => p.style.display = "none");
   activeEditionIds = activeEditionIds.filter(id => {
@@ -258,6 +272,7 @@ function updateSynopticView() {
   updatePaginationUI(currentSynopticPage, maxPages);
 }
 
+// Ottiene le chiavi dei capitoli comuni tra le edizioni attive nella modalità sinottica
 function getCommonChapterKeys() {
   const chapterSets = activeEditionIds.map(id => {
     const ed = document.getElementById(id);
@@ -272,6 +287,7 @@ function getCommonChapterKeys() {
   });
 }
 
+// Passa a una determinata pagina (capitolo) nella vista sinottica
 function goToSynopticPage(n) {
   const chapterKeys = getCommonChapterKeys();
   const maxPages = chapterKeys.length;
@@ -295,6 +311,7 @@ function goToSynopticPage(n) {
 }
 
 // ===== Shared UI & Navigation =====
+// Aggiorna l'interfaccia della paginazione (numeri di pagina e stato dei bottoni)
 function updatePaginationUI(current, total) {
   let semanticLabel = current;
   let maxSemantic = total;
@@ -345,12 +362,14 @@ function updatePaginationUI(current, total) {
 
 
 
+// Smista la richiesta di cambio pagina alla modalità di visualizzazione attualmente attiva
 function goToPage(n) {
   if (currentLayout === "facsimile") goToFacsPage(n);
   else if (currentLayout === "text") goToTextPage(n);
   else if (currentLayout === "synoptic") goToSynopticPage(n);
 }
 
+// Passa alla pagina successiva nella modalità corrente
 function nextPage() {
   if (currentLayout === "facsimile") {
     const total = getFacsimilePages().length;
@@ -370,6 +389,7 @@ function nextPage() {
   }
 }
 
+// Passa alla pagina precedente nella modalità corrente
 function prevPage() {
   if (currentLayout === "facsimile") {
     if (currentFacsPage > 1) goToFacsPage(currentFacsPage - 1);
@@ -387,6 +407,7 @@ function prevPage() {
 }
 
 // ===== Layout Switching & Dropdowns =====
+// Ripristina lo stato dell'applicazione nascondendo tutte le visualizzazioni attive
 function resetAll() {
   document.querySelectorAll(".box").forEach(box => {
     box.classList.remove("active");
@@ -403,6 +424,7 @@ function resetAll() {
   if (facs) facs.style.display = "none";   // ✅ controlla prima
 }
 
+// Imposta il layout di base (non utilizzato direttamente per attivare le modalità)
 function setLayout(layout) {
   resetAll();
   currentLayout = layout;
@@ -411,17 +433,39 @@ function setLayout(layout) {
   }
 }
 
-function toggleFacsimileDropdown() {
+// Mostra o nasconde il menu a tendina per i facsimile
+function toggleFacsimileDropdown(event) {
+  if (event) event.stopPropagation();
+  document.getElementById("textOnlyDropdown").classList.remove("show");
+  document.getElementById("synopticDropdown").classList.remove("show");
   document.getElementById("facsimileDropdown").classList.toggle("show");
 }
 
-function toggleTextOnlyDropdown() {
+// Mostra o nasconde il menu a tendina per le edizioni singole
+function toggleTextOnlyDropdown(event) {
+  if (event) event.stopPropagation();
+  document.getElementById("facsimileDropdown").classList.remove("show");
+  document.getElementById("synopticDropdown").classList.remove("show");
   document.getElementById("textOnlyDropdown").classList.toggle("show");
 }
 
-function toggleSynopticDropdown() {
+// Mostra o nasconde il menu a tendina per la modalità sinottica
+function toggleSynopticDropdown(event) {
+  if (event) event.stopPropagation();
+  document.getElementById("facsimileDropdown").classList.remove("show");
+  document.getElementById("textOnlyDropdown").classList.remove("show");
   document.getElementById("synopticDropdown").classList.toggle("show");
 }
+
+// Close dropdowns when clicking outside
+document.addEventListener("click", function(event) {
+  const isDropdownClick = event.target.closest(".dropdown-wrapper");
+  if (!isDropdownClick) {
+    document.getElementById("facsimileDropdown")?.classList.remove("show");
+    document.getElementById("textOnlyDropdown")?.classList.remove("show");
+    document.getElementById("synopticDropdown")?.classList.remove("show");
+  }
+});
 
 // ===== Init =====
 // ===== Init =====
@@ -456,7 +500,8 @@ document.addEventListener("DOMContentLoaded", () => {
         goToTextPage(pageIndex + 1, true); // page becomes visible
 
         if (targetHash) {
-          const target = document.querySelector(`#viewer_text [id="${targetHash}"]`);
+          const pageContainer = document.getElementById(wantedPageId);
+          const target = pageContainer ? pageContainer.querySelector(`[id="${targetHash}"]`) : null;
           if (target) {
             setTimeout(() => {
               scrollIntoView(target);
@@ -499,6 +544,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// Scorre la pagina verso un elemento specifico tenendo conto dell'header
 function scrollIntoView(element) {
   if (!element) return false;
 
@@ -556,6 +602,28 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleAdd.addEventListener('change', updateAdd);
     updateAdd();
   }
+  const toggleSurplus = document.getElementById('toggleSurplus');
+  if (toggleSurplus) {
+    const updateSurplus = () => {
+      document.body.classList.toggle('hide-surplus-strike', toggleSurplus.checked);
+    };
+    toggleSurplus.addEventListener('change', updateSurplus);
+    updateSurplus();
+  }
+
+  // Handle Cronologia scrittura
+  const chronoRadios = document.querySelectorAll('input[name="chronoFilter"]');
+  if (chronoRadios.length > 0) {
+    const updateChrono = () => {
+      const selected = document.querySelector('input[name="chronoFilter"]:checked');
+      document.body.classList.remove('chrono-1', 'chrono-2', 'chrono-3', 'chrono-4', 'chrono-all');
+      if (selected && selected.value) {
+        document.body.classList.add(`chrono-${selected.value}`);
+      }
+    };
+    chronoRadios.forEach(r => r.addEventListener('change', updateChrono));
+    updateChrono();
+  }
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -573,6 +641,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // ===== Utilities =====
+// Evidenzia temporaneamente un elemento nella pagina aggiungendo una classe CSS
 function highlightElement(element, duration = 5000) {
   if (!element || !document.body.contains(element)) return;
 
@@ -677,6 +746,7 @@ for (i = 0; i < coll.length; i++) {
 }
 
 // ===== Accessible Font Toggle =====
+// Attiva o disattiva il font ad alta leggibilità per l'intero documento
 function toggleAccessibleFont() {
   document.body.classList.toggle('accessible-mode');
   const isAccessible = document.body.classList.contains('accessible-mode');

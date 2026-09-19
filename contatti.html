@@ -71,19 +71,22 @@
     <div class="contact-intro">
       <h1>Contatti</h1>
       <p>
-        Per qualsiasi comunicazione, si prega di compilare il seguente form o di scrivere all’indirizzo <a
-          href="mailto:biancadelbuono@homtail.it">biancadelbuono@homtail.it</a>
+        Per qualsiasi comunicazione, si prega di compilare il seguente form. <!--In alternativa scrivere a Bianca Del Buono all’indirizzo <a
+          href="mailto:biancadelbuono@homtail.it">biancadelbuono@homtail.it</a>, per tutto il lavoro su Nievo e il testo del <i>Barone di Nicastro</i>; 
+          per questioni più tecniche legate al sito e all'edizione digitale invece scrivere a Federico Siragusa all'indirizzo -->
       </p>
     </div>
 
-    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-
-      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
-      <input type="hidden" name="from_name" value="My Website" />
-      <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+    <form class="contact-form" id="contactForm" onsubmit="sendEmail(event)">
 
       <div class="form-group-container">
+        <div class="form-group" style="width: 100%;">
+          <label for="recipient" class="form-label">Scelta della tematica</label>
+          <select id="recipient" name="recipient" class="form-input">
+            <option value="mail1">Sul progetto, Nievo e il <i>Barone di Nicastro</i></option>
+            <option value="mail2">Sull'edizione digitale</option>
+          </select>
+        </div>
         <div class="form-group">
           <label for="name" class="form-label">Nome</label>
           <input id="name" name="name" class="form-input" placeholder="Indicare nome e cognome" type="text" />
@@ -119,12 +122,14 @@
 
       <div class="footer-col">
         <h5>Licenza</h5>
-        <small>© 2025 Il Barone di Nicastro Digitale | <a rel="license" data-spdx="CC-BY-SA-4.0"
+        <small>©2025IlBarone di Nicastro Digitale | <a rel="license" data-spdx="CC-BY-SA-4.0"
             href="http://creativecommons.org/licenses/bysa/4.0/"><img alt="Creative Commons License"
               style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is
           licensed under a <a rel="license" data-spdx="CC-BY-SA-4.0"
             href="http://creativecommons.org/licenses/bysa/4.0/">Creative Commons
             Attribution-ShareAlike 4.0 International License</a></small>
+        <h5>Citare</h5>
+        <p>DOI:</p>
       </div>
 
       <div class="footer-col">
@@ -134,7 +139,7 @@
           <li><a href="storia.html">Nota Introduttiva</a></li>
           <li><a href="main.html">Testo</a></li>
           <li><a href="listperson.html">Risorse</a></li>
-          <li><a href="#">Mappa</a></li>
+          <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">Mappa</a></li>
         </ul>
       </div>
 
@@ -143,6 +148,9 @@
         <p>Bianca Del Buono</p>
         <p>Email: <a href="mailto:biancadelbuono@homtail.it"
             style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
+        <p>Federico Siragusa</p>
+        <p>Email: <a href="mailto:federicosiragusa1@gmail.com"
+            style="text-decoration: none;">federicosiragusa1@gmail.com</a></p>
       </div>
     </div>
   </footer>
@@ -150,7 +158,38 @@
 
 
   <script src="script.js"></script>
+  <script>
+    function sendEmail(event) {
+      event.preventDefault(); // Evita il ricaricamento della pagina
 
+      const recipientChoice = document.getElementById('recipient').value;
+      
+      // Inserisci qui le email a cui vuoi inviare il messaggio
+      let destinationEmail = "";
+      if (recipientChoice === 'mail1') {
+        destinationEmail = "biancadelbuono@homtail.it"; // <-- Sostituisci con la prima email
+      } else if (recipientChoice === 'mail2') {
+        destinationEmail = "federicosiragusa1@gmail.com"; // <-- Sostituisci con la seconda email
+      }
+
+      // Recupera i dati inseriti nel form
+      const name = document.getElementById('name').value;
+      const userEmail = document.getElementById('email').value;
+      const userSubject = document.getElementById('phone').value;
+      const message = document.getElementById('message').value;
+
+      // Crea l'oggetto e il corpo dell'email
+      const subject = encodeURIComponent("Messaggio dal sito: " + userSubject);
+      const body = encodeURIComponent(
+        "Nome: " + name + "\n" +
+        "Email: " + userEmail + "\n\n" +
+        "Messaggio:\n" + message
+      );
+
+      // Apre il client di posta dell'utente con i campi pre-compilati
+      window.location.href = "mailto:" + destinationEmail + "?subject=" + subject + "&body=" + body;
+    }
+  </script>
 </body>
 
 </html>
