@@ -31,6 +31,7 @@
                <li class="dropdown"><a href="#" class="dropbtn">RISORSE ▼</a><ul class="dropdown-content">
                      <li><a href="listperson.html">Indice dei nomi</a></li>
                      <li><a href="biblio.html">Bibliografia</a></li>
+                     <li><a href="archivio.html">Archivio facsimilare</a></li>
                   </ul>
                </li>
                <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">MAPPA</a></li>
@@ -62,10 +63,9 @@
          <div class="legend-content"><span class="close-btn" onclick="closeLegendPanel()">X</span><h2>Legenda</h2>
             <ul>
                <li>Le <strong>cancellature</strong> sono rappresentate 
-                  da un'evidenziatura in <span style="background-color: #f52d2db4;">rosso</span> e le parole sono <del>sbarrate</del>.</li>
-               <li>Le <strong>correzioni</strong> sono in <span style="background-color: rgba(111, 241, 111, 0.664);">verde</span>.</li>
-               <li>Le sottolineature indicano la <strong>stratigrafia</strong> 
-                  delle campagne scrittorie: <span style="text-decoration: underline; text-decoration-color: #71e5fa;">primo livello</span> d'intervento, <span style="text-decoration: underline; text-decoration-color: #60b8f4;">secondo livello</span> e <span style="text-decoration: underline; text-decoration-color: #0d6efd;">terzo livello</span>.</li>
+                  da una barratura <del>in rosso</del>. La barrattura in <span style="text-decoration: line-through; text-decoration-color: red;">rosso</span> indica l'intervento editoriale circa l'omissione della cancellatura.</li>
+               <li>Le sottolineature indicano la <strong>stratigrafia</strong>
+                  delle campagne scrittorie in particolare per evidenziare le <strong>correzioni</strong>: <span style="text-decoration: underline; text-decoration-color: #71e5fa;">primo livello</span> d'intervento, <span style="text-decoration: underline; text-decoration-color: #60b8f4;">secondo livello</span> e <span style="text-decoration: underline; text-decoration-color: #0d6efd;">terzo livello</span>.</li>
                <li>La <strong>mano dell'archivista</strong> è in <span style="color: #ff5132;">arancione</span>.</li>
             </ul>
          </div>
@@ -10017,7 +10017,7 @@
             </div>
          </div>
       </div>
-      <div class="pagination"><button onclick="prevPage()">←</button> Page <span id="pageDisplay"></span> of <span id="totalPages"></span><button onclick="nextPage()">→</button> Go to page: <input type="number" id="pageInput" min="1" onchange="goToPage(this.value)"></div>
+      <div class="pagination"><button onclick="prevPage()">←</button> <span class="pageLabel1">Pagina</span> <span id="pageDisplay"></span> di <span id="totalPages"></span><button onclick="nextPage()">→</button> <span class="pageLabel2">Vai a pagina:</span> <input type="number" id="pageInput" min="1" onchange="goToPage(this.value)"></div>
       <footer class="footer">
          <div class="footer-container">
             <div class="footer-col footer-logos"><a href="" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo"></a><a href="" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo" style="width: 100px;"></a><a href="https://www.uniud.it/it" target="_blank"><img src="img_sito/logouniud.jpg" alt="Company Logo" class="footer-logo"></a></div>

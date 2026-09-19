@@ -1,0 +1,748 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/mqpz8zfdwg-mu8mletj",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/hvgb95thita-mu8mm31a",
+      "type": "Canvas",
+      "height": 3704,
+      "width": 2653,
+      "label": {
+        "en": [
+          "p. 301"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/hvgb95thita-mu8mm31a/annotation-page/0povwjxwlgu-mu8mm31a",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/cn9uieoxela-mu8mm2sd",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/hvgb95thita-mu8mm31a",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_301.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3704,
+                "width": 2653
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/0za3ohjnfhs-mu8mm9gk",
+      "type": "Canvas",
+      "height": 3746,
+      "width": 2572,
+      "label": {
+        "en": [
+          "p. 302"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/0za3ohjnfhs-mu8mm9gk/annotation-page/3uqeilp7rqw-mu8mm9gk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/ny78yfxujqp-mu8mm94q",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/0za3ohjnfhs-mu8mm9gk",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_302.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3746,
+                "width": 2572
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/itzvwvwaqwd-mu8mmdqg",
+      "type": "Canvas",
+      "height": 3680,
+      "width": 2591,
+      "label": {
+        "en": [
+          "p. 303"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/itzvwvwaqwd-mu8mmdqg/annotation-page/x1ysw57bk0r-mu8mmdqg",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/5quta0filit-mu8mmdew",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/itzvwvwaqwd-mu8mmdqg",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_303.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3680,
+                "width": 2591
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/q6mylisjk6-mu8mmhwg",
+      "type": "Canvas",
+      "height": 3791,
+      "width": 2575,
+      "label": {
+        "en": [
+          "p. 304"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/q6mylisjk6-mu8mmhwg/annotation-page/3ubhzo5webp-mu8mmhwg",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/csg2sm1twhu-mu8mmhj4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/q6mylisjk6-mu8mmhwg",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_304.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3791,
+                "width": 2575
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/xt7324d5wep-mu8mmmci",
+      "type": "Canvas",
+      "height": 3783,
+      "width": 2660,
+      "label": {
+        "en": [
+          "p. 305"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/xt7324d5wep-mu8mmmci/annotation-page/h1mvhwq1la-mu8mmmci",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/vt1o7ofusb9-mu8mmm1g",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/xt7324d5wep-mu8mmmci",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_305.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3783,
+                "width": 2660
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/5in08rye88x-mu8mmqw3",
+      "type": "Canvas",
+      "height": 3779,
+      "width": 2590,
+      "label": {
+        "en": [
+          "p. 306"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/5in08rye88x-mu8mmqw3/annotation-page/twkng92x9h-mu8mmqw3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/2pgcwf4dqp8-mu8mmql1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/5in08rye88x-mu8mmqw3",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_306.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3779,
+                "width": 2590
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/o6592fxopb-mu8mmvkl",
+      "type": "Canvas",
+      "height": 3724,
+      "width": 2640,
+      "label": {
+        "en": [
+          "p. 307"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/o6592fxopb-mu8mmvkl/annotation-page/kh8rxgsqnqg-mu8mmvkl",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/fs1becm2c5p-mu8mmv98",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/o6592fxopb-mu8mmvkl",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_307.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3724,
+                "width": 2640
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/cr76hytxbpb-mu8mn05c",
+      "type": "Canvas",
+      "height": 3750,
+      "width": 2560,
+      "label": {
+        "en": [
+          "p. 308"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/cr76hytxbpb-mu8mn05c/annotation-page/uvns6z9c7rf-mu8mn05c",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/31uhup9u6ox-mu8mmzut",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/cr76hytxbpb-mu8mn05c",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_308.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3750,
+                "width": 2560
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/56t5r6svnga-mu8mn3y6",
+      "type": "Canvas",
+      "height": 3750,
+      "width": 2653,
+      "label": {
+        "en": [
+          "p. 309"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/56t5r6svnga-mu8mn3y6/annotation-page/ef0hfm3z5hg-mu8mn3y6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/qkfz28at0ji-mu8mn3n7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/56t5r6svnga-mu8mn3y6",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_309.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3750,
+                "width": 2653
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/iio6x25tz87-mu8mna15",
+      "type": "Canvas",
+      "height": 3692,
+      "width": 2490,
+      "label": {
+        "en": [
+          "p. 310"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/iio6x25tz87-mu8mna15/annotation-page/t2tx0nx1cy-mu8mna15",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/3if4i9tulel-mu8mn9oe",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/iio6x25tz87-mu8mna15",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_310.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3692,
+                "width": 2490
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/s90zrm50j6c-mu8mneba",
+      "type": "Canvas",
+      "height": 3768,
+      "width": 2683,
+      "label": {
+        "en": [
+          "p. 311"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/s90zrm50j6c-mu8mneba/annotation-page/lebfwzdnkwh-mu8mneba",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/yuyus0lbptr-mu8mne0h",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/s90zrm50j6c-mu8mneba",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_311.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3768,
+                "width": 2683
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/gke28lpdo8l-mu8mniuu",
+      "type": "Canvas",
+      "height": 3807,
+      "width": 2608,
+      "label": {
+        "en": [
+          "p. 312"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/gke28lpdo8l-mu8mniuu/annotation-page/lxa8r6ob7rd-mu8mniuu",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/cc24l3h9jk-mu8mniid",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/gke28lpdo8l-mu8mniuu",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_312.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3807,
+                "width": 2608
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/z7uyc025vq9-mu8mnphu",
+      "type": "Canvas",
+      "height": 3700,
+      "width": 2662,
+      "label": {
+        "en": [
+          "p. 313"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/z7uyc025vq9-mu8mnphu/annotation-page/s9iivirdmmf-mu8mnphu",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/q4ggl3r1rqg-mu8mnp7o",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/z7uyc025vq9-mu8mnphu",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_313.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3700,
+                "width": 2662
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/p8ugf7bps09-mu8mnu6n",
+      "type": "Canvas",
+      "height": 3804,
+      "width": 2615,
+      "label": {
+        "en": [
+          "p. 314"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/p8ugf7bps09-mu8mnu6n/annotation-page/17wgcx1n1so-mu8mnu6n",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/qt5v4u1k6k-mu8mntrj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/p8ugf7bps09-mu8mnu6n",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_314.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3804,
+                "width": 2615
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/yqrue5niwm-mu8mnyij",
+      "type": "Canvas",
+      "height": 3812,
+      "width": 2728,
+      "label": {
+        "en": [
+          "p. 315"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/yqrue5niwm-mu8mnyij/annotation-page/encf3o87o45-mu8mnyij",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/b0m0l5uyoy6-mu8mny68",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/yqrue5niwm-mu8mnyij",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_315.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3812,
+                "width": 2728
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/kio7y0wj3n-mu8mo2lp",
+      "type": "Canvas",
+      "height": 3763,
+      "width": 2593,
+      "label": {
+        "en": [
+          "p. 316"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/kio7y0wj3n-mu8mo2lp/annotation-page/hi9e4clbj4s-mu8mo2lp",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/n40jupst87-mu8mo29e",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/kio7y0wj3n-mu8mo2lp",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_316.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3763,
+                "width": 2593
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/qojd3c8e1n-mu8mo6hf",
+      "type": "Canvas",
+      "height": 3763,
+      "width": 2654,
+      "label": {
+        "en": [
+          "p. 317"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/qojd3c8e1n-mu8mo6hf/annotation-page/ztuvr4g6c9p-mu8mo6hf",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/oemoxi068i-mu8mo645",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/qojd3c8e1n-mu8mo6hf",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_317.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3763,
+                "width": 2654
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/spb0aybmdp-mu8moadj",
+      "type": "Canvas",
+      "height": 3636,
+      "width": 2527,
+      "label": {
+        "en": [
+          "p. 318"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/spb0aybmdp-mu8moadj/annotation-page/k5l7sakyvu-mu8moadj",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/8ngm9s5mkfv-mu8mo9zu",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/spb0aybmdp-mu8moadj",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_318.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3636,
+                "width": 2527
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/pyz9qj3m0wc-mu8moe4d",
+      "type": "Canvas",
+      "height": 3687,
+      "width": 2577,
+      "label": {
+        "en": [
+          "p. 319"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/pyz9qj3m0wc-mu8moe4d/annotation-page/1euhonafsen-mu8moe4d",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/wz0vykyih0h-mu8modsq",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/pyz9qj3m0wc-mu8moe4d",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_319.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3687,
+                "width": 2577
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/dn96c70nzww-mu8moj6r",
+      "type": "Canvas",
+      "height": 3695,
+      "width": 2537,
+      "label": {
+        "en": [
+          "p. 320"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/dn96c70nzww-mu8moj6r/annotation-page/jz83kd23m8-mu8moj6r",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/7m6hnc94rbj-mu8moiuu",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/dn96c70nzww-mu8moj6r",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_320.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3695,
+                "width": 2537
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/ziw7cyystf-mu8monft",
+      "type": "Canvas",
+      "height": 3700,
+      "width": 2591,
+      "label": {
+        "en": [
+          "p. 321"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/ziw7cyystf-mu8monft/annotation-page/997376lbpj-mu8monft",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/pn0cst5ji9-mu8mon3h",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/ziw7cyystf-mu8monft",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_321.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3700,
+                "width": 2591
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/4iljuhlj0ld-mu8morxv",
+      "type": "Canvas",
+      "height": 3736,
+      "width": 2621,
+      "label": {
+        "en": [
+          "p. 322"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/4iljuhlj0ld-mu8morxv/annotation-page/yb6uclk8ya-mu8morxv",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/6y2w5j6oi2i-mu8morgj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/4iljuhlj0ld-mu8morxv",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_322.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3736,
+                "width": 2621
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/eav31ddkk3r-mu8mowaz",
+      "type": "Canvas",
+      "height": 3792,
+      "width": 2712,
+      "label": {
+        "en": [
+          "p. 323"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/eav31ddkk3r-mu8mowaz/annotation-page/snk6rn7rgfs-mu8mowaz",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mqpz8zfdwg-mu8mletj/annotation/fitxmf1o1a-mu8movyu",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mqpz8zfdwg-mu8mletj/canvas/eav31ddkk3r-mu8mowaz",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/fugg_323.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3792,
+                "width": 2712
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

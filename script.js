@@ -354,8 +354,8 @@ function updatePaginationUI(current, total) {
   document.getElementById("totalPages").innerText = maxSemantic;
   document.getElementById("pageInput").value = semanticLabel;
   
-  const text1 = currentLayout === 'facsimile' ? 'Page' : 'Chapter';
-  const text2 = currentLayout === 'facsimile' ? 'Go to page:' : 'Go to chapter:';
+  const text1 = currentLayout === 'facsimile' ? 'Pagina' : 'Capitolo';
+  const text2 = currentLayout === 'facsimile' ? 'Vai a pagina:' : 'Vai al capitolo:';
   document.querySelectorAll('.pageLabel1').forEach(el => el.textContent = text1);
   document.querySelectorAll('.pageLabel2').forEach(el => el.textContent = text2);
 }
@@ -489,7 +489,8 @@ document.addEventListener("DOMContentLoaded", () => {
     selectSingleText(editionId);
 
     const wantedPageId = `${editionId}-page-${chapterNum}`;
-    const targetHash = window.location.hash.slice(1);
+    const targetHash = decodeURIComponent(window.location.hash.slice(1));
+    console.log("Navigating to page:", wantedPageId, "Hash:", targetHash);
 
     let tries = 0;
     const intervalId = setInterval(() => {
@@ -498,20 +499,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (pageIndex !== -1) {
         goToTextPage(pageIndex + 1, true); // page becomes visible
+      } else {
+        console.warn("Page index not found for:", wantedPageId);
+      }
 
-        if (targetHash) {
-          const pageContainer = document.getElementById(wantedPageId);
-          const target = pageContainer ? pageContainer.querySelector(`[id="${targetHash}"]`) : null;
-          if (target) {
-            setTimeout(() => {
-              scrollIntoView(target);
-              highlightElement(target);
-            }, 300);
-            clearInterval(intervalId);
+      if (targetHash) {
+        // Find target globally within viewer_text to avoid pageContainer mismatch
+        const target = document.querySelector(`#viewer_text [id="${targetHash}"]`);
+        if (target) {
+          console.log("Target found globally in text viewer:", target);
+          // Ensure its exact parent page is visible (bulletproof)
+          const parentPage = target.closest('.page');
+          if (parentPage) {
+            const pIndex = pages.findIndex(p => p === parentPage);
+            if (pIndex !== -1) {
+               goToTextPage(pIndex + 1, true);
+            }
           }
-        } else {
+          
+          setTimeout(() => {
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            highlightElement(target);
+          }, 300);
           clearInterval(intervalId);
+        } else {
+          console.warn("Target not found yet:", targetHash);
         }
+      } else {
+        // If no targetHash, we just needed to switch page
+        clearInterval(intervalId);
       }
 
       tries++;
@@ -683,7 +699,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // open panel if hash inside
-  const hash = window.location.hash.slice(1);
+  const hash = window.location.hash ? decodeURIComponent(window.location.hash.slice(1)) : '';
   if (hash) {
     const target = document.querySelector(`#viewer_text [id="${hash}"]`);
     if (target) {
@@ -757,4 +773,31 @@ document.addEventListener('DOMContentLoaded', () => {
   if (localStorage.getItem('accessibleFont') === 'true') {
     document.body.classList.add('accessible-mode');
   }
+});
+
+// Aggiungi un manifesto alla destra dell'ultimo aperto
+document.getElementById("add-manifest").addEventListener("click", () => {
+  const select = document.getElementById("manifest-select");
+  const manifestUrl = select.value;
+
+  if (!manifestUrl) {
+    alert("Seleziona un manifesto dal menu a tendina!");
+    return;
+  }
+
+  // Ottieni l'ID dell'ultima finestra aperta
+  const windows = miradorInstance.store.getState().windows;
+  const lastWindowId = windows[windows.length - 1]?.id;
+
+  // Aggiungi il nuovo manifesto alla destra dell'ultimo
+  miradorInstance.addWindow({
+    manifestId: manifestUrl,
+    position: lastWindowId ? { nextTo: lastWindowId, side: "right" } : undefined,
+  });
+
+  // Aggiungi il manifesto alla lista
+  const manifestList = document.getElementById("manifest-list-items");
+  const manifestItem = document.createElement("div");
+  manifestItem.textContent = select.options[select.selectedIndex].text;
+  manifestList.appendChild(manifestItem);
 });

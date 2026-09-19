@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivio Mirador - Il Barone di Nicastro</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles1.css">
+  <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css">
+</head>
+
+<body>
+
+  <header class="header-grid">
+
+    <!-- LEFT IMAGE -->
+    <div class="left-image">
+      <img src="img_sito/home.png" alt="Le Disgrazie del Numero Due">
+    </div>
+
+    <!-- TITLE (RIGHT TOP) -->
+    <div class="title">
+      <a href="home.html" style="text-decoration: none;">
+        <h1>Il <i>Barone di Nicastro</i> Digitale</h1>
+      </a>
+    </div>
+
+    <!-- NAVIGATION (RIGHT BOTTOM) -->
+    <nav class="navigation">
+      <ul class="nav-list">
+
+        <li class="dropdown">
+          <a href="home.html" class="dropbtn">HOME ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="progetto.html">Progetto</a></li>
+            <li><a href="mappa.html">Presentazione del sito</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="" class="dropbtn">NOTA INTRODUTTIVA ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="storia.html">Storia editoriale e redazionale</a></li>
+            <li><a href="trascrizione.html">Criteri di trascrizione</a></li>
+            <li><a href="codifica.html">Criteri di codifica</a></li>
+          </ul>
+        </li>
+
+        <li><a href="main.html">TESTO</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropbtn">RISORSE ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="listperson.html">Indice dei nomi</a></li>
+            <li><a href="biblio.html">Bibliografia</a></li>
+            <li><a href="archivio.html">Archivio facsimilare</a></li>
+          </ul>
+        </li>
+
+        <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">MAPPA</a></li>
+
+        <li><a href="#" onclick="toggleAccessibleFont(); return false;" title="Visualizzazione accessibile"><i class="fa-solid fa-universal-access"></i> ACCESSIBILITÀ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="archivio-container">
+    <div class="archivio-header">
+      <h2>Archivio dei manoscritti e delle riviste</h2>
+    </div>
+
+    <div class="archivio-controls">
+      <label for="manifest-select">Seleziona la fonte:</label>
+      <select id="manifest-select" class="archivio-select">
+        <option value="">-- Seleziona --</option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/RedazioneA/manifest.json">
+          Redazione A
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/RedazioneB/manifest.json">
+          Redazione B
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Aprile04/manifest.json">
+          Pungolo - 4 Aprile
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Aprile21/manifest.json">
+          Pungolo - 21 Aprile
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Maggio02/manifest.json">
+          Pungolo - 2 Maggio
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Maggio09/manifest.json">
+          Pungolo - 9 Maggio
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Agosto08/manifest.json">
+          Pungolo - 8 Agosto
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Agosto15/manifest.json">
+          Pungolo - 15 Agosto
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Pungolo/Agosto22/manifest.json">
+          Pungolo - 22 Agosto
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Fuggilozio/Aprile20/manifest.json">
+          Fuggilozio - 20 Aprile
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Fuggilozio/Aprile30/manifest.json">
+          Fuggilozio - 30 Aprile
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Fuggilozio/Maggio10/manifest.json">
+          Fuggilozio - 10 Maggio
+        </option>
+        <option value="https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Fuggilozio/Maggio20/iiif/manifest.json">
+          Fuggilozio - 20 Maggio
+        </option>
+      </select>
+
+      <button id="add-manifest" class="archivio-btn"><i class="fa-solid fa-plus"></i> Aggiungi al visualizzatore</button>
+      <button id="clear-all" class="archivio-btn archivio-btn-secondary"><i class="fa-solid fa-trash"></i> Pulisci tutto</button>
+
+      <div class="manifest-list" id="current-manifests" style="display: none;">
+        <h3>Manifesti attualmente aperti:</h3>
+        <div id="manifest-list-items" class="manifest-list-items"></div>
+      </div>
+    </div>
+
+    <!-- Contenitore per Mirador -->
+    <div id="mirador-viewer"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col footer-logos">
+        <a href="" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo" /></a>
+        <a href="" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
+            style="width: 100px;" /></a>
+        <a href="https://www.uniud.it/it" target="_blank"><img src="img_sito/logouniud.jpg" alt="Company Logo"
+            class="footer-logo" /></a>
+      </div>
+
+      <div class="footer-col">
+        <h5>Licenza</h5>
+        <small>©2025IlBarone di Nicastro Digitale | <a rel="license" data-spdx="CC-BY-SA-4.0"
+            href="http://creativecommons.org/licenses/bysa/4.0/"><img alt="Creative Commons License"
+              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is
+          licensed under a <a rel="license" data-spdx="CC-BY-SA-4.0"
+            href="http://creativecommons.org/licenses/bysa/4.0/">Creative Commons
+            Attribution-ShareAlike 4.0 International License</a></small>
+        <h5>Citare</h5>
+        <p>DOI:</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Mappa del Sito</h5>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="storia.html">Nota Introduttiva</a></li>
+          <li><a href="main.html">Testo</a></li>
+          <li><a href="listperson.html">Risorse</a></li>
+          <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">Mappa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contatti</h5>
+        <p>Bianca Del Buono</p>
+        <p>Email: <a href="mailto:biancadelbuono@homtail.it"
+            style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
+        <p>Federico Siragusa</p>
+        <p>Email: <a href="mailto:federicosiragusa1@gmail.com"
+            style="text-decoration: none;">federicosiragusa1@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Libreria Mirador -->
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+
+  <!-- Script personalizzato per gestire Mirador -->
+  <script>
+    // Inizializza Mirador con la lingua italiana
+    const miradorInstance = Mirador.viewer({
+      id: "mirador-viewer",
+      language: 'it',
+      windows: [],
+      workspaceControlPanel: {
+        enabled: true,
+      }
+    });
+
+    // Aggiungi un manifesto al visualizzatore
+    document.getElementById("add-manifest").addEventListener("click", () => {
+      const select = document.getElementById("manifest-select");
+      const manifestUrl = select.value;
+
+      if (!manifestUrl) {
+        alert("Seleziona un manifesto dal menu a tendina!");
+        return;
+      }
+
+      // Aggiungi il manifesto a Mirador
+      miradorInstance.store.dispatch(
+        Mirador.actions.addWindow({ manifestId: manifestUrl })
+      );
+
+      // Mostra il contenitore se era nascosto
+      const manifestListContainer = document.getElementById("current-manifests");
+      manifestListContainer.style.display = "block";
+
+      // Aggiungi il manifesto alla lista dei manifesti aperti
+      const manifestList = document.getElementById("manifest-list-items");
+      const manifestItem = document.createElement("span");
+      manifestItem.className = "manifest-badge";
+      manifestItem.innerHTML = select.options[select.selectedIndex].text;
+      manifestList.appendChild(manifestItem);
+    });
+
+    // Pulisce tutti i manifesti aperti
+    document.getElementById("clear-all").addEventListener("click", () => {
+      // Per pulire tutte le finestre in Mirador 3
+      const state = miradorInstance.store.getState();
+      const windowIds = Object.keys(state.windows);
+      
+      windowIds.forEach(windowId => {
+        miradorInstance.store.dispatch(
+          Mirador.actions.removeWindow(windowId)
+        );
+      });
+
+      // Pulisce la UI html
+      document.getElementById("manifest-list-items").innerHTML = "";
+      document.getElementById("current-manifests").style.display = "none";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/pm0mrsbesr8-mu8mt5a2",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/g8zuyq6n065-mu8n179n",
+      "type": "Canvas",
+      "height": 5550,
+      "width": 4044,
+      "label": {
+        "en": [
+          "p. 65"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/g8zuyq6n065-mu8n179n/annotation-page/hxhmxlzeh9-mu8n179n",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/8ce8qwlpqpo-mu8n16hr",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/g8zuyq6n065-mu8n179n",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_65.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5550,
+                "width": 4044
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/4ayteg0l4ba-mu8n1ir6",
+      "type": "Canvas",
+      "height": 5580,
+      "width": 4390,
+      "label": {
+        "en": [
+          "p. 66"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/4ayteg0l4ba-mu8n1ir6/annotation-page/4gx3tuwuft9-mu8n1ir6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/yh36y02ttfa-mu8n1i2d",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/4ayteg0l4ba-mu8n1ir6",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_66.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5580,
+                "width": 4390
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/6p42bgmmxei-mu8n1nqn",
+      "type": "Canvas",
+      "height": 5580,
+      "width": 4235,
+      "label": {
+        "en": [
+          "p. 67"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/6p42bgmmxei-mu8n1nqn/annotation-page/psdo23ywuvb-mu8n1nqn",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/641mkxounwm-mu8n1n3p",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/6p42bgmmxei-mu8n1nqn",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_67.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5580,
+                "width": 4235
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/nnzswicalnr-mu8n1s9w",
+      "type": "Canvas",
+      "height": 5590,
+      "width": 4387,
+      "label": {
+        "en": [
+          "p. 68"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/nnzswicalnr-mu8n1s9w/annotation-page/zeahswyti9s-mu8n1s9w",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/jc5freerxk-mu8n1rki",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/nnzswicalnr-mu8n1s9w",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_68.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5590,
+                "width": 4387
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/piod6tcsox-mu8n1w7b",
+      "type": "Canvas",
+      "height": 5590,
+      "width": 4175,
+      "label": {
+        "en": [
+          "p. 69"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/piod6tcsox-mu8n1w7b/annotation-page/fyu4g5bpaya-mu8n1w7b",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/qi1lnbu9nrk-mu8n1vmu",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/piod6tcsox-mu8n1w7b",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_69.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5590,
+                "width": 4175
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/h54i1g3azj4-mu8n21rw",
+      "type": "Canvas",
+      "height": 5576,
+      "width": 4364,
+      "label": {
+        "en": [
+          "p. 70"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/h54i1g3azj4-mu8n21rw/annotation-page/7s4jj5ovngg-mu8n21rw",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/uy2wkeaun-mu8n214h",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/h54i1g3azj4-mu8n21rw",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_70.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5576,
+                "width": 4364
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/53yivxl5qll-mu8n2bne",
+      "type": "Canvas",
+      "height": 5576,
+      "width": 4225,
+      "label": {
+        "en": [
+          "p. 71"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/53yivxl5qll-mu8n2bne/annotation-page/rqwc8ep5eu-mu8n2bne",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/u19sudof7u8-mu8n2aze",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/53yivxl5qll-mu8n2bne",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_71.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5576,
+                "width": 4225
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/jyj0b2z26wa-mu8n2gyb",
+      "type": "Canvas",
+      "height": 5602,
+      "width": 4315,
+      "label": {
+        "en": [
+          "p. 72"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/jyj0b2z26wa-mu8n2gyb/annotation-page/uqlt0pnf1zd-mu8n2gyb",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/2nm51e1aulj-mu8n2g9p",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/jyj0b2z26wa-mu8n2gyb",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_72.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5602,
+                "width": 4315
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/j4puftqr5c-mu8n2lu2",
+      "type": "Canvas",
+      "height": 5602,
+      "width": 4181,
+      "label": {
+        "en": [
+          "p. 73"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/j4puftqr5c-mu8n2lu2/annotation-page/xm45aiz5pk-mu8n2lu2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/ijtf668og9-mu8n2l9m",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/j4puftqr5c-mu8n2lu2",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_73.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5602,
+                "width": 4181
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/muhhqvi2c-mu8n2r05",
+      "type": "Canvas",
+      "height": 5604,
+      "width": 4400,
+      "label": {
+        "en": [
+          "p. 74"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/muhhqvi2c-mu8n2r05/annotation-page/3cu0n4mck1p-mu8n2r05",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/2e3cjqivc49-mu8n2qcp",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/muhhqvi2c-mu8n2r05",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_74.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5604,
+                "width": 4400
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/wxnppb6kq9f-mu8n2vua",
+      "type": "Canvas",
+      "height": 5604,
+      "width": 4227,
+      "label": {
+        "en": [
+          "p. 75"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/wxnppb6kq9f-mu8n2vua/annotation-page/sorzxru08z-mu8n2vua",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/jav86xoyjan-mu8n2v70",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/wxnppb6kq9f-mu8n2vua",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_75.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5604,
+                "width": 4227
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/mdqfp9nycca-mu8n30m4",
+      "type": "Canvas",
+      "height": 5580,
+      "width": 4373,
+      "label": {
+        "en": [
+          "p. 76"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/mdqfp9nycca-mu8n30m4/annotation-page/cin72t2lp6l-mu8n30m4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/pm0mrsbesr8-mu8mt5a2/annotation/jyhyudqkrh-mu8n2zye",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/pm0mrsbesr8-mu8mt5a2/canvas/mdqfp9nycca-mu8n30m4",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/images/pung57_04_21_76.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5580,
+                "width": 4373
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
