@@ -1,0 +1,3564 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iog43e7pxme-muddeoed",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tgg3wm8vc5-mue1tvym",
+      "type": "Canvas",
+      "height": 1929,
+      "width": 2309,
+      "label": {
+        "en": [
+          "Untitled canvas"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tgg3wm8vc5-mue1tvym/annotation-page/ckvj7phlnva-mue1tvym",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/rbz4clpy4p-mue1tvs9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/tgg3wm8vc5-mue1tvym",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_2.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1929,
+                "width": 2309
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1jhlfwx36wg-mue2dm8t",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "Untitled canvas"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1jhlfwx36wg-mue2dm8t/annotation-page/7163d515qyt-mue2dm8t",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/bx24gqdww3j-mue2dlxi",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/1jhlfwx36wg-mue2dm8t",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_3.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vzjf6fhzrer-mue2dto6",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "Untitled canvas"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vzjf6fhzrer-mue2dto6/annotation-page/z51iqj22mlr-mue2dto6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/hnli6pl234s-mue2dtck",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/vzjf6fhzrer-mue2dto6",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_4.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fywlisy34r9-mue2e14w",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 5"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fywlisy34r9-mue2e14w/annotation-page/cb6bhr1ifbt-mue2e14w",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/q2n2b8w8ad-mue2e0ud",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/fywlisy34r9-mue2e14w",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_5.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/mvy3jdzgkor-mue2e9kq",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 6-7"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/mvy3jdzgkor-mue2e9kq/annotation-page/iy8x7wwxgu-mue2e9kq",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ralff4fd1jl-mue2e9a6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/mvy3jdzgkor-mue2e9kq",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_6.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/8dk7cjcsbut-mue2go3h",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 8-9"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/8dk7cjcsbut-mue2go3h/annotation-page/3ww8eezupmh-mue2go3h",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/3d9b8ohslo6-mue2gmzm",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/8dk7cjcsbut-mue2go3h",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_7.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fc1tmhzizr-mue2gvfk",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 10-11"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fc1tmhzizr-mue2gvfk/annotation-page/fybwz50886n-mue2gvfk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/b8nokck6uf7-mue2gu7r",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/fc1tmhzizr-mue2gvfk",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_8.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1r75nazog9j-mue2h0fx",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 12-13"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1r75nazog9j-mue2h0fx/annotation-page/mtthnvtxbqj-mue2h0fx",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/4v73x7whqpt-mue2gzzi",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/1r75nazog9j-mue2h0fx",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_9.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/bodv4fieiht-mue2i9or",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 14-15"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/bodv4fieiht-mue2i9or/annotation-page/w13diqre9w8-mue2i9or",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/majmpufn2s9-mue2i959",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/bodv4fieiht-mue2i9or",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_10.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/2j0l7duibki-mue2iktj",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 16-17"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/2j0l7duibki-mue2iktj/annotation-page/xv0mg15nhlh-mue2iktj",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ye22gks8es9-mue2ike8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/2j0l7duibki-mue2iktj",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_11.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/40azxdr1q2o-mue2iu0j",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 18-19"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/40azxdr1q2o-mue2iu0j/annotation-page/hbtqlas0rw8-mue2iu0j",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/kgihlfaqpm-mue2itlj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/40azxdr1q2o-mue2iu0j",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_12.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/t0dlokia7jr-mue2j0ww",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2354,
+      "label": {
+        "en": [
+          "p. 20-21"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/t0dlokia7jr-mue2j0ww/annotation-page/nco1ehuvz6-mue2j0ww",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ofo4bw7kd29-mue2j0i6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/t0dlokia7jr-mue2j0ww",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_13.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2354
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/qhgt0kz5jq-mue2jevg",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 24-25"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/qhgt0kz5jq-mue2jevg/annotation-page/rlg4tgerrcq-mue2jevg",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/qry2kiueuu-mue2jedf",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/qhgt0kz5jq-mue2jevg",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_15.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/317rp7ococl-mue2jrss",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 26-27"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/317rp7ococl-mue2jrss/annotation-page/hhsnj3b5ukn-mue2jrss",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/3gwvadxrlsv-mue2jrc5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/317rp7ococl-mue2jrss",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_16.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/i2mdj3tc1f-mue2l6ok",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 28-29"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/i2mdj3tc1f-mue2l6ok/annotation-page/ks62s8yzclk-mue2l6ok",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/cbzwx4q02sr-mue2l6ci",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/i2mdj3tc1f-mue2l6ok",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_17.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/9p6cpz485lr-mue2ldug",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 30-31"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/9p6cpz485lr-mue2ldug/annotation-page/mxmvvymqg3d-mue2ldug",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/uz8w4mnb298-mue2lddr",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/9p6cpz485lr-mue2ldug",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_18.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/coat42ubku-mue2lodk",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 32-33"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/coat42ubku-mue2lodk/annotation-page/kuq4svhd479-mue2lodk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/8v7x4573al8-mue2lnu3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/coat42ubku-mue2lodk",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_19.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/i66b4dp1aa-mue2ltf3",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 34-35"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/i66b4dp1aa-mue2ltf3/annotation-page/osuv4uu46n-mue2ltf3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/mks7oj2igoq-mue2lsuu",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/i66b4dp1aa-mue2ltf3",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_20.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/e19g156pwvp-mue2m0db",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 36-37"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/e19g156pwvp-mue2m0db/annotation-page/3cvk0eq1v9y-mue2m0db",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/zmbjfvf0f4n-mue2lzxw",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/e19g156pwvp-mue2m0db",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_21.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/m0wefvvg5ll-mue2m6ti",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 38-39"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/m0wefvvg5ll-mue2m6ti/annotation-page/s0qyygzeuu-mue2m6ti",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/3qr10lwldw2-mue2m66i",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/m0wefvvg5ll-mue2m6ti",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_22.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ysjf97q1o7-mue2ov53",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 40-41"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ysjf97q1o7-mue2ov53/annotation-page/hag3j5y6ee-mue2ov53",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/0hwxholnfd2-mue2ourw",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ysjf97q1o7-mue2ov53",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_23.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/n0cixqdwrac-mue2pd8c",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 42-43"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/n0cixqdwrac-mue2pd8c/annotation-page/yniipp6c48-mue2pd8c",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/n2fzwj1he7-mue2pcmf",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/n0cixqdwrac-mue2pd8c",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_24.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/bpvs4ufuhgi-mue2pij7",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 44-45"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/bpvs4ufuhgi-mue2pij7/annotation-page/8fdj5myztrd-mue2pij7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/4gqncplkzmg-mue2pi5m",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/bpvs4ufuhgi-mue2pij7",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_25.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1s8pqmiejfk-mue2po44",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 46-47"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1s8pqmiejfk-mue2po44/annotation-page/eaigvk1c56j-mue2po44",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/jy574xjvql9-mue2pnq5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/1s8pqmiejfk-mue2po44",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_26.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/10mpakoghzt-mue2py3g",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 48-49"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/10mpakoghzt-mue2py3g/annotation-page/qrprvx36bzb-mue2py3g",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/rrple8qetn-mue2pxnd",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/10mpakoghzt-mue2py3g",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_27.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ruz46htunfq-mue2q5yv",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 50-51"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ruz46htunfq-mue2q5yv/annotation-page/0uz9wexrgg7m-mue2q5yv",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/x8rymln63pa-mue2q5i5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ruz46htunfq-mue2q5yv",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_28.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/0x3p6n21lmh-mue2rnz1",
+      "type": "Canvas",
+      "height": 1960,
+      "width": 2378,
+      "label": {
+        "en": [
+          "p. 52-53"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/0x3p6n21lmh-mue2rnz1/annotation-page/ag1in5dixg8-mue2rnz1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/635eng68mbw-mue2rnp9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/0x3p6n21lmh-mue2rnz1",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_29.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1960,
+                "width": 2378
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/eprcgb3ep7b-mue2ryql",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 54-55"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/eprcgb3ep7b-mue2ryql/annotation-page/6aybokbc8o2-mue2ryql",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/mvg1qfvx06-mue2ryeu",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/eprcgb3ep7b-mue2ryql",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_30.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/dl1fy1zi8db-mue2sxxk",
+      "type": "Canvas",
+      "height": 1947,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 56-57"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/dl1fy1zi8db-mue2sxxk/annotation-page/phofu3ea2na-mue2sxxk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/lekol0nrlde-mue2sxhk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/dl1fy1zi8db-mue2sxxk",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_31.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1947,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ttb44xzfs7m-mue2t56u",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 58-59"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ttb44xzfs7m-mue2t56u/annotation-page/ywar6a9u7cd-mue2t56u",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/t5kn6k9ywk-mue2t4t8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ttb44xzfs7m-mue2t56u",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_32.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/mkm89hc4k8i-mue2tegr",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 60-61"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/mkm89hc4k8i-mue2tegr/annotation-page/i0ir5a7c5w-mue2tegr",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/pfabxo45f6e-mue2te1y",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/mkm89hc4k8i-mue2tegr",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_33.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/w7yzae51ykh-mue2tnxq",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 62-63"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/w7yzae51ykh-mue2tnxq/annotation-page/u9xr0pt8aw-mue2tnxq",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ekji0m756pp-mue2tnaw",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/w7yzae51ykh-mue2tnxq",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_34.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/f6l8lku518m-mue2tt8o",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 64-65"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/f6l8lku518m-mue2tt8o/annotation-page/04t4fe3lop0d-mue2tt8o",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/60nu5g9tn4p-mue2tspc",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/f6l8lku518m-mue2tt8o",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_35.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7yrcj56l7z-mue2txvo",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 66-67"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7yrcj56l7z-mue2txvo/annotation-page/o9jyxxkad9q-mue2txvo",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/p28yh4fgtuk-mue2txeb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/7yrcj56l7z-mue2txvo",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_36.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/nmcl2pom8gq-mue2u7oo",
+      "type": "Canvas",
+      "height": 1948,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 68-69"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/nmcl2pom8gq-mue2u7oo/annotation-page/9sp98rrdclv-mue2u7oo",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/aegic6c93-mue2u6p8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/nmcl2pom8gq-mue2u7oo",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_37.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1948,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/we9wu3pajq-mue2ue4w",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2406,
+      "label": {
+        "en": [
+          "p. 70-71"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/we9wu3pajq-mue2ue4w/annotation-page/3lwfn4ty64h-mue2ue4w",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/qjgfvpcqc5r-mue2udju",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/we9wu3pajq-mue2ue4w",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_38.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/by01kovuff6-mue2uko8",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2422,
+      "label": {
+        "en": [
+          "p. 72-73"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/by01kovuff6-mue2uko8/annotation-page/y9gkh4lx1no-mue2uko8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/0n6ysyybzyw8-mue2uk6k",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/by01kovuff6-mue2uko8",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_39.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2422
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1zdp4721o9l-mue2uqly",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2421,
+      "label": {
+        "en": [
+          "p. 74-75"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1zdp4721o9l-mue2uqly/annotation-page/tf8cqgqb7g-mue2uqly",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/38mgxxx9vyc-mue2uq28",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/1zdp4721o9l-mue2uqly",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_40.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2421
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/p73w2ywt8un-mue35xxp",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 76-77"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/p73w2ywt8un-mue35xxp/annotation-page/k44cz6yj4dh-mue35xxp",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/o1pdq728x3d-mue35xlg",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/p73w2ywt8un-mue35xxp",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_41.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vdjh2zw0l6l-mue362wb",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 78-79"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vdjh2zw0l6l-mue362wb/annotation-page/qswu6pb001k-mue362wb",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/hoc24joqv4n-mue362a3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/vdjh2zw0l6l-mue362wb",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_42.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1avgg6mqgxy-mue367bh",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 80-81"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1avgg6mqgxy-mue367bh/annotation-page/3wignelkopo-mue367bi",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ubm24hapy9a-mue366ya",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/1avgg6mqgxy-mue367bh",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_43.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/r1eue35xe59-mue36bg9",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 82-83"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/r1eue35xe59-mue36bg9/annotation-page/ev4e6dxrcwf-mue36bg9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/bd57v3cej0f-mue36b33",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/r1eue35xe59-mue36bg9",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_44.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xfnideabyph-mue36fka",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 84-85"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xfnideabyph-mue36fka/annotation-page/pwp2hkapxsq-mue36fka",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/z3pd1nt859s-mue36f7q",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/xfnideabyph-mue36fka",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_45.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ytet8czsguj-mue36kwb",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 86-87"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ytet8czsguj-mue36kwb/annotation-page/imuaf3cpjra-mue36kwb",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/aek7ryp728j-mue36kl4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ytet8czsguj-mue36kwb",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_46.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fhbger8o48k-mue36q42",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 88-89"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fhbger8o48k-mue36q42/annotation-page/mdq9rtxjneh-mue36q42",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/gzoz67bbezq-mue36ppk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/fhbger8o48k-mue36q42",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_47.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xemqjz8snwo-mue36ur0",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 90-91"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xemqjz8snwo-mue36ur0/annotation-page/3mryc3244ms-mue36ur0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/lwhleeejg2-mue36ugl",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/xemqjz8snwo-mue36ur0",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_48.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/76by67ei8ul-mue3709y",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 92-93"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/76by67ei8ul-mue3709y/annotation-page/yx5qj1knre-mue3709y",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/p2j7furf17-mue36zzx",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/76by67ei8ul-mue3709y",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_49.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/dmx3y6u5tvu-mue37b4a",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 94-95"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/dmx3y6u5tvu-mue37b4a/annotation-page/anjdd06bkq5-mue37b4a",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/eko3t5pplh-mue37ae8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/dmx3y6u5tvu-mue37b4a",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_50.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fcjw8teknxv-mue3g50p",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 96-97"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/fcjw8teknxv-mue3g50p/annotation-page/luc0y1fh3o-mue3g50p",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/404ufye08xg-mue3g4dn",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/fcjw8teknxv-mue3g50p",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_51.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xaw4ipqhiqj-mue3ga0k",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 98-99"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xaw4ipqhiqj-mue3ga0k/annotation-page/yfyu2m4lsq-mue3ga0k",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/6l4iyfemrsn-mue3g9ej",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/xaw4ipqhiqj-mue3ga0k",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_52.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vulxrwq44wq-mue3gebm",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 100-101"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vulxrwq44wq-mue3gebm/annotation-page/wbx7559gzka-mue3gebm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/eo3jsn0aes-mue3gdtr",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/vulxrwq44wq-mue3gebm",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_53.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/sn33ndjbb1-mue3giou",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2440,
+      "label": {
+        "en": [
+          "p. 102-103"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/sn33ndjbb1-mue3giou/annotation-page/c4rtt21ofxp-mue3giou",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/31hmyw7z5yh-mue3gib3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/sn33ndjbb1-mue3giou",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_54.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2440
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/iocfn0fji4-mue3gmnq",
+      "type": "Canvas",
+      "height": 1968,
+      "width": 2460,
+      "label": {
+        "en": [
+          "p. 104-105"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/iocfn0fji4-mue3gmnq/annotation-page/qlisynt32tg-mue3gmnq",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/3755ujlf86h-mue3gma0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/iocfn0fji4-mue3gmnq",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_55.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1968,
+                "width": 2460
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/hpge4kabuao-mue3gt6t",
+      "type": "Canvas",
+      "height": 1956,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 106-107"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/hpge4kabuao-mue3gt6t/annotation-page/5348tlp0f6n-mue3gt6t",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/wsjdppql45l-mue3gsjh",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/hpge4kabuao-mue3gt6t",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_56.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1956,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/0xuitrcdubs-mue3gx4o",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 108-109"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/0xuitrcdubs-mue3gx4o/annotation-page/p67p0jeofel-mue3gx4o",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/x74712dju5-mue3gwuy",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/0xuitrcdubs-mue3gx4o",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_57.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xohc1ulp9w8-mue3h18q",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 110-111"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/xohc1ulp9w8-mue3h18q/annotation-page/h4zll60tzpt-mue3h18q",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/m2g2u2iz45-mue3h0mm",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/xohc1ulp9w8-mue3h18q",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_58.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ari60jxankd-mue3h60r",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 112-113"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ari60jxankd-mue3h60r/annotation-page/v7t4l0v8d9i-mue3h60r",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/exe8itdter8-mue3h4ub",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ari60jxankd-mue3h60r",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_59.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/r7twybn0dxf-mue3hdjt",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 114-115"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/r7twybn0dxf-mue3hdjt/annotation-page/qs5z74ub88-mue3hdjt",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/komw55a0va-mue3hd6e",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/r7twybn0dxf-mue3hdjt",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_60.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/yypj9hc3f4-mue3i5nv",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 116-117"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/yypj9hc3f4-mue3i5nv/annotation-page/9fs14ftlzn-mue3i5nv",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/j2rfole94gp-mue3i4m5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/yypj9hc3f4-mue3i5nv",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_61.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tlnu8eu0lja-mue3i9uo",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 118-119"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tlnu8eu0lja-mue3i9uo/annotation-page/woc3kd1khw-mue3i9uo",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/grombz8q7k8-mue3i9gm",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/tlnu8eu0lja-mue3i9uo",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_62.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/nrky1j2kksr-mue3ie5i",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 120-121"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/nrky1j2kksr-mue3ie5i/annotation-page/t2cl9uugcok-mue3ie5i",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/pdqrb5s1jsr-mue3idpb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/nrky1j2kksr-mue3ie5i",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_63.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7187algk7p8-mue3ijcw",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 122-123"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7187algk7p8-mue3ijcw/annotation-page/kd7s937ctd-mue3ijcw",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/brrjd8ulnz4-mue3iiit",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/7187algk7p8-mue3ijcw",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_64.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/5akuxjkx56f-mue3iosb",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 124-125"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/5akuxjkx56f-mue3iosb/annotation-page/ltg8rcxc6im-mue3iosb",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/rzuh8w6teao-mue3io8v",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/5akuxjkx56f-mue3iosb",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_65.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ep0n5m1x1ts-mue3ispl",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 126-127"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ep0n5m1x1ts-mue3ispl/annotation-page/6acqkzh8ysc-mue3ispl",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/mfzlj5sbtx-mue3isdb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ep0n5m1x1ts-mue3ispl",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_66.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/qaax732f76-mue3iwm7",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 128-129"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/qaax732f76-mue3iwm7/annotation-page/6pszr7qpbjx-mue3iwm7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/covhn3m6q6-mue3iw80",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/qaax732f76-mue3iwm7",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_67.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7r5h061bkwg-mue3j12p",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "130-131"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7r5h061bkwg-mue3j12p/annotation-page/1q6ho1wygg6h-mue3j12p",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/yv3qk8ftmw-mue3j0kx",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/7r5h061bkwg-mue3j12p",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_68.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/iz3dlyz2q7j-mue3j921",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 132-133"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/iz3dlyz2q7j-mue3j921/annotation-page/kevwkcsaimk-mue3j921",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/kboxnxcehep-mue3j8ny",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/iz3dlyz2q7j-mue3j921",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_69.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/t536j7jd8d8-mue3k0jb",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 134-135"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/t536j7jd8d8-mue3k0jb/annotation-page/mcpui1cf9vi-mue3k0jc",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ot93e43mmj-mue3k04z",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/t536j7jd8d8-mue3k0jb",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_70.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tfj81t5dx9-mue3k6rn",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 136-137"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tfj81t5dx9-mue3k6rn/annotation-page/py5rt345c8-mue3k6rn",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/mfksjt7j5qs-mue3k6fo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/tfj81t5dx9-mue3k6rn",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_71.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ayar29zedu-mue3kc7r",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 138-139"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ayar29zedu-mue3kc7r/annotation-page/v5cnd4it2b-mue3kc7r",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/p7cra0jk4nk-mue3kboc",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ayar29zedu-mue3kc7r",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_72.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/kws0jv9srx-mue3kgl7",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 140-141"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/kws0jv9srx-mue3kgl7/annotation-page/d9g9ir9iq0m-mue3kgl7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/bn0mpmpd7gn-mue3kg6v",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/kws0jv9srx-mue3kgl7",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_73.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/gm8k5pesgvi-mue3kl4e",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 142-143"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/gm8k5pesgvi-mue3kl4e/annotation-page/dzwy3zcspw7-mue3kl4e",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ctwpjh7fghq-mue3kkns",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/gm8k5pesgvi-mue3kl4e",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_74.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1ooshj5xf4cj-mue3kpka",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 144-145"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/1ooshj5xf4cj-mue3kpka/annotation-page/00lqjich7jabr-mue3kpka",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/0khnjmb915q-mue3kp1q",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/1ooshj5xf4cj-mue3kpka",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_75.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/lfy9xlo5hy-mue3kuqr",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 146-147"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/lfy9xlo5hy-mue3kuqr/annotation-page/abej8jdkqgk-mue3kuqr",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/t6lezgdecv-mue3ktuv",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/lfy9xlo5hy-mue3kuqr",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_76.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/z8pck5u9fi-mue3kzsk",
+      "type": "Canvas",
+      "height": 1957,
+      "width": 2432,
+      "label": {
+        "en": [
+          "p. 148-(1) frontespizio"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/z8pck5u9fi-mue3kzsk/annotation-page/enn3wwqq26u-mue3kzsk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/69tkdhlqwwe-mue3kzc4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/z8pck5u9fi-mue3kzsk",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_77.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1957,
+                "width": 2432
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/giq8538vb9a-mue3l4dc",
+      "type": "Canvas",
+      "height": 1984,
+      "width": 2441,
+      "label": {
+        "en": [
+          "(1) frontespizio"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/giq8538vb9a-mue3l4dc/annotation-page/ovssj9bnap-mue3l4dc",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/rfr086sr5h-mue3l3w1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/giq8538vb9a-mue3l4dc",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_78.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1984,
+                "width": 2441
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/p5a8tga5ilj-mue3lari",
+      "type": "Canvas",
+      "height": 2005,
+      "width": 2462,
+      "label": {
+        "en": [
+          "p. (1) -5"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/p5a8tga5ilj-mue3lari/annotation-page/22o8s60q2jc-mue3lari",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/7uy4a7c70nw-mue3lac2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/p5a8tga5ilj-mue3lari",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_79.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2005,
+                "width": 2462
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/jcjk5486fp-mue3lnpr",
+      "type": "Canvas",
+      "height": 1998,
+      "width": 2488,
+      "label": {
+        "en": [
+          "p. (1) 6-7"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/jcjk5486fp-mue3lnpr/annotation-page/zz5m3fuqxaa-mue3lnpr",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/speo3u968y-mue3ln4o",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/jcjk5486fp-mue3lnpr",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_80.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1998,
+                "width": 2488
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/6lurx5xudq-mue3mnhh",
+      "type": "Canvas",
+      "height": 1999,
+      "width": 2489,
+      "label": {
+        "en": [
+          "p. (1) 8-9"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/6lurx5xudq-mue3mnhh/annotation-page/q567s8a2l0n-mue3mnhh",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/irgce4nitrs-mue3mn07",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/6lurx5xudq-mue3mnhh",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_81.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1999,
+                "width": 2489
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/lvp048o0m38-mue3mtze",
+      "type": "Canvas",
+      "height": 1998,
+      "width": 2453,
+      "label": {
+        "en": [
+          "p. (1) 10-11"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/lvp048o0m38-mue3mtze/annotation-page/sufyges7pvi-mue3mtze",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/bndeifwnxak-mue3mtl8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/lvp048o0m38-mue3mtze",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_82.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1998,
+                "width": 2453
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/da5c2uhy4xm-mue3my5s",
+      "type": "Canvas",
+      "height": 1999,
+      "width": 2436,
+      "label": {
+        "en": [
+          "p. (1) 12-13"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/da5c2uhy4xm-mue3my5s/annotation-page/1u8gxbf0dhl-mue3my5s",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/dqcx5mqh2vp-mue3mxsb",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/da5c2uhy4xm-mue3my5s",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_83.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1999,
+                "width": 2436
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/5y2hx1t5cil-mue3n50s",
+      "type": "Canvas",
+      "height": 1998,
+      "width": 2437,
+      "label": {
+        "en": [
+          "p. (1) 14-15"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/5y2hx1t5cil-mue3n50s/annotation-page/ya0u82vfi6-mue3n50s",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/990xlgefebf-mue3n4n5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/5y2hx1t5cil-mue3n50s",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_84.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1998,
+                "width": 2437
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/gipstn0o3jt-mue3n9lk",
+      "type": "Canvas",
+      "height": 1951,
+      "width": 2371,
+      "label": {
+        "en": [
+          "p (1) 16-17"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/gipstn0o3jt-mue3n9lk/annotation-page/3s7j0kfgymp-mue3n9lk",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/l2zh6ddo9wl-mue3n997",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/gipstn0o3jt-mue3n9lk",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_85.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1951,
+                "width": 2371
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/8c0c8hi2nlm-mue3nekm",
+      "type": "Canvas",
+      "height": 1974,
+      "width": 2408,
+      "label": {
+        "en": [
+          "p. (1) 18-19"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/8c0c8hi2nlm-mue3nekm/annotation-page/drhkn2x4cxk-mue3nekm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/1dh9dz1f5icj-mue3ne09",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/8c0c8hi2nlm-mue3nekm",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_86.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1974,
+                "width": 2408
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7lwd2wbks8v-mue3nijd",
+      "type": "Canvas",
+      "height": 1973,
+      "width": 2408,
+      "label": {
+        "en": [
+          "p. (1) 20-21"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7lwd2wbks8v-mue3nijd/annotation-page/lh4kjym543-mue3nijd",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/nkh1bh7zxe-mue3ni88",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/7lwd2wbks8v-mue3nijd",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_87.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1973,
+                "width": 2408
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/81gwoagdbz-mue3nmy1",
+      "type": "Canvas",
+      "height": 1974,
+      "width": 2408,
+      "label": {
+        "en": [
+          "p. (1) 22-23"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/81gwoagdbz-mue3nmy1/annotation-page/naxyqr97ke-mue3nmy1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/mda22tg8ry-mue3nm7n",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/81gwoagdbz-mue3nmy1",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_88.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1974,
+                "width": 2408
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/zxzpav4xevo-mue3nt2o",
+      "type": "Canvas",
+      "height": 1973,
+      "width": 2408,
+      "label": {
+        "en": [
+          "p. (1) 24-25"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/zxzpav4xevo-mue3nt2o/annotation-page/59tk7b6k8m5-mue3nt2o",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/rudmf4yr25-mue3nru9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/zxzpav4xevo-mue3nt2o",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_89.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1973,
+                "width": 2408
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/cmzobkqzxwa-mue3o15k",
+      "type": "Canvas",
+      "height": 1974,
+      "width": 2408,
+      "label": {
+        "en": [
+          "p. (1) 26-27"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/cmzobkqzxwa-mue3o15k/annotation-page/xwsgq920ue-mue3o15k",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/zjz4wdfkerg-mue3o0rr",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/cmzobkqzxwa-mue3o15k",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_90.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1974,
+                "width": 2408
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/o2apqv7bjqc-mue47hu7",
+      "type": "Canvas",
+      "height": 1974,
+      "width": 2408,
+      "label": {
+        "en": [
+          "p. (1) 28-29"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/o2apqv7bjqc-mue47hu7/annotation-page/3gavzjiterc-mue47hu7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/24i4q0hvkyf-mue47hkj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/o2apqv7bjqc-mue47hu7",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_91.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1974,
+                "width": 2408
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/m6dp2d2y6lo-mue47mh5",
+      "type": "Canvas",
+      "height": 2009,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 30-31"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/m6dp2d2y6lo-mue47mh5/annotation-page/bla2pkpf9f4-mue47mh5",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/7zc3thhd0iy-mue47m74",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/m6dp2d2y6lo-mue47mh5",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_92.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2009,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/x9wceuq7rk-mue47r00",
+      "type": "Canvas",
+      "height": 2010,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 32-33"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/x9wceuq7rk-mue47r00/annotation-page/qm7qyanx23-mue47r00",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/zof3qj08ad-mue47qr3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/x9wceuq7rk-mue47r00",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_93.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2010,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/uih4vv6x7o-mue47v9y",
+      "type": "Canvas",
+      "height": 2009,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 34-35"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/uih4vv6x7o-mue47v9y/annotation-page/bwgz7ksahl-mue47v9y",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/mqb0kac139j-mue47uyr",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/uih4vv6x7o-mue47v9y",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_94.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2009,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/den0w6qkgpt-mue47zbp",
+      "type": "Canvas",
+      "height": 2010,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 36-37"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/den0w6qkgpt-mue47zbp/annotation-page/2rxl4onodyk-mue47zbp",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/2ky0emk3vjc-mue47yxo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/den0w6qkgpt-mue47zbp",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_95.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2010,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ovzlh4i4i6r-mue488if",
+      "type": "Canvas",
+      "height": 2009,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 38-39"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ovzlh4i4i6r-mue488if/annotation-page/kmwf7k0jfxq-mue488if",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/jyr742fgha-mue4887v",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ovzlh4i4i6r-mue488if",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_96.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2009,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/cw7x796edzb-mue48gn9",
+      "type": "Canvas",
+      "height": 2010,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 40-41"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/cw7x796edzb-mue48gn9/annotation-page/pnpfgauuohd-mue48gn9",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/sbikux25o1g-mue48ge5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/cw7x796edzb-mue48gn9",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_97.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2010,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tnqatqaw01p-mue48mhm",
+      "type": "Canvas",
+      "height": 2009,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 42-43"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/tnqatqaw01p-mue48mhm/annotation-page/qzp3ba8erbm-mue48mhm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/cl20or1qnrb-mue48m5j",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/tnqatqaw01p-mue48mhm",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_98.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2009,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/btvdwdyacj4-mue48qsd",
+      "type": "Canvas",
+      "height": 1980,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 44-45"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/btvdwdyacj4-mue48qsd/annotation-page/ajezvjjr2ls-mue48qsd",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/jen4bocapq-mue48q1r",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/btvdwdyacj4-mue48qsd",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_99.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1980,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/cm5sa0n12oq-mue48y2d",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 46-47"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/cm5sa0n12oq-mue48y2d/annotation-page/qrzw1owcybp-mue48y2d",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/cdj6lvmn6zi-mue48xnk",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/cm5sa0n12oq-mue48y2d",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_100.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7igqp8e6m9a-mue494c3",
+      "type": "Canvas",
+      "height": 1978,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 48-49"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/7igqp8e6m9a-mue494c3/annotation-page/uskjkpdwjdl-mue494c3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/5zkmvdxwhh-mue493pj",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/7igqp8e6m9a-mue494c3",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_101.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1978,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/si4x0aki19a-mue499pv",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 50-51"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/si4x0aki19a-mue499pv/annotation-page/t035s0bll9-mue499pv",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/pt3jxp8b2h-mue499ci",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/si4x0aki19a-mue499pv",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_102.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/e7ob155g5h7-mue49e6f",
+      "type": "Canvas",
+      "height": 1978,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 52-53"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/e7ob155g5h7-mue49e6f/annotation-page/g87pjufam0q-mue49e6f",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/nyaywchdy8g-mue49drx",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/e7ob155g5h7-mue49e6f",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_103.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1978,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/6ke8duaprgw-mue49jw7",
+      "type": "Canvas",
+      "height": 1978,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 56-57"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/6ke8duaprgw-mue49jw7/annotation-page/94nbdk3pv1a-mue49jw7",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/60wm3uhhlam-mue49je7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/6ke8duaprgw-mue49jw7",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_105.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1978,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/erddx6mtd0c-mue49q1b",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 58-59"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/erddx6mtd0c-mue49q1b/annotation-page/47nlsp755er-mue49q1b",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/1llwghoxla2-mue49oqh",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/erddx6mtd0c-mue49q1b",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_106.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/kv9lycx8l2h-mue49vbv",
+      "type": "Canvas",
+      "height": 1998,
+      "width": 2465,
+      "label": {
+        "en": [
+          "p. (1) 60-"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/kv9lycx8l2h-mue49vbv/annotation-page/ehen5dv293-mue49vbv",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/qto99l8idus-mue49uxo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/kv9lycx8l2h-mue49vbv",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_107.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1998,
+                "width": 2465
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vnjjouxsch-mue4a0fy",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) -63"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/vnjjouxsch-mue4a0fy/annotation-page/xn20y15trn-mue4a0fy",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/kgt755ci4v-mue49zy3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/vnjjouxsch-mue4a0fy",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_108.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/waon3p5jcw8-mue4a4yb",
+      "type": "Canvas",
+      "height": 1978,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 64-65"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/waon3p5jcw8-mue4a4yb/annotation-page/yurjvapz34-mue4a4yb",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/ieir5e75smo-mue4a4io",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/waon3p5jcw8-mue4a4yb",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_109.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1978,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/t1b8lpa3ew-mue4acy0",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 66-67"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/t1b8lpa3ew-mue4acy0/annotation-page/qa5hhp5ogp-mue4acy0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/3i1f8dxov1i-mue4acd1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/t1b8lpa3ew-mue4acy0",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_110.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/jlkrjb9wyj-mue4aucq",
+      "type": "Canvas",
+      "height": 1978,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 68-69"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/jlkrjb9wyj-mue4aucq/annotation-page/ey4dfn25pr-mue4aucq",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/i2be9dchlzm-mue4atxe",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/jlkrjb9wyj-mue4aucq",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_111.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1978,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ajmwjp15l3g-mue4b15r",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 74-75"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/ajmwjp15l3g-mue4b15r/annotation-page/m6kxrl22qxk-mue4b15r",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/i85ingyu5a8-mue4b0p2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/ajmwjp15l3g-mue4b15r",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_114.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/kkwf9o4qn0e-mue4b727",
+      "type": "Canvas",
+      "height": 1979,
+      "width": 2492,
+      "label": {
+        "en": [
+          "p. (1) 78-79"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/kkwf9o4qn0e-mue4b727/annotation-page/8rn5uvlxqph-mue4b727",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/pekfdgi4irc-mue4b6ne",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/kkwf9o4qn0e-mue4b727",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_116.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1979,
+                "width": 2492
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iog43e7pxme-muddeoed/canvas/58k1dvya3gl-mue4bd5f",
+      "type": "Canvas",
+      "height": 2038,
+      "width": 2558,
+      "label": {
+        "en": [
+          "p. (1) 96-97"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/iog43e7pxme-muddeoed/canvas/58k1dvya3gl-mue4bd5f/annotation-page/2j5xlu5xg5d-mue4bd5f",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iog43e7pxme-muddeoed/annotation/s62dlxa9zt9-mue4bcsf",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/iog43e7pxme-muddeoed/canvas/58k1dvya3gl-mue4bd5f",
+              "body": {
+                "id": "https://ai4ch-uniud.github.io/baronenicastrodigital/iiif-workshop/Sanvito/p_125.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2038,
+                "width": 2558
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
