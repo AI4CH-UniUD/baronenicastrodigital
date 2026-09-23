@@ -493,7 +493,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Navigating to page:", wantedPageId, "Hash:", targetHash);
 
     let tries = 0;
-    const intervalId = setInterval(() => {
+    const checkAndScrollText = () => {
       const pages = getCurrentPages();
       const pageIndex = pages.findIndex(p => p.id === wantedPageId);
 
@@ -519,46 +519,61 @@ document.addEventListener("DOMContentLoaded", () => {
             }
           }
           
-          setTimeout(() => {
+          requestAnimationFrame(() => {
             target.scrollIntoView({ behavior: 'smooth', block: 'center' });
             highlightElement(target);
-          }, 300);
-          clearInterval(intervalId);
+          });
+          return true; // Found and scrolled
         } else {
           console.warn("Target not found yet:", targetHash);
+          return false; // Not found yet
         }
       } else {
-        // If no targetHash, we just needed to switch page
-        clearInterval(intervalId);
+        return true; // No hash to find
       }
+    };
 
-      tries++;
-      if (tries > 50) clearInterval(intervalId);
-    }, 100); // retry every 100ms up to 5 seconds
+    if (!checkAndScrollText()) {
+      const intervalId = setInterval(() => {
+        tries++;
+        if (checkAndScrollText() || tries > 50) {
+          clearInterval(intervalId);
+        }
+      }, 50); // faster polling and no initial delay
+    }
   }
 
   else if (view === "synoptic" && pageParam) {
     const editions = pageParam.split(",");
     editions.forEach(id => toggleView(id));
-    // Aspetta che le pagine sinottiche siano caricate
-    const checkAndScroll = setInterval(() => {
+    let tries = 0;
+    const checkAndScrollSynoptic = () => {
       const target = document.querySelector(`#viewer_text [id="${hash}"]`);
       if (target) {
-        clearInterval(checkAndScroll);
         const [editionId, chapterNum] = pageParam.split("-");
-        // Trova l'indice della pagina corretta
         const chapterKeys = getCommonChapterKeys();
         const targetKey = `${editionId}-${chapterNum}`;
         const pageIndex = chapterKeys.findIndex(key => key === targetKey);
         if (pageIndex !== -1) {
           goToSynopticPage(pageIndex + 1); // +1 perché gli indici partono da 1
-          setTimeout(() => {
+          requestAnimationFrame(() => {
             scrollIntoView(target);
             highlightElement(target);
-          }, 300);
+          });
         }
+        return true;
       }
-    }, 100); // Controlla ogni 100ms
+      return false;
+    };
+
+    if (!checkAndScrollSynoptic()) {
+      const checkAndScroll = setInterval(() => {
+        tries++;
+        if (checkAndScrollSynoptic() || tries > 50) {
+          clearInterval(checkAndScroll);
+        }
+      }, 50); // faster polling and no initial delay
+    }
   }
 });
 
@@ -717,33 +732,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('/main2.html') // path to your parallel page
-    .then(res => res.text())
-    .then(pageText => {
-      document.querySelectorAll('.occurrence-cell').forEach(cell => {
-        let name = cell.dataset.name;
-        // Match with up to 30 chars before/after
-        let regex = new RegExp('(.{0,30})(' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')(.{0,30})', 'gi');
-        let matches = [...pageText.matchAll(regex)];
-
-        if (matches.length > 0) {
-          let table = '<table class="occ-table" border="1"><tr><th>Before</th><th>Match</th><th>After</th><th>Position</th></tr>';
-          matches.forEach(m => {
-            let before = m[1];
-            let match = m[2];
-            let after = m[3];
-            let pos = pageText.indexOf(match);
-            table += '<tr><td>' + before + '</td><td class="highlight">' + match + '</td><td>' + after + '</td><td>' + pos + '</td></tr>';
-          });
-          table += '</table>';
-          cell.innerHTML = table;
-        } else {
-          cell.textContent = 'No occurrences';
-        }
-      });
-    });
-});
 
 // removed duplicate event listeners
 
