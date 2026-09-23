@@ -262,8 +262,8 @@ function updateSynopticView() {
   activeEditionIds.forEach(id => {
     const ed = document.getElementById(id);
     if (!ed) return;
-    const pageDiv = ed.querySelector(`.page[data-chapter="${targetKey}"]`);
-    if (pageDiv) pageDiv.style.display = 'block';
+    const pageDivs = ed.querySelectorAll(`.page[data-chapter="${targetKey}"]`);
+    pageDivs.forEach(div => div.style.display = 'block');
     ed.style.display = 'flex';
     ed.style.flex = '1 1 0';
     ed.style.flexDirection = 'column';

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Layout Controls</title>
+  <title>Il Barone di Nicastro Digitale</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="styles1.css">
@@ -45,6 +45,7 @@
             <li><a href="storia.html">Storia editoriale e redazionale</a></li>
             <li><a href="trascrizione.html">Criteri di trascrizione</a></li>
             <li><a href="codifica.html">Criteri di codifica</a></li>
+            <li><a href="guida.html">Guida all’edizione</a></li>
           </ul>
         </li>
 
@@ -70,45 +71,21 @@
   <h1>Criteri editoriali di codifica</h1>
   <div class="image-text-block">
     <img src="img_sito/sez_nota.jpg" class="wrap-image-right">
-    <h2>Manoscritti</h2>
-    <p>La codifica è stata svolta seguendo il <i>markup language</i> XML, secondo le linee guida del <i>Consorzio
-        TEI</i>. Non volendo presentare un'edizione critica, ma una piattaforma che restituisse le varie redazioni note,
-      la codifica è stata effettuata separatamente, ogni testimone costituisce un file XML a sé stante. Per la
-      realizzazione della sezione TESTO, si he deciso di utilizzare <code>xi:include</code>, recuperando quindi i dati
-      dai vari file XML e riunendole in un unico documento. Questo è stato sottoposto ad un singolo foglio di
-      trasformazione XSLT, per la creazione della pagina HTML, stilizzata con un foglio CSS e che si basa sulle funzioni
-      esplicitate in JavaScript.</p>
+    <p>La codifica è stata svolta in <code>XML</code>, secondo lo standard proposto nelle linee guida del <i>Consorzio TEI</i>. Non volendo presentare un’edizione critica, ma una piattaforma che restituisse le varie redazioni note, la codifica è stata effettuata separatamente: ogni testimone, perciò, costituisce un file <code>XML</code> a sé stante. Per la realizzazione della sezione <strong><a href="main.html">TESTO</a></strong>, si è deciso di utilizzare <code>xi:include</code>, recuperando quindi i dati dai vari file <code>XML</code> e riunendole in un unico documento. Questo è stato sottoposto a due fogli di trasformazione differenti (<code>XSLT</code>), per la creazione della pagina <code>HTML</code> rispettivamente del testo dell’edizione e dell’indice dei nomi. L’indice dei nomi applica il foglio di stile <code>CSS</code> del resto del sito, mentre una specifica stilizzazione viene applicata al testo dell’edizione.</p>
     <p>L’uso delle parentetiche risulta piuttosto regolare; per questo motivo si è scelto di integrare le parentesi di
       chiusura mancanti, codificando l’intervento attraverso l’elemento <code>&lt;supplied&gt;</code> e attributo
       <code>@reason=“omitted-in-original”</code> (<i>senza contare les employes che appartengono a tutti e sette &gt;
         (senza contare les employes che appartengono a tutti e sette
         <code>&lt;supplied reason=“omitted-in-original”&gt;)&lt;/supplied&gt;</code></i>).</p>
     <p>Gli interventi riguardanti accenti, apostrofi ed elisioni sono stati opportunamente segnati in sede di codifica
-      tramite l’elemento <code>&lt;w&gt;</code> e l’attributo <code>@orig</code>, nel quale è stata indicata la forma
-      effettivamente riscontrata nel manoscritto (<code>&lt;w orig=perche&gt;perché&lt;/w&gt;</code>). Analogamente,
-      sono stati reintegrati tutti gli apostrofi omessi in presenza dell’indeterminativo femminile davanti a vocale (un
-      altra donna > un’altra donna etc.).</p>
-    <p>Rare e non sempre riconducibili a Nievo le lezioni sottolineate nel manoscritto: in tale contesto, la codifica
-      <code>TEI XML</code> ha permesso di unire all’usuale resa grafica del corsivo (tramite l’elemento
-      <code>&lt;hi&gt;</code> e l’attributo <code>@rend</code> con valore <code>“italic”</code>) anche l’indicazione
-      della mano responsabile della sottolineatura (tramite l’attributo <code>@resp</code>, con valori disponibili
-      <code>“#Ippolito-Nievo”</code> e <code>“#archivista”</code>).</p>
-    <p>Le variabili fonetiche riscontrabili nei manoscritti del <i>Barone di Nicastro</i>, particolarmente evidenti in
-      relazione all’uso delle consonanti scempie e geminate per l’azione combinata di influsso dialettale e
-      ipercorrettismo, sono state tutte conservate.</p>
-    <p>L’uso combinato degli elementi <code>&lt;choice&gt;</code>, <code>&lt;abbr&gt;</code> (che codifica
-      l’abbreviazione a testo) e <code>&lt;expan&gt;</code> (che contiene il relativo scioglimento) vengono utilizzati
+      tramite l’elemento <code>&lt;choice&gt;</code>, contenente <code>&lt;orig&gt;</code> e <code>&lt;reg&gt;</code>, con cui si indicano la forma originaria e la forma regolarizzata (<i><code>&lt;choice&gt;</code><code>&lt;orig&gt;</code>perche<code>&lt;/orig&gt;</code><code>&lt;reg&gt;</code>perché<code>&lt;/reg&gt;</code><code>&lt;/choice&gt;</code></i>). Analogamente, sono stati reintegrati tutti gli apostrofi omessi in presenza dell’indeterminativo femminile davanti a vocale (<i>un altra donna</i> > <i>un’altra donna</i> etc.).</p>
+    <p>Lo studio delle carte ha suggerito all’editrice di non ricondurre tutte le lezioni sottolineate alla mano di Nievo: in tale contesto, la codifica <code>TEI XML</code> ha permesso di unire alla sottolineatura  (tramite l’elemento <code>&lt;hi&gt;</code> e l’attributo <code>@rend</code> con valore <code>"underline"</code>) anche l’indicazione
+      della mano responsabile della sottolineatura (tramite l’attributo <code>@resp</code>, con valore <code>“#archivista”</code>, qualora la mano non sia quella di Nievo).</p>
+    <p>L’uso combinato degli elementi <code>&lt;choice&gt;</code>, <code>&lt;abbr&gt;</code> (che codifica l’abbreviazione a testo) e <code>&lt;expan&gt;</code> (che contiene il relativo scioglimento) vengono utilizzati
       per le abbreviazioni che sono state sciolte.</p>
-    <p>Anche per quanto riguarda le parole o le lettere illeggibili, solitamente indicate con asterischi fra parentesi
-      quadre, si è scelto di ricorrere agli strumenti offerti dal vocabolario della TEI: le parole che non si sono
-      potute decifrare sono state codificate attraverso l’elemento <code>&lt;gap&gt;</code> e gli attributi congiunti
-      @reason (con valore <code>“illegible”</code>), <code>@unit</code> (con valore <code>“char”</code>, carattere
-      tipografico) e <code>@unit</code> (il cui valore è determinato dal numero delle lettere conteggiabili); per le
-      lacune dovute alla cattiva conservazione dei manoscritti si è invece fatto ricorso all’attributo
-      <code>&lt;damage&gt;</code> unito agli attributi <code>@type</code>, <code>@agent</code>,
-      <code>@extent</code>/<code>@quantity</code> per indicare la tipologia di danneggiamento, la causa (ad esempio
-      acqua, bruciature, tagli di carta, cera lacca) e l’estensione (in lettere conteggiabili, tramite l’attributo
-      <code>@extent</code>, o in millimetri, tramite <code>@quantity</code>).</p>
+    <p>Il manoscritto presenta talvolta degli spazi bianchi, lasciati probabilmente da Nievo per potervi ritornare in un secondo momento : questi vengono segnalati dall’elemento <code>&lt;gap&gt;</code> con attributo <code>@reason</code> e il relativo valore <code>"blank space"</code>. Lo stato di conservazione dei manoscritti presenta delle lacune che vengono codificate con l’elemento <code>&lt;damage&gt;</code> e con l’attributo <code>@agent</code> cos’ha causato il danneggiamento (<code>"cut"</code>, <code>"water"</code>, <code>"fire"</code> e <code>"glue"</code>), nell’ultimo caso viene inoltre definita <code>"macchia"</code> come tipologia di danno. Qualora la mano dell’autore non fosse leggibile, o non fosse ricostruibile a causa del danneggiamento, vengono introdotte le <i>cruces desperationis</i>.</p>
+    <p>Nella pratica scrittoria, capita che Nievo ometta delle cancellature, causa inattenzione, dimenticanza o rapidità nella correzione: queste vengono codificate con l’elemento <code>&lt;surplus reason="missed delations"&gt;</code>. I vari interventi dell’autore sul testo vengono identificati e segnalati attraverso l’elemento <code>&lt;mod&gt;</code> il cui attributo <code>@change</code> porta il valore <code>"intervento-1"</code>, <code>"intervento-2"</code> o <code>"intervento-3"</code>, per restituire la temporalità nella pratica scrittoria.</p>
+    <p>Oltre agli elementi propri al manoscritto nella sua materialità e nella sua rielaborazione, vengono codificati i forestierismi o prestiti linguistici con l’elemento <code>&lt;foreign&gt;</code> che vengono associati alla lingua d’origine (latino, spagnolo, turco, arabo, inglese, francese ed ebraico). Inoltre, vengono codificati i personaggi storici con i <code>&lt;persName&gt;</code>, con cui viene in seguito realizzato l’indice dei nomi. Infine, sono state identificate le citazioni ed esplicitati i relativi riferimenti bibliografici.</p>
       <p>
       <span style="float: right;">Federico Siragusa</span>
     </p>
@@ -117,8 +94,8 @@
   <footer class="footer">
     <div class="footer-container">
       <div class="footer-col footer-logos">
-        <a href="" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo" /></a>
-        <a href="" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
+        <a href="https://dium.uniud.it/it/ricerca/progetti-corso/territorio-formazione-societa/nievo-e-la-cultura-letteraria-del-risorgimento-contesti-paradigmi-e-riscritture-1850-1870/" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo" /></a>
+        <a href="https://dium.uniud.it/it/" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
             style="width: 100px;" /></a>
         <a href="https://www.uniud.it/it" target="_blank"><img src="img_sito/logouniud.jpg" alt="Company Logo"
             class="footer-logo" /></a>
@@ -126,14 +103,11 @@
 
       <div class="footer-col">
         <h5>Licenza</h5>
-        <small>© 2025 Il Barone di Nicastro Digitale | <a rel="license" data-spdx="CC-BY-SA-4.0"
-            href="http://creativecommons.org/licenses/bysa/4.0/"><img alt="Creative Commons License"
-              style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is
-          licensed under a <a rel="license" data-spdx="CC-BY-SA-4.0"
-            href="http://creativecommons.org/licenses/bysa/4.0/">Creative Commons
-            Attribution-ShareAlike 4.0 International License</a></small>
-        <h5>Citare</h5>
-        <p>DOI:</p>
+        <small>© 2026 Bianca Del Buono & Federico Siragusa | <a rel="license" data-spdx="CC-BY-SA-4.0"
+            href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License"
+              style="width:50%" src="https://creativecommons.it/chapterIT/wp-content/uploads/2021/01/CC-by.png" /></a></small>
+        <h5>DOI</h5>
+        <p>Lorem ipsum</p>
       </div>
 
       <div class="footer-col">
@@ -152,10 +126,12 @@
         <p>Bianca Del Buono</p>
         <p>Email: <a href="mailto:biancadelbuono@homtail.it"
             style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
+            <p>Federico Siragusa</p>
+        <p>Email: <a href="mailto:federicosiragusa1@gmail.com"
+            style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
       </div>
     </div>
   </footer>
-
 
 
   <script src="script.js"></script>

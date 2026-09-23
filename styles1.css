@@ -495,7 +495,7 @@ li {
 }
 
 [id] {
-  scroll-margin-top: 270px; /* adjust to header height */
+  scroll-margin-top: 20px; /* adjusted for non-sticky or smaller header */
 }
 
 
