@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Barone di Nicastro Digitale</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+
+  <header class="header-grid">
+
+    <!-- LEFT IMAGE -->
+    <div class="left-image">
+      <img src="img_sito/home.png" alt="Le Disgrazie del Numero Due">
+    </div>
+
+    <!-- TITLE (RIGHT TOP) -->
+    <div class="title">
+      <a href="index.html" style="text-decoration: none;">
+        <h1>Il <i>Barone di Nicastro</i> Digitale</h1>
+      </a>
+    </div>
+
+    <!-- NAVIGATION (RIGHT BOTTOM) -->
+    <nav class="navigation">
+      <ul class="nav-list">
+
+        <li class="dropdown">
+          <a href="index.html" class="dropbtn">HOME ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="progetto.html">Progetto</a></li>
+            <li><a href="mappa.html">Presentazione del sito</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="" class="dropbtn">NOTA INTRODUTTIVA ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="storia.html">Storia editoriale e redazionale</a></li>
+            <li><a href="trascrizione.html">Criteri di trascrizione</a></li>
+            <li><a href="codifica.html">Criteri di codifica</a></li>
+            <li><a href="guida.html">Guida all’edizione</a></li>
+          </ul>
+        </li>
+
+        <li><a href="main.html">TESTO</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropbtn">RISORSE ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="listperson.html">Indice dei nomi</a></li>
+            <li><a href="biblio.html">Bibliografia</a></li>
+            <li><a href="archivio.html">Archivio facsimilare</a></li>
+          </ul>
+        </li>
+
+        <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">MAPPA</a></li>
+
+      
+        <li><a href="#" onclick="toggleAccessibleFont(); return false;" title="Visualizzazione accessibile"><i class="fa-solid fa-universal-access"></i> ACCESSIBILITÀ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Guida all’edizione</h1>
+  <div class="image-text-block">
+    <img src="img_sito/sez_nota.jpg" class="wrap-image-right">
+    <p>Nella sezione <strong><a href="main.html">TESTO</a></strong> si accede all’edizione del <i>Barone di Nicastro</i>: per impostazione predefinita, la sezione si apre sulla visualizzazione facsimilare, dotata di funzionalità specifiche. Il testo può essere consultato anche nelle visualizzazioni «Testo semplice» e «Visualizzazione sinottica». I facsimili dei manoscritti e dei testi a stampa possono essere ingranditi, per garantire un migliore accesso alle fonti. Accanto al facsimile è affiancata la trascrizione semidiplomatica, che riproduce il testo così come si presenta sulle carte, ma senza mantenere gli a capo originali, per renderne più scorrevole la lettura. Il testo è corredato di segnalazioni grafiche che rendono conto delle caratteristiche della stesura manoscritta e delle informazioni editoriali; tali indicazioni sono riepilogate nella «Legenda» che accompagna il testo e che descriviamo di seguito.</p>
+    <p>Le sottolineature, nelle diverse tonalità dall’azzurro al blu scuro, indicano gli interventi (correzioni, varianti, integrazioni) apportati al testo dallo stesso Nievo. Ciascuna tonalità di blu corrisponde a uno dei tre inchiostri usati da Nievo nella stesura della redazione A: con il colore azzurro si sono indicati gli interventi apportati con lo stesso inchiostro usato dalla p. 1 a metà della p. 28; con il celeste gli interventi apportati con l’inchiostro usato dalla seconda metà della p. 28 a p. 66; con il blu scuro gli interventi apportati con l’inchiostro usata dalla p. 66 alla p. 86. Le lettere o le parole barrate in rosso corrispondono alle espunzioni editoriali proposte in corrispondenza di segni di cassatura discontinui, legati alla rapidità della pratica scrittoria nieviana. In arancione sono evidenziati gli interventi puntuali degli archivisti, probabilmente su elementi che hanno permesso il riconoscimento del contenuto delle carte.</p>
+    <p>Lo scioglimento delle abbreviazioni compare in un tooltip azzurro al passaggio del cursore sulle parole sottolineate da un tratteggio. In tooltip viola sono segnalate le rarissime correzioni al testo, in corrispondenza degli errori tipografici come <i>Nicastroe</i> al posto di <i>Nicastro</i> alla p. 3 del Fuggilozio. In tooltip verde sono indicate le modernizzazioni: ad esempio, alla c. 7v del ms. 3941 (p. 16) si legge <i>Nigregia</i> invece di <i>Nigeria</i>. Le citazioni sono sottolineate e, al passaggio del cursore, un tooltip mostra le relative informazioni bibliografiche. I nomi dei personaggi storici sono invece in blu e sottolineati: rimandano all’«Indice dei nomi», consultabile nella sezione «Risorse».</p>
+    <p>Il manoscritto presenta degli spazi bianchi, che vengono quindi visualizzati con [---]; mentre tra quadre [] si trovano le integrazioni dell’editrice, per esempio nei punti danneggiati dei manoscritti.</p>
+    <p>Nelle «Impostazioni» lopzione «Cancellature» nasconde tutte le cancellature e restituisce un testo lineare, secondo l’ultima volontà ricostruibile dell’autore. L’opzione «Correzioni» nasconde tutte le modifiche aggiunte dall’autore e presenta quindi il testo nella sua stesura di base. L’opzione «Surplus» nasconde gli interventi editoriali di cancellatura operati dall’editrice.</p>
+    <p>Infine, si segnala che la modalità di accesso al testo cambia a seconda della visualizzazione: in quella facsimilare pagina manoscritta e trascrizione sono consultabili in parallelo, mentre «Testo semplice» e «Visualizzazione sinottica» presentano il testo secondo la suddivisione in capitoli.</p>
+      <span style="float: right;">Federico Siragusa</span>
+    </p>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col footer-logos">
+        <a href="https://dium.uniud.it/it/ricerca/progetti-corso/territorio-formazione-societa/nievo-e-la-cultura-letteraria-del-risorgimento-contesti-paradigmi-e-riscritture-1850-1870/" target="_blank"><img src="img_sito/prinn.png" alt="Company Logo" class="footer-logo" /></a>
+        <a href="https://dium.uniud.it/it/" target="_blank"><img src="img_sito/dium.png" alt="Company Logo" class="footer-logo"
+            style="width: 100px;" /></a>
+        <a href="https://www.uniud.it/it" target="_blank"><img src="img_sito/logouniud.jpg" alt="Company Logo"
+            class="footer-logo" /></a>
+      </div>
+
+      <div class="footer-col">
+        <h5>Licenza</h5>
+        <small>© 2026 Bianca Del Buono & Federico Siragusa | <a rel="license" data-spdx="CC-BY-SA-4.0"
+            href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License"
+              style="width:50%" src="https://creativecommons.it/chapterIT/wp-content/uploads/2021/01/CC-by.png" /></a></small>
+        <h5>DOI</h5>
+        <p>Lorem ipsum</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Mappa del Sito</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="storia.html">Nota Introduttiva</a></li>
+          <li><a href="main.html">Testo</a></li>
+          <li><a href="listperson.html">Risorse</a></li>
+          <li><a href="https://uploads.knightlab.com/storymapjs/5dda8ae7e8d4a0f7fb342280c3aaf4e6/il-viaggio-del-barone-di-nicastro/draft.html">Mappa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contatti</h5>
+        <p>Bianca Del Buono</p>
+        <p>Email: <a href="mailto:biancadelbuono@homtail.it"
+            style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
+            <p>Federico Siragusa</p>
+        <p>Email: <a href="mailto:federicosiragusa1@gmail.com"
+            style="text-decoration: none;">biancadelbuono@homtail.it</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
