@@ -498,7 +498,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const pageIndex = pages.findIndex(p => p.id === wantedPageId);
 
       if (pageIndex !== -1) {
-        goToTextPage(pageIndex + 1, true); // page becomes visible
+        currentTextPage = pageIndex + 1;
+        updateTextViewer(true);
       } else {
         console.warn("Page index not found for:", wantedPageId);
       }
@@ -513,7 +514,8 @@ document.addEventListener("DOMContentLoaded", () => {
           if (parentPage) {
             const pIndex = pages.findIndex(p => p === parentPage);
             if (pIndex !== -1) {
-               goToTextPage(pIndex + 1, true);
+               currentTextPage = pIndex + 1;
+               updateTextViewer(true);
             }
           }
           
