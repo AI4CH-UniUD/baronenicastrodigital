@@ -692,9 +692,7 @@
             <del>ho la<lb break="no"/>sciato</del>
             <add>lasciai</add>
          </subst> una migliaja di maravedì nelle mani degli ac<lb break="no"/>cattoni di
-         Cadice, soltanto dalla porta della città a<subst><del>ll’albergo</del>
-            <add>quella dell’albergo</add>
-         </subst>, ho una dozzina di <foreign xml:lang="esp">hidalghi</foreign> che fa malleveria
+         Cadice, soltanto dalla porta della città a<subst><del>ll’albergo</del><add>quella dell’albergo</add></subst>, ho una dozzina di <foreign xml:lang="esp">hidalghi</foreign> che fa malleveria
          per la mia nobile persona, viaggio il mondo per sevigio della virtù, e <del><surplus reason="missed deletion">son munito d’un</surplus></del>
          <mod change="#intervento-1"><add place="above"><del>e la Spagna</del></add></mod>
          <mod change="#intervento-2"><add place="above"> la Spagna mi grazia d’un</add></mod>
@@ -783,7 +781,7 @@
          potrebbe recarle <lb break="no"/>disavventura ‒ anch’io ‒ <lb break="yes"/>‒ Quattro
          soldati e un caporale! gridò il capitano ‒</p>
       <pb corresp="#FP2530" facs="ms_2530_c3v.jpg" n="4"/>
-      <p hand="#intervento-1">E come furono venuti <choice><orig>domando</orig><reg>domandò</reg></choice> loro se avessero
+      <p hand="#intervento-1">E come furono venuti domand<supplied reason="omitted-accent">ò</supplied> loro se avessero
          appic<lb break="no"/>cato le sei guardie nazionali rimaste prigioniere. Queste
          in<lb break="no"/>fatti erano da mezz’ora accomodate secondo il ben volere del
          <lb break="no"/>Signor Capitano, e non s’ebbe che ad aprire la finestra per
@@ -887,7 +885,7 @@
          </subst>
          <lb break="no"/>a mezza gola ‒ ma credo che non sarò così pazzo da
             fer<lb break="no"/><del>marmi</del> lunga dimora nel<del>l</del> bel regno di
-         Castiglia e d’Aragona! <lb break="yes"/>‒ Oh perché mai <supplied reason="missed-in-the-original">?</supplied>
+         Castiglia e d’Aragona! <lb break="yes"/>‒ Oh perché mai<supplied reason="missed-in-the-original">?</supplied>
          <lb break="yes"/>‒ Caspita! non le pare che siano parsi un po pericolosi!
          <lb break="no"/>Eccomi che con tutta l’innocenza <mod change="#intervento-1"><add place="above">e la pace</add></mod> di Abele, io fui fatto e
          <lb break="no"/>rifatto prigioniero di guerra una dozzina di volte!..
@@ -901,7 +899,7 @@
             <add>mai</add>
          </subst> pri<lb break="no"/>gioniero, servì per tre mesi la <persName full="yes" ref="#isabella_2">regina</persName> e per tre mesi le <foreign xml:lang="esp">Cortes</foreign>; <mod change="#intervento-1"><add place="above">anzi nei tre mesi che
                servì la <persName full="yes" ref="#isabella_2">Regina</persName>
-               <choice><orig>servi</orig><reg>servì</reg></choice> le cortes, e secondò la Camera nei</add><add place="below">
+               serv<supplied reason="omitted-accent">ì</supplied> le cortes, e secondò la Camera nei</add><add place="below">
                tre mesi che servì le <foreign xml:lang="esp">Cortes</foreign>,</add></mod> si mise
          da banda 500,000 mila reali, e non <lb break="no"/>aspetta che la pensione per
          mettersi a vivere colla moglie in una bella villetta sul Guadalquivir! <lb break="yes"/>‒ O
@@ -925,7 +923,7 @@
             <abbr>Gen.</abbr>
             <expan>Generale</expan>
          </choice>
-         <lb break="no"/><choice><orig>cosi</orig><reg>così</reg></choice> pieno di croci di nastri e di superbia non
+         <lb break="no"/>cos<supplied reason="omitted-accent">ì</supplied> pieno di croci di nastri e di superbia non
          sembra <lb break="no"/>della mia opinione!... Eppure scommetto che <del>è</del>
          <mod change="#intervento-1"><add place="above">si crede un</add></mod> galantuomo
          <lb break="no"/>lui, <subst>
@@ -1056,7 +1054,7 @@
                persona di levatura può pensar come vuole che nessuno gli rivede le buccie! ‒ .
                –</mod></add>
          <lb break="yes"/>‒ Diavolo! non è una gran fortuna; soggiunse il f<supplied reason="omitted-in-original">i</supplied>losofo ‒ <lb break="no"/> Io per me a
-         Nicastro, penso, e faccio e disfaccio come <lb break="no"/>me <choice><orig>da</orig><reg>dà</reg></choice> il
+         Nicastro, penso, e faccio e disfaccio come <lb break="no"/>me d<supplied reason="omitted-accent">à</supplied> il
          talento e nessuno non trova a ridire un ette. <lb break="yes"/>‒ Grazia obbligatissima!
          rispose il fakiro ‒ ma <add place="above" seq="2">
             <mod change="#intervento-1"><!--<note>variante</note>-->in que
@@ -1148,10 +1146,7 @@
          </subst> indi stancato il fakiro. <lb break="yes"/>‒ E acquetate anco la coscienza dei suoi
          servitori ‒ <lb break="yes"/>‒ Acqueto la coscienza dei suoi servitori, e delle sue
          <lb break="no"/>trenta mogli; metto d’accordo gli scrupoli dei consoli
-         <lb break="no"/>Europei col diritto dei Beduini che vanno in <choice>
-            <orig>Nigregia</orig>
-            <reg>Nigeria</reg>
-         </choice>
+         <lb break="no"/>Europei col diritto dei Beduini che vanno in <choice><sic>Nigregia</sic><corr>Nigeria</corr></choice>
          <lb break="no"/>a caccia di uomini; accomodo <del>co</del> il grillo le b†††††††
          <lb break="no"/>di Costantinopoli colla santa politica del vero
          Mao<lb break="no"/>mettismo, <del>noi facc</del> batto l’elemosina alla tasca
@@ -1182,7 +1177,7 @@
       <pb corresp="#FP2530" facs="ms_3941_c8v.jpg" n="18"/>
       <p hand="#intervento-1">mille in poi!...</p>
       <p hand="#intervento-1">Per quella sera i due filosofi si separarono
-         <lb break="no"/>credendo ambedue di aver un <choice><orig>carco</orig><reg>carico</reg></choice> di ragioni;
+         <lb break="no"/>credendo ambedue di aver un car<supplied reason="omitted-in-original">i</supplied>co di ragioni;
          ma <lb break="no"/>qualche giorno dopo scoppiò nella provincia una
          sedi<lb break="no"/>zione di arabi, e correa voce d’un certo capo
          <lb break="no"/>che avea giurato di sterminare i Turchi e far
@@ -1215,11 +1210,11 @@
             <lb break="no"/><persName full="yes" ref="#maometto">Maometto</persName> è il suo profeta!
             <lb break="yes"/><mod change="#intervento-1"><add place="above">Quel giorno il fakiro
                era accompagnato da un collega ma il Barone non gli</add>
-               <add place="below"><choice><orig>bado</orig><reg>badò</reg></choice> piucché tanto ‒ </add></mod> ‒ Veggo, rispose
+               <add place="below">bad<supplied reason="omitted-accent">ò</supplied> piucché tanto ‒ </add></mod> ‒ Veggo, rispose
          il Barone nel suo gergo sardo ‒ Alla <lb break="no"/>è il solo Allah, ma <persName full="yes" ref="#maometto">Maometto</persName> vale per mille
          <lb break="no"/>strangolatori!... </p>
       <pb corresp="#FP3941" facs="ms_3941_c9v.jpg" n="20"/>
-      <p hand="#intervento-1">Il fakiro non disse nulla ma <choice><orig>indovino</orig><reg>indovinò</reg></choice> certo
+      <p hand="#intervento-1">Il fakiro non disse nulla ma indovin<supplied reason="omitted-accent">ò</supplied> certo
          <lb break="no"/>una qualche mostruosa eresia sul volto del Barone,
          <lb break="no"/>poiché <mod change="#intervento-1"><add place="above">fece cenno a
                un suo collega che gli stava a fianco come a chiamarlo in testimonio ‒ </add></mod>
@@ -1290,10 +1285,7 @@
          <lb break="no"/>il capitano <add place="inline"><mod change="#intervento-1" seq="2"><!--<note>stessa linea di "il capitano"</note>-->‒ E svoltò
                fuori dall’uscio tenendo l’il</mod></add> <del seq="1"><lb break="yes"/> ‒ Diavolo! non ci capisco
             nulla; disse il Don Camillo <lb break="yes"/>‒ Lo credo ma ci capirà quando approderemo
-            a …… <lb break="yes"/>‒ A T… </del> <add place="inline"><mod change="#intervento-1" seq="2">lustre convalescente in gravi <choice>
-                  <orig>perpepplissità</orig>
-                  <reg>perplessità</reg>
-               </choice> ‒</mod></add>
+            a …… <lb break="yes"/>‒ A T… </del> <add place="inline"><mod change="#intervento-1" seq="2">lustre convalescente in gravi <choice><sic>perpepplissità</sic><corr>perplessità</corr></choice> ‒</mod></add>
          <lb break="no"/>Infatti egli s’accorse che in quella sua società c’era
          <lb break="no"/>del bujo assai, e peggiormente ne dubitò quando gli
          <lb break="no"/>disser che prima di toccare Nuova Yorch sarebbero
@@ -1311,7 +1303,7 @@
          <lb break="no"/>sei un mercante di schiavi ‒ <lb break="yes"/>‒ Siamo in due!
          rispose il capitano ‒ poiché anche <lb break="no"/>Vossignoria ha firmato il
          contratto ‒ <lb break="yes"/>‒ Appena giunto a terra ti accuserò e ti farò appiccare ‒ <lb break="yes"/>‒ Ci faremo compagnia ‒ e saremo in due anche in quell’
-         <lb break="no"/>l’ultimo ballo <choice><orig>perche</orig><reg>perché</reg></choice>
+         <lb break="no"/>l’ultimo ballo perch<supplied reason="omitted-accent">é</supplied>
          <choice>
             <abbr>V.S.</abbr>
             <expan>Vossignoria</expan>
@@ -1329,7 +1321,7 @@
          negri bianchi; ma <lb break="no"/>l’eccezione conferma la regola ‒</p>
       <p hand="#intervento-1">Il Barone sbuffava e voleva pur cercare conforto all<damage agent="fire">a</damage>
          <lb break="no"/>filosofia, ma questa gli mancava come una tavola zoppa
-         <lb break="no"/>a cui nell’appoggiarsi si <choice><orig>da</orig><reg>dà</reg></choice> il mento per terra.
+         <lb break="no"/>a cui nell’appoggiarsi si d<supplied reason="omitted-accent">à</supplied> il mento per terra.
          Egli <lb break="no"/>non avea trovato infino allora nessuno che per avanzarsi
          <lb break="no"/>nella fortuna tenesse gli argomenti della virtù, e per giunta
          <lb break="no"/>le sue stesse virtù gli si volgevano contro a fargli le corna ‒ </p>
@@ -1426,7 +1418,7 @@
          Così hanno fatto i Signori Spagnoli colle razze del <lb break="no"/>paese ‒
          soggiunse <persName full="yes" ref="#walker">Walker</persName> ‒ così faremo noi con essoloro
          <lb break="no"/>e tutto va di bene in meglio, <del>perché il mod</del>
-         <lb break="yes"/>‒ Non ci vedo fin qui <choice><orig>ne bene ne meglio</orig><reg>né bene né meglio</reg></choice>  – osservò il
+         <lb break="yes"/>‒ Non ci vedo fin qui n<supplied reason="omitted-accent">é</supplied> bene n<supplied reason="omitted-accent">é</supplied> meglio – osservò il
          <lb break="no"/>Barone ‒ ma un ragionatore della vostra <del>fa</del> polso non
          <lb break="no"/>può darsi che non colga nel segno. <lb break="yes"/> ‒ Lo
          credereste? soggiunse il capitano che a Costarica <lb break="no"/>un pajo di stivali <subst>
@@ -1493,10 +1485,7 @@
       <p hand="#intervento-2">Peraltro non si persuase mai che la cosa potesse aver termine
          <lb break="no"/>a quel modo, come non <add place="above"><mod change="#intervento-2">lo</mod></add> credo nemmeno io; e ci avea preso <lb break="no"/>tanto amore
          a veder disgroppata quella matassa a suo grado <lb break="no"/>che quasi gli seppe
-         male udirsi di annunziare dal capitano <lb break="no"/>la partenza per Nuova Yorch. <choice>
-            <orig>Intarno</orig>
-            <reg>Indarno</reg>
-         </choice> se ne consolò pensando <lb break="no"/>che <del>d</del> sei o sette mila
+         male udirsi di annunziare dal capitano <lb break="no"/>la partenza per Nuova Yorch. <choice><sic>Intarno</sic><corr>Indarno</corr></choice> se ne consolò pensando <lb break="no"/>che <del>d</del> sei o sette mila
          giornali gli avrebbero dato contezza di quello <lb break="no"/>scioglimento; ed
          aggiugnerò anche, che non gli doleva di toccare dopo <lb break="no"/>tante traversie
          il termine del suo viaggio. Giunsero finalmente <lb break="no"/>a nuova Yorch, ma
@@ -1709,7 +1698,7 @@
          esista, e <del>vivere nella p</del> tirar dritto come <lb break="no"/>facevano gli
          antichi riguardo la cometa ‒ <lb break="yes"/>‒ Io ho scelto la prima ‒ soggiunse il
          filosofo Europeo ‒ <lb break="yes"/>‒ Ed io la seconda ‒ ripigliò il filosofo Americano.
-         <lb break="yes"/>‒ Ma non sarete mai perfettamente felice ‒ ribattè Don Camillo <lb break="yes"/>‒ Ma non vivrete un’ora che l’è <choice><sic>un ora</sic><corr>un’ora</corr></choice> di quiete –
+         <lb break="yes"/>‒ Ma non sarete mai perfettamente felice ‒ ribattè Don Camillo <lb break="yes"/>‒ Ma non vivrete un’ora che l’è un<supplied reason="omitted-in-original">’</supplied>ora di quiete –
          rim<lb break="no"/>beccò il giudice. <lb break="yes"/>‒ Ecco; trovato ch’io abbia il
          mio perfetto ideale ‒ continuò <lb break="no"/>il Barone ‒ tornerò al mio castello
          di <hi hand="#archivista" rend="underline">Nicastro</hi> che è il più <lb break="no"/>bel castello.....
@@ -1717,7 +1706,7 @@
          Floriano, ed ora sta per mio ordine a <lb break="no"/>genova come tutore d’una
          famiglia da un tale a proteggere <lb break="no"/>Siccome sono padrone e la prima
          moglie <del>d</del>non diede nessun rampollo <lb break="no"/>della mia nobil casata,
-         ci <choice><sic>manc’un altra</sic><corr>manco un’altra</corr></choice> sposa…… Che se <lb break="no"/>questa benedetta che ho
+         ci manc’un<supplied reason="omitted-apostrophe">’</supplied>altra sposa…… Che se <lb break="no"/>questa benedetta che ho
          in mente avesse i sessantaquattro quarti! <lb break="no"/>Basta!.... Dunque come le
          dicevo sposato che mi sia darò <lb break="no"/>opera ad ottenere quel tal rampollo,
          e poi sotto a chi tocca <lb break="no"/>scriverò cinque volumi in foglio per
@@ -1875,7 +1864,7 @@
          <lb break="no"/>così io <del>n</del> cerco di difendermi, ed anco ci viene molta
          gente pel <lb break="no"/>casa a darmi commissioni, e serve a tenermi svagata che
          del resto <lb break="no"/>col martello della sua lontananza starei in ambascia
-         continua ‒ <lb break="no"/>Peraltro se lo star lontano ancora <choice><orig>le da</orig><reg>le dà</reg></choice> <del>comodo
+         continua ‒ <lb break="no"/>Peraltro se lo star lontano ancora le d<supplied reason="omitted-accent">à</supplied> <del>comodo
             e</del> piacere s’acco<lb break="no"/>modi pure largamente, purché il <choice>
             <abbr>Sig.</abbr>
             <expan>Signor</expan>
@@ -1909,10 +1898,7 @@
             <abbr>V.E.</abbr>
             <expan>Vostra Eccellenza</expan>
          </choice>
-         <lb break="no"/>non gli manda tantosto dei contrordini <add place="below"><mod change="#intervento-2">e se egli non credesse alla <choice>
-                  <orig>ghermilula</orig>
-                  <reg>gherminella</reg>
-               </choice> della lettera</mod></add>, lo faremmo zoppo
+         <lb break="no"/>non gli manda tantosto dei contrordini <add place="below"><mod change="#intervento-2">e se egli non credesse alla <choice><sic>ghermilula</sic><corr>gherminella</corr></choice> della lettera</mod></add>, lo faremmo zoppo
          scian<lb break="no"/>cato, e impotente piuttostoché privarci della sua pensione per
          <lb break="no"/>sempre, <subst>
             <del><surplus reason="missed deletion">che</surplus></del>
@@ -2001,10 +1987,7 @@
          <lb break="no"/>prima di rivederla mi converrà far il giro del mondo!.... Oh
          <lb break="no"/>se ci fossero quei sessantaquattro quarti! Canistro, Canistro!...
          <lb break="no"/>È nome distinto perdiana!... Basta vedere nelle Indie o nella
-         <lb break="no"/>China se ci fossero magnati mandarini, o <choice>
-            <orig>nadali</orig>
-            <reg>natali</reg>
-         </choice> di questo co<lb break="no"/>gnome! da stamparci sopra una genealogia!… Ne
+         <lb break="no"/>China se ci fossero magnati mandarini, o <choice><sic>nadali</sic><corr>natali</corr></choice> di questo co<lb break="no"/>gnome! da stamparci sopra una genealogia!… Ne
          hanno trovati <lb break="no"/><del>nell</del> per Napoleone che ha distrutto tanti
          milioni di uomini, ne <lb break="no"/>posso ben stanar uno io per la Tesoruccia che
          darebbe al mondo <lb break="no"/>un Baroncino di Nicastro!... <del>Ma ora?
@@ -2018,10 +2001,10 @@
          Filosofo promettendogli di ricontrarlo prima di tornare in <lb break="no"/>Sardegna
          a scrivere i suoi cinque volumi contro <persName full="yes" ref="#bruto">Bruto Minore</persName>,
          <lb break="no"/>si sincerò cogli occhi suoi che nella nave non ci fossero né fichi
-         <lb break="no"/>secchi di Tunisi, <choice><orig>ne</orig><reg>né</reg></choice> schioppi né polvere da cannone, guardò
+         <lb break="no"/>secchi di Tunisi, n<supplied reason="omitted-accent">é</supplied> schioppi né polvere da cannone, guardò
          <lb break="no"/>in muso tutti i dotti suoi compagni, e <del>f</del>giudicatili a
          naso <del>abba</del>
-         <lb break="no"/>bastevolmente conigli <choice><orig>spero</orig><reg>sperò</reg></choice> di trovar almeno in
+         <lb break="no"/>bastevolmente conigli sper<supplied reason="omitted-accent">ò</supplied> di trovar almeno in
          essi coagulata per <lb break="no"/>mezzo della scienza la virtù e la felicità – </p>
    </div>
    <pb facs="ms_3941_c20r.jpg" n="43"/>
@@ -2112,7 +2095,7 @@
          di meccanica, ma subito na<lb break="no"/>scevano dissidii e battaglie tali da
          muover addirittura in pugna – <lb break="no"/>sopra la qual cosa, scusatemi caro
          Giudice, <del>voi</del> gli americani saranno <lb break="no"/>la g gente meglio
-         <choice><orig>incililita</orig><reg>incivilita</reg></choice> del mondo ma non approvo il loro <lb break="no"/>metodo manesco,
+         <choice><sic>incililita</sic><corr>incivilita</corr></choice> del mondo ma non approvo il loro <lb break="no"/>metodo manesco,
          trovo la logica meno pericolosa benché al pari <lb break="no"/>concludente! Dunque
          come <del>di</del> vi dicevo io era sempre in mezzo <lb break="no"/>a risse da
          arrabbiati, e chiamato a decidere come arbitro, deci<lb break="no"/>deva del mio
@@ -2332,7 +2315,7 @@
          <lb break="no"/>poteva reggere; l’occhio che m’era restato dopo il mio viaggio
          Giap<lb break="no"/>ponese viziato da quel lume verdognolo che solo
          pe<del>t</del>netrava nel fon<lb break="no"/>do inferriato del carcere, mi serviva
-         assai male, e <choice><orig>anziche</orig><reg>anziché</reg></choice>
+         assai male, e anzich<supplied reason="omitted-accent">é</supplied>
          <lb break="no"/>governare i cannoni e dirigere i fulmini non sapea governare
          <lb break="no"/>le mie gambe e vedere la punta del naso. Tuttociò mi fu
          <lb break="no"/>scusa <del><surplus reason="missed deletion">a
@@ -2538,7 +2521,7 @@
             <del seq="1">lasciano</del>
             <add>si restano</add>
          </subst> dall’az<lb break="no"/>zuffarsi tra loro, <del>ed</del> per rovinare
-         insieme sopra di me!... <lb break="no"/>Tutto era perduto <choice><orig>un altra</orig><reg>un’altra</reg></choice> volta, se
+         insieme sopra di me!... <lb break="no"/>Tutto era perduto un<supplied reason="omitted-apostrophe">’</supplied>altra volta, se
          il solajo di canne</p>
       <pb facs="ms_3941_c27v.jpg" n="58"/>
       <p hand="#intervento-2">cui il fuoco s’era inavvertitamente <del>s</del> comunicato non ci
@@ -2607,9 +2590,9 @@
          ammazzano quanto meglio possono amici e <lb break="no"/>nemici per procurargli
          fedeli servitori anche all’altro mondo ‒ <lb break="no"/>Io peraltro non ho veduto
          il Gran Kan, e probabilmente durante il <lb break="no"/>mio tragitto per la Tartaria
-         egli godeva <choice><orig>un ottima</orig><reg>un’ottima</reg></choice> salute. <lb break="no"/>La cosa fu assai diversa
-         nella Persia, che non è più a quanto <lb break="no"/>pare <choice><orig>ne</orig><reg>né</reg></choice> quella di <persName full="yes" ref="#ciro">Ciro</persName> né quella di <persName full="yes" ref="#dario">Dario</persName>: perché
-         vi si <lb break="no"/>incontrano i ladri a centinaja, e <del>le oste</del> vi è <choice><orig>un osteria</orig><reg>un’osteria</reg></choice> o un <lb break="no"/>Karavanserail ogni cento miglia – <add hand="#intervento-3" place="above"><mod change="#intervento-3"><!--<note>variante</note>-->Gli è vero che a quanto si narra che
+         egli godeva un<supplied reason="omitted-apostrophe">’</supplied>ottima salute. <lb break="no"/>La cosa fu assai diversa
+         nella Persia, che non è più a quanto <lb break="no"/>pare n<supplied reason="omitted-accent">é</supplied> quella di <persName full="yes" ref="#ciro">Ciro</persName> né quella di <persName full="yes" ref="#dario">Dario</persName>: perché
+         vi si <lb break="no"/>incontrano i ladri a centinaja, e <del>le oste</del> vi è un<supplied reason="omitted-apostrophe">’</supplied>osteria o un <lb break="no"/>Karavanserail ogni cento miglia – <add hand="#intervento-3" place="above"><mod change="#intervento-3"><!--<note>variante</note>-->Gli è vero che a quanto si narra che
                <lb break="no"/>i gentiluomini di quei paesi si <del>ge</del> riscattan di
                tali difetti con una esemplare dolcezza <lb break="no"/>verso il sesso più
                fragile ‒ quando un marito trova la moglie in fallo, subito egli così condona
@@ -2636,7 +2619,7 @@
             <add place="above"><mod change="#intervento-2">di colà</mod></add>
          <surplus reason="missed deletion">pel Capo</surplus>
          <lb break="no"/><del>di Buona Speranza e </del>per l’Europa. <del>Infatti</del> Ma
-         pur am<lb break="no"/>mettendo a questo io <choice><orig>daro</orig><reg>darò</reg></choice> al diavolo in
+         pur am<lb break="no"/>mettendo a questo io dar<supplied reason="omitted-accent">ò</supplied> al diavolo in
          cuor mio i Russi <lb break="no"/>i Persiani gli Inglesi e i due profeti,
          luogotenenti di Allà. </p>
       <p hand="#intervento-2">Le due Indie sono un<add place="inline"><mod change="#intervento-2">a</mod></add> bellissimo <subst>
@@ -2837,7 +2820,7 @@
             <expan>Don</expan>
          </choice> Ca<lb break="no"/>millo ‒ Ma pur troppo non ho trovato fin qui che una
          <lb break="no"/>fatale duplicità e se Genova non m’ajuta!... <lb break="yes"/>‒
-         Tornate a Genova <del>in un b</del> d’alquanto mutato; <choice><orig>os<lb break="no"/>servo</orig><reg>osservò</reg></choice> satiricamente l’Americano. <lb break="yes"/>‒
+         Tornate a Genova <del>in un b</del> d’alquanto mutato; os<lb break="no"/>serv<supplied reason="omitted-accent">ò</supplied> satiricamente l’Americano. <lb break="yes"/>‒
          D’alquanto diminuito volete dire ‒ ribatté <choice>
             <abbr>D.</abbr>
             <expan>Don</expan>
@@ -2849,7 +2832,7 @@
          <lb break="no"/>perduto cosa alcuna ‒ del resto sono ancora Barone come <add place="above"><mod change="#intervento-3">prima</mod></add> – <lb break="yes"/>‒
             <foreign xml:lang="lat">Ter quaterque beatum</foreign>! ‒ soggiunse l’Americano ‒
          <lb break="no"/>E vi fermate a lungo con me caro amico? continuò – <lb break="yes"/>‒ Domani parto per l’Europa ‒ rispose il Barone ‒ <lb break="no"/>gli è vero che
-         mi <choice><orig>da</orig><reg>dà</reg></choice> pensiero quel viaggio di mare <lb break="no"/>che già a me
+         mi d<supplied reason="omitted-accent">à</supplied> pensiero quel viaggio di mare <lb break="no"/>che già a me
          come avrete compreso cotali viaggi non <lb break="no"/>furono mai propizii, ma
          occorrerà impegnarvisi ‒ <lb break="yes"/>‒ Oh caro amico! rispose il filosofo Americano ‒
          Ho </p>
@@ -2891,7 +2874,7 @@
          <lb break="no"/>riprese allora con maggior veemenza; e cosa stranissima
          <lb break="no"/>e che dopo l’invenzione della bussola successe solo al
          Ba<lb break="no"/>rone di Nicastro il vascello che dovea approdare a
-         Soutam<lb break="no"/>pton, fu gettato in un porto dell’Islanda ‒ <choice><orig>La</orig><reg>Là</reg></choice> pertanto <lb break="no"/>fu racconciata la macchina, si caricò nuovo
+         Soutam<lb break="no"/>pton, fu gettato in un porto dell’Islanda ‒ L<supplied reason="omitted-accent">à</supplied> pertanto <lb break="no"/>fu racconciata la macchina, si caricò nuovo
          carbone e <lb break="no"/>a fin fine toccarono Soutampton il secondo mese dopo la
          <lb break="no"/>partenza da Nuova Yorch ‒ <lb break="yes"/>‒ Finalmente! disse
                <del>sbuffand<supplied reason="omitted-in-original">o</supplied></del> il Signor
@@ -2995,8 +2978,8 @@
          <surplus reason="missed deletion">g</surplus> piagge di <lb break="no"/>Liguria; ma
          avvenne allora a lui quello <del>che accad</del> a taluno quando <lb break="no"/>gli
          capita una lettera carissima <choice>
-            <orig>desideralissima</orig>
-            <reg>desideratissima</reg>
+            <sic>desideralissima</sic>
+            <corr>desideratissima</corr>
          </choice>, che appunto vuol prima <lb break="no"/>sbrigare ogni incomoda faccenda,
          per riposarsi in quella con tutta l’a<lb break="no"/>nima. E così il Barone volle
          fornir il suo compito, prima di cor<lb break="no"/>rere a<add place="inline"><mod change="#intervento-3">l</mod></add>
@@ -3020,8 +3003,8 @@
          dap<lb break="no"/>pertutto gli si appalesò la rabbia canina colla quale l’umanità
          si <lb break="no"/>morde la coda ‒ E il simbolo egiziano stà a profetare <add place="above"><mod change="#intervento-3">promettere</mod></add> che il tra–</p>
       <pb facs="ms_3941_c35v.jpg" n="74"/>
-      <p hand="#intervento-3">stullo non <choice><orig>sara</orig><reg>sarà</reg></choice> corto. <lb break="yes"/>‒ Ho ancora
-         una speranza! diceva fra <choice><orig>se</orig><reg>sé</reg></choice> e con sottovoce il
+      <p hand="#intervento-3">stullo non sar<supplied reason="omitted-accent">à</supplied> corto. <lb break="yes"/>‒ Ho ancora
+         una speranza! diceva fra s<supplied reason="omitted-accent">é</supplied> e con sottovoce il
          Ba<lb break="no"/>rone ‒ e <del>p</del> aggiungea più <subst>
             <del>sottovoce</del>
             <add place="above"><mod change="#intervento-3">sommesso</mod></add>
@@ -3051,7 +3034,7 @@
          discorso ‒ <lb break="yes"/>‒ Donde venite, <foreign xml:lang="fr">Monsieur</foreign>? gli
          chiese <lb break="yes"/>‒ Dalla Russia ‒ rispose asciutto asciutto il Ba<supplied reason="omitted-in-original">rone</supplied>
          <lb break="yes"/>‒ <foreign xml:lang="fr">On le voit bien</foreign>; soggiunse il Francese
-         ‒ <lb break="yes"/>‒ Oh perché mai! ormai sentiamo anche questa? <choice><orig>replico</orig><reg>replicò</reg></choice>
+         ‒ <lb break="yes"/>‒ Oh perché mai! ormai sentiamo anche questa? replic<supplied reason="omitted-accent">ò</supplied>
          <choice>
             <abbr>D.</abbr>
             <expan>Don</expan>
@@ -3082,7 +3065,7 @@
             <foreign xml:lang="fr">Il va sans dire</foreign> peraltro che non ci vedrò meglio di
          prima! ripigliò il Barone <lb break="yes"/>‒ <foreign xml:lang="fr">Pardon mon
             Monsieur</foreign> ‒ disse il Francese ‒ con amabile riserbo ‒ <foreign xml:lang="fr">c’est seul<lb break="no"/>ment pour la venusté personelle com disaient le
-            Grec</foreign>. ‒ E perché vi <choice><orig>salto</orig><reg>saltò</reg></choice>
+               Grec</foreign>. ‒ E perché vi salt<supplied reason="omitted-accent">ò</supplied>
          <lb break="no"/>in capo di visitare <foreign xml:lang="fr">ce diable de pays que est
             le Japon</foreign>? dicendo indi a poco ‒ <lb break="yes"/>‒ Cerco per tutto il mondo
          l’accordo della felicità colla virtù, e l’armonia <lb break="no"/>dialettica di
@@ -3116,7 +3099,7 @@
          <lb break="yes"/>‒ E <subst>
             <del>tu</del>
             <add place="inline"><mod change="#intervento-3">son</mod></add>
-         </subst> tutti virtuosi quei Signori Cavalieri ‒ <lb break="yes"/>‒ <foreign xml:lang="fr">Il faut bien le croire, Monsieur</foreign> ‒ perché gli è il Governo che ne <choice><orig>da</orig><reg>dà</reg></choice>
+         </subst> tutti virtuosi quei Signori Cavalieri ‒ <lb break="yes"/>‒ <foreign xml:lang="fr">Il faut bien le croire, Monsieur</foreign> ‒ perché gli è il Governo che ne d<supplied reason="omitted-accent">à</supplied>
          <lb break="no"/>loro la patente. Del resto son per la massima preti ricchi
          banchieri, let<lb break="no"/>terati in pensione, professori <del>††</del> gaudenti,
          colonelli, e sensali ‒ <lb break="yes"/>‒ Oh non fanno fatica ad essere virtuosi! sclamò il
@@ -3137,7 +3120,7 @@
          <lb break="no"/><foreign xml:lang="fr">c’est vraiment a ravir</foreign>! <lb break="yes"/>‒ E tuttavia udii l’anno scorso alla Nuova Caledonia un Francese
          mor<lb break="no"/>morare assai di un tal soverchio accentramento <lb break="yes"/>‒
          Sarà stato un legittimista! disse con ripugno il <foreign xml:lang="fr"><w norm="savant">savants</w></foreign>
-         <lb break="yes"/>‒ No, ma era <del>le</del> come voi dite ‒ rispose il Barone ‒ <lb break="yes"/>‒ O un fusionista? ‒ soggiunse...... <lb break="yes"/>‒ Nemmeno <lb break="yes"/>‒ Un Orleanista!... <lb break="yes"/>‒ <choice><orig>ne</orig><reg>Né</reg></choice> punto <choice><orig>ne</orig><reg>né</reg></choice> poco ‒ era un socialista! <lb break="yes"/>‒ <foreign xml:lang="fr">Peste</foreign>! non ne conosceva di questa <foreign xml:lang="fr">nuance</foreign>!
+         <lb break="yes"/>‒ No, ma era <del>le</del> come voi dite ‒ rispose il Barone ‒ <lb break="yes"/>‒ O un fusionista? ‒ soggiunse...... <lb break="yes"/>‒ Nemmeno <lb break="yes"/>‒ Un Orleanista!... <lb break="yes"/>‒ <supplied reason="capital">N</supplied><supplied reason="omitted-accent">é</supplied> punto n<supplied reason="omitted-accent">é</supplied> poco ‒ era un socialista! <lb break="yes"/>‒ <foreign xml:lang="fr">Peste</foreign>! non ne conosceva di questa <foreign xml:lang="fr">nuance</foreign>!
          rispose il sapiente ‒ <lb break="yes"/>‒ E con tutte cotali diversità d’opinioni credete
          che la Francia sia il paese <lb break="no"/>dell’unità dialettica! <lb break="yes"/>– <foreign xml:lang="fr">Oui</foreign>, e ve lo provo; rispose il <foreign xml:lang="fr">savant</foreign>. <subst>
             <del>Prima di tutto non abbiamo</del>
@@ -3201,7 +3184,7 @@
                   <add>t</add>
                </subst></mod>t<del>de la</del></foreign>
          <lb break="yes"/>‒ Bravo! sclamò ironicamente il Barone picchiando le mani ‒ e soggiunse
-         <lb break="no"/>fra <choice><orig>se</orig><reg>sé</reg></choice> (Spero che la <del>Tesor</del> mia
+         <lb break="no"/>fra s<supplied reason="omitted-accent">é</supplied> (Spero che la <del>Tesor</del> mia
          Tesoruccia non apprenderà mai questa ap<lb break="no"/>plicazione Parigina del
          simbolo di Crotone). </p>
       <p hand="#intervento-3">Arrivato a Parigi il Barone trovò dappertutto riprodotte in mille
@@ -3243,7 +3226,7 @@
          migliore assai dopo esser ingrassato, e fui <lb break="no"/>così tenuto in ††††††††
          finchè ebbi la fortuna di poter scappare – <lb break="no"/>e tornarmene in Francia
             <lb break="yes"/>‒ dunque v’è passato il gusto di stabilire una colonia socialista nel
-         <lb break="no"/>Mare pacifico ‒ <lb break="yes"/>‒ <foreign xml:lang="fr">Pardon</foreign>! ho un impiego nel Ministero <choice><orig>dell</orig><reg>dell’</reg></choice>Interno ‒ sono
+         <lb break="no"/>Mare pacifico ‒ <lb break="yes"/>‒ <foreign xml:lang="fr">Pardon</foreign>! ho un impiego nel Ministero dell<supplied reason="omitted-apostrophe">’</supplied>Interno ‒ sono
          Bonapartista <lb break="no"/>soggiunse il Dandy ‒ <lb break="yes"/>‒ Hum fece il
          Barone ‒ che miracoli si veggon alla Nuova Caledonia <lb break="no"/>che miracoli si
          veggon in Francia – </p>
@@ -3304,10 +3287,8 @@
                <lb break="no"/>razze latine ‒ e non siete poi così
                   <lb break="no"/>bugiardi<del>, così falsi,</del> eunuchi come si
             dice</add></mod>
-         <lb break="yes"/>‒ Levante, Signor mio ‒ <subst>
-            <del>c’è </del>
-            <add place="above"><mod change="#intervento-3">che</mod></add>
-         </subst> vento spira ‒ <lb break="yes"/>‒ Ottimo per la Sardegna ‒ quanto volete a condurmi
+         <lb break="yes"/>‒ Levante, Signor mio ‒ 
+            <del>c’è </del> ‒ <lb break="yes"/>‒ Ottimo per la Sardegna ‒ quanto volete a condurmi
          – ‒ <lb break="yes"/>‒ Dodicimila franchi ‒ <lb break="yes"/>‒ Ottimamente ‒ contratto
          fatto ‒ </p>
       <p hand="#intervento-3">Il Barone montò †††††sante <del>sul</del> nel navicello, la corda
@@ -3327,7 +3308,7 @@
             per certe</del> non furono che <lb break="no"/>continui alterchi e lamenti, ora
          perché il Barone muovendosi facea tentennare <lb break="no"/>il navicello, ora
          perché l’aeronauta non volea starsi più basso colle <lb break="no"/>mussoline per
-         rifuggire alla zona ghiacciata. <choice><orig>finalmente</orig><reg>Finalmente</reg></choice> videro la
+         rifuggire alla zona ghiacciata. <supplied reason="capital">F</supplied>inalmente videro la
          <lb break="no"/>gentile Sardegna, e il Signor Barone ebbe uno schianto di allegrezza
          <lb break="no"/>al veder che il pallone quasi animato dall’anima sua si dirigeva
          <lb break="no"/>alla volta di Nicastro.</p>
@@ -3335,8 +3316,8 @@
       <p hand="#intervento-3">‒ <foreign xml:lang="fr">Monsieur</foreign> de Paternin, diss’egli
          colle lagrime agli occhi <add place="above"><mod change="#intervento-3">guardando per
                entro</mod></add> vi perdono la vostra <lb break="no"/>tirannia e le vostre <choice>
-            <orig>ramponee</orig>
-            <reg>rampogne</reg>
+            <sic>ramponee</sic>
+            <corr>rampogne</corr>
          </choice>.... Ecco ecco! veggo il castello degli avi <lb break="no"/>miei!.........
          veggo il campanile della Parrocchia!.... Ohimè sì ecco <lb break="no"/>... sì....
          veggo Floriano alla finestra della sala.... veggo la <lb break="no"/>Tesoruccia: la
@@ -3358,10 +3339,10 @@
       <p hand="#intervento-3">– Ma il Barone aveva veduto la Tesoruccia <del>che</del> uscire di
          <lb break="no"/>letto, e non potea più trattenersi: il pallone ††††se da una sua
          <lb break="no"/>tentennante piega a sinistra le corde si impigliarono nella croce
-         <lb break="no"/>del campanile.... la cesta si <choice><orig>stacco</orig><reg>staccò</reg></choice> dal globo
+         <lb break="no"/>del campanile.... la cesta si stacc<supplied reason="omitted-accent">ò</supplied> dal globo
          ‒ e questi riprese <lb break="no"/>il suo viaggio per l’aria, e quella coi due
          viaggiatori precipitò <lb break="no"/>nel mezzo della piazza ‒ <lb break="yes"/>‒
-         Che <choice><orig>e</orig><reg>è</reg></choice> che non è?... Il Barone... il Barone di Nicastro.
+         Che <supplied reason="omitted-accent">è</supplied> che non è?... Il Barone... il Barone di Nicastro.
          <lb break="no"/>Come chi? è risuscitato.. ma è arrivato in pallone ‒
          <lb break="no"/>Vi siete fatto male?... Oh non è nulla! mi sono rotto una
          <lb break="no"/>gamba!... Presto il Medico!... Ma ricordatevi la era di
@@ -3411,7 +3392,7 @@
          donna che ha 25,000</p>
       <pb facs="ms_3941_c40v.jpg" n="84"/>
       <p hand="#intervento-3">‒ Dio sia lodato! disse divotamente Floriano <lb break="yes"/>‒ Quanto
-         a me! rispose il Barone ‒ cercherò <choice><orig>un altra</orig><reg>un’altra</reg></choice> donna che
+         a me! rispose il Barone ‒ cercherò un<supplied reason="omitted-apostrophe">’</supplied>altra donna che
          pro<lb break="no"/>lunghi il mio albero genealogico. <lb break="yes"/>‒ Non la
          dubiti: rispose Floriano ‒ gliela troverò io <gap reason="blank space"/>la figlia del <lb break="no"/>Marchese
          di Sassobianco, che… <lb break="yes"/>‒ Benissimo amico ‒ ti perdono ‒ e che Dio ti
@@ -3455,13 +3436,13 @@
          <lb break="no"/>ha la <add place="above"><mod change="#intervento-3">non ritiene di
                ogni duplicità, od antipatia per ogni</mod></add> duplicità e quei cialtroni non
          ††††† <lb break="yes"/>‒ Davvero! chiese il Barone <lb break="yes"/>‒ Si certo ‒ riprese
-         l’Abate ‒ non è vero che Floriano pensa solamente all’anima <lb break="yes"/>‒ È vero <lb break="yes"/>‒ Non è vero che il lampadajo si cura solo del suo corpo? <lb break="yes"/>‒ <choice><orig>E</orig><reg>È</reg></choice> verissimo ‒ <lb break="yes"/>‒ Per questo essi sono felici <choice><orig>perche</orig><reg>perché</reg></choice> riducono la Duplicità ad unità
+         l’Abate ‒ non è vero che Floriano pensa solamente all’anima <lb break="yes"/>‒ È vero <lb break="yes"/>‒ Non è vero che il lampadajo si cura solo del suo corpo? <lb break="yes"/>‒ <supplied reason="omitted-accent">È</supplied> verissimo ‒ <lb break="yes"/>‒ Per questo essi sono felici perch<supplied reason="omitted-accent">é</supplied> riducono la Duplicità ad unità
          <lb break="no"/>coll’accordo dialettico; mentre ella <choice>
             <abbr>Sign.</abbr>
             <expan>Signor</expan>
          </choice> Barone <del>come sia</del> che vuol badare <lb break="no"/>all’anima ed al
          corpo non sarà mai felice, perché la prima <lb break="no"/>ha sempre alla pugna col
-         secondo <lb break="yes"/>‒ L’anima e il corpo – – l’anima e il corpo!.... <choice><orig>mormoro</orig><reg>mormorò</reg></choice>
+         secondo <lb break="yes"/>‒ L’anima e il corpo – – l’anima e il corpo!.... mormor<supplied reason="omitted-accent">ò</supplied>
          <lb break="no"/>il Barone ‒ e non fui capace di trovarla io questa mia sorgente
          <lb break="no"/>di tutte le altre lotte umane e sociali!.... Ho dovuto farmela addi<lb break="no"/>tar da un abatucolo ‒ Ma che vale per saper dove è il
          <lb break="no"/>male senza conoscere il rimedio?... soggiunse egli <del>indi a
@@ -3485,14 +3466,14 @@
          diabolica duplicità? ‒ <lb break="no"/>Ov’è il termine conciliatore indi
          rappacificatore nell’accordo dialettico <lb break="no"/>mormorava con voce rantolosa
          il Barone <lb break="yes"/>‒ Dio! Dio! ricorrete a lui, gli suggerì pietosamente il Rettore
-            <lb break="yes"/>‒ Dio.. Dio Dio.. mormorò il morente ‒ e la voce gli <choice><orig>manco</orig><reg>mancò</reg></choice> a <lb break="no"/>continuare, e il gelido fiume dell’eternità si stese
+         <lb break="yes"/>‒ Dio.. Dio Dio.. mormorò il morente ‒ e la voce gli manc<supplied reason="omitted-accent">ò</supplied> a <lb break="no"/>continuare, e il gelido fiume dell’eternità si stese
          per le sue membra ‒ </p>
       <p hand="#intervento-3">Peraltro non volle il Destino che la signoria di Nicastro finisse così
          <lb break="no"/>miseramente ‒ dopo 8 mesi la Signora Baronessa pose al mondo un
          figlio <lb break="no"/>postumo <del>al quale</del><add place="above"><mod change="#intervento-3">cui</mod></add> fu posto nome ‒ </p>
       <pb facs="fc_14_12_c1v.jpg" n="86"/>
       <p hand="#intervento-3">Bernardo, Lucio, Clodoveo Camillo <del>da Nica</del><add place="above"><mod change="#intervento-3">e che</mod></add>
-         <lb break="no"/>egli <choice><orig>studiera</orig><reg>studierà</reg></choice>
+         <lb break="no"/>egli studier<supplied reason="omitted-accent">à</supplied>
          <del>gli uomini</del> il valore degli uo<lb break="no"/>mini e delle cose come i
          suoi predecessori ‒ <lb break="no"/>sceglierà dagli scansali della Biblioteca
          un suo sistema filosofico, e dato che il Si<lb break="no"/>gnore gli dia vita,
@@ -3506,91 +3487,91 @@
          <div corresp="#R" n="15" subtype="chapter" type="textpart">
             <p><ptr target="#p15b"/>multa di mille piastre.
                <lb break="yes"/>‒ Per carità! andava dicendo il povero Barone al capitano del trabaccolo ‒ Salpiamo
-               <!--<lb break="no"/>--> in tutta fretta, <choice><sic>se no</sic><corr>sennò</corr></choice> l’è certa questa, che io torno a Nicastro impalato.
+               <lb break="no"/> in tutta fretta, <choice><sic>se no</sic><corr>sennò</corr></choice> l’è certa questa, che io torno a Nicastro impalato.
                <lb break="yes"/>‒ Colpa di Sua Eccellenza; soggiunse il capitano ‒ Mo’ le pare di appiccar lite a
-               <persName ref="#maometto">Mao<!--<lb break="no"/>-->metto</persName> dinanzi a due testimoni?
+               <persName ref="#maometto">Mao<lb break="no"/>metto</persName> dinanzi a due testimoni?
                <lb break="yes"/>‒ Colpa vostra, marrano; gridò il Barone ‒ <del>questo vostro</del> il carico di
-               datteri e di fichi do<!--<lb break="no"/>-->vrebbe essere allestito da un mese.
+               datteri e di fichi do<lb break="no"/>vrebbe essere allestito da un mese.
                <lb break="yes"/>‒ Anche per questa volta il danno è che siamo in due; ribattè lo Spagnuolo ‒ Il
-               pa<!--<lb break="no"/>-->drone della nave è via pel deserto, e per quanto il carico sia lesto, io non
-               posso già par<!--<lb break="no"/>-->tire prima ch’ei ritorni. Abbia pazienza, <foreign xml:lang="esp">
+               pa<lb break="no"/>drone della nave è via pel deserto, e per quanto il carico sia lesto, io non
+               posso già par<lb break="no"/>tire prima ch’ei ritorni. Abbia pazienza, <foreign xml:lang="esp">
                <hi rend="underline">Señor Baron</hi></foreign>! fumi dei cigaretti!
-               <lb break="yes"/>‒ Sarà il minor male; brontolò il Barone ‒ Ma ricoveratosi a bordo ne fumò <!--<lb break="no"/>-->tanti
+               <lb break="yes"/>‒ Sarà il minor male; brontolò il Barone ‒ Ma ricoveratosi a bordo ne fumò <lb break="no"/>tanti
                e tanti, che egli ebbe a scoppiare addosso una febbre cerebrale così indiavolata da
-               <!--<lb break="no"/>-->farlo star in forse della vita per lunghissimo tempo. Quando rinsennò, il
-               trabaccolo <!--<lb break="no"/>-->volava in alto mare e aveva al suo capezzale il capitano e il cuoco
+               <lb break="no"/>farlo star in forse della vita per lunghissimo tempo. Quando rinsennò, il
+               trabaccolo <lb break="no"/>volava in alto mare e aveva al suo capezzale il capitano e il cuoco
                della ciurma.
                <lb break="yes"/>‒ Dove siamo? mormorò fiocamente l’illustre infermo.
                <lb break="yes"/>‒ Nei paraggi delle Canarie; rispose il Capitano.
                <lb break="yes"/>‒ Dunque que’ maledetti fichi sono all’ordine, e quel canchero di padrone è
-               tor<!--<lb break="no"/>-->nato? <del>d</del> richiese il Barone con un filo di voce.
+               tor<lb break="no"/>nato? <del>d</del> richiese il Barone con un filo di voce.
                <lb break="yes"/>‒ Fichi e datteri sono al loro posto, e il negozio sarà buono; rispose con un
-               ghi<!--<lb break="no"/>-->gno da galeotto il capitano ‒ Quanto al padrone, credo che qualche
-               rinoceronte se <!--<lb break="no"/>-->lo abbia pappato, e siam partiti senza di lui!
-               <lb break="yes"/>‒ Ahimè! come mi casca la testa! piagnucolava Don Camillo ‒ Almeno avessi al <!--<lb break="no"/>-->mio
-               fianco Floriano! … o quella mia cara Tesoruccia di Genova!…… Almeno <!--<lb break="no"/>-->potessi
+               ghi<lb break="no"/>gno da galeotto il capitano ‒ Quanto al padrone, credo che qualche
+               rinoceronte se <lb break="no"/>lo abbia pappato, e siam partiti senza di lui!
+               <lb break="yes"/>‒ Ahimè! come mi casca la testa! piagnucolava Don Camillo ‒ Almeno avessi al <lb break="no"/>mio
+               fianco Floriano! … o quella mia cara Tesoruccia di Genova!…… Almeno <lb break="no"/>potessi
                spirare l’ultimo fiato a Nicastro, nel castello degli avi miei!
                <lb break="yes"/>‒ Si calmi: prenda questa pozione di rum e di tabacco; gli sussurrava il cuoco.
                <lb break="yes"/>‒ <del>Riprenda</del> Si faccia coraggio; fumi un cigaretto; soggiunse il
                capitano.
                <lb break="yes"/>‒ O mio Dio! a chi, a chi badare? pensava il Barone ‒ Come salvar la pelle fra
-               <!--<lb break="no"/>-->due medici di tal fatta?........ Cosa rispondere <del>ora</del> adesso a quel
-               briccone di <persName ref="#bruto">Bruto</persName>? .… Dov’è <!--<lb break="no"/>-->la virtù?........ dov’è la felicità?.. ‒ Caro Baron
-               Clodoveo, soccorrete se vi piace al <!--<lb break="no"/>-->vostro misero pronipote!</p>
+               <lb break="no"/>due medici di tal fatta?........ Cosa rispondere <del>ora</del> adesso a quel
+               briccone di <persName ref="#bruto">Bruto</persName>? .… Dov’è <lb break="no"/>la virtù?........ dov’è la felicità?.. ‒ Caro Baron
+               Clodoveo, soccorrete se vi piace al <lb break="no"/>vostro misero pronipote!</p>
          </div>
          <div corresp="#R" n="16" subtype="chapter" type="textpart">
             <p style="text-align:center">XVI</p>
             <p>‒ E cos’è tutto codesto scricchiolio di catene che mi dà ad ogni notte la sveglia?
-               <choice><orig>domando</orig><reg>do<!--<lb break="no"/>-->mandò</reg></choice> ancora il Barone, quando passati alcuni giorni gli fu tornata la
-               speranza di ri<!--<lb break="no"/>-->veder Floriano, la Tesoruccia, e il bel castello di Nicastro.
+               do<lb break="no"/>mand<supplied reason="omitted-accent">ò</supplied> ancora il Barone, quando passati alcuni giorni gli fu tornata la
+               speranza di ri<lb break="no"/>veder Floriano, la Tesoruccia, e il bel castello di Nicastro.
                <lb break="yes"/>‒ Oh bella! sono i datteri e i fichi! rispose berteggiando il capitano. E <del>su</del> scantonò
-               dal<!--<lb break="no"/>-->l’uscio senza spiegarsi meglio <del>chiaramente</del>. Don Camillo dal canto
-               suo prese a sospet<!--<lb break="no"/>-->tar male intorno a quel suo contratto di società; e peggio ne
-               dubitò quando gli fu <!--<lb break="no"/>-->annunciato, che per vendere a <del>migli</del> più alto
-               prezzo i fichi ed i datteri, prima di approdare <!--<lb break="no"/>-->a Nuova Yorch avrebbero fatto
+               dal<lb break="no"/>l’uscio senza spiegarsi meglio <del>chiaramente</del>. Don Camillo dal canto
+               suo prese a sospet<lb break="no"/>tar male intorno a quel suo contratto di società; e peggio ne
+               dubitò quando gli fu <lb break="no"/>annunciato, che per vendere a <del>migli</del> più alto
+               prezzo i fichi ed i datteri, prima di approdare <lb break="no"/>a Nuova Yorch avrebbero fatto
                scalo a qualche porto della Carolina. Infine egli brontolò</p>
             <pb corresp="#FP3941" facs="ms_3491_c1v.jpg" n="2"/>
             <p>e tempestò a segno tale, che il capitano presolo per mano lo condusse nella sentina
-               <!--<lb break="no"/>-->della nave, ove una trentina di negri d’ambo i sessi legati a due a due tenevan
-               vece <!--<lb break="no"/>-->di zavorra.
+               <lb break="no"/>della nave, ove una trentina di negri d’ambo i sessi legati a due a due tenevan
+               vece <lb break="no"/>di zavorra.
                <lb break="yes"/>‒ Oh assassino, oh carnefice! gridò il Barone Pitagorico ‒ tu se’ un mercante di
                schiavi.
                <lb break="yes"/>‒ Cioè, ci siamo in due; rispose malignamente lo Spagnuolo; perché Vostra Eccellenza
-               <!--<lb break="no"/>-->ha firmato il contratto, e nessuno stenterà a capire la metafora dei fichi.
+               <lb break="no"/>ha firmato il contratto, e nessuno stenterà a capire la metafora dei fichi.
                <lb break="yes"/>‒ Appena giunto a terra ti farò appiccare! strepitava il Barone.
                <lb break="yes"/>‒ Ci faremo compagnia! soggiunse il capitano.</p>
-            <p>E per quanto il Barone sudasse per pur salvarsi dai ragionamenti di costui <!--<lb break="no"/>-->non
+            <p>E per quanto il Barone sudasse per pur salvarsi dai ragionamenti di costui <lb break="no"/>non
                ci fu modo di sfuggire; anzi gli convenne ingojarsi per giunta una lunga
-               disserta<!--<lb break="no"/>-->zione sulle due razze del genere umano, la bianca e la nera; l’una
-               creata apposta <!--<lb break="no"/>-->per vendere comprare e bastonare, l’altra per esser venduta
+               disserta<lb break="no"/>zione sulle due razze del genere umano, la bianca e la nera; l’una
+               creata apposta <lb break="no"/>per vendere comprare e bastonare, l’altra per esser venduta
                comprata e bastonata.
                <lb break="yes"/>‒ Ed è vero; soggiunse quell’omaccio del capitano ‒ è vero che vi son paesi dove
-               <!--<lb break="no"/>-->i bianchi son negri, e i negri bianchi, ma l’eccezione conferma la regola.</p>
+               <lb break="no"/>i bianchi son negri, e i negri bianchi, ma l’eccezione conferma la regola.</p>
             <p>Or dunque gli schiavi furono venduti, e benchè un terzo ne fosse rimasto in
-               <!--<lb break="no"/>-->mare, pure il guadagno parve assai largo: solamente il Barone
-               non volle toccar di quel <!--<lb break="no"/>-->danaro maledetto, e stringeva sempre
-               il capitano perché lo menasse a Nuova Yorch <!--<lb break="no"/>-->com’avevano
+               <lb break="no"/>mare, pure il guadagno parve assai largo: solamente il Barone
+               non volle toccar di quel <lb break="no"/>danaro maledetto, e stringeva sempre
+               il capitano perché lo menasse a Nuova Yorch <lb break="no"/>com’avevano
                pattuito. Costui faceva orecchie da mercante; e gli veniva dichiarando, come
-                  <!--<lb break="no"/>--><del>un</del> una buona metà del Congresso più liberale e
-               repubblicano del mondo tenesse la schiavitù <!--<lb break="no"/>-->per un’opera di
+                  <lb break="no"/><del>un</del> una buona metà del Congresso più liberale e
+               repubblicano del mondo tenesse la schiavitù <lb break="no"/>per un’opera di
                carità fiorita, anzi una vera tutela provvidenziale. <lb break="yes"/>‒ Io sto per
                l’altra metà, io sto per l’altra metà! si pose a gridare Don Camillo. <lb break="yes"/>‒ Me ne congratulo con lui; soggiunse il capitano ‒ In quanto a me, siccome non mi
-               <!--<lb break="no"/>-->sento da tanto di librar le ragioni di questi e di quelli,
-               così mi piglio bell’e fatta l’o<!--<lb break="no"/>-->pinione che mi dà maggior
+               <lb break="no"/>sento da tanto di librar le ragioni di questi e di quelli,
+               così mi piglio bell’e fatta l’o<lb break="no"/>pinione che mi dà maggior
                utile. <lb break="yes"/>‒ Quanto buone sorelle sono birberia ed ignoranza! mormorò il
-               Barone; e a più chia<!--<lb break="no"/>-->ra voce soggiunse; Spero che finalmente
+               Barone; e a più chia<lb break="no"/>ra voce soggiunse; Spero che finalmente
                salperemo per Nuova Yorch! <lb break="yes"/>‒ Ancora un po’ di pazienza; ribattè con
-               beffarda umiltà il capitano; non la vede <!--<lb break="no"/>-->quelle poche casse
+               beffarda umiltà il capitano; non la vede <lb break="no"/>quelle poche casse
                caricate stamane dalla ciurma?..... Or bene; una breve gitarella
-               <!--<lb break="no"/>-->di piacere per isporgerle al General <persName ref="#walker">Walker</persName> a Costarica, e poi sono con lei. <lb break="yes"/>‒ Ah
+               <lb break="no"/>di piacere per isporgerle al General <persName ref="#walker">Walker</persName> a Costarica, e poi sono con lei. <lb break="yes"/>‒ Ah
                birbante!..... ah marrano!.… io voglio smontare: olà, signor piloto! <lb break="yes"/>‒ È inutile: continuava il capitano ‒ son già levate le ancore, e un buon Greco ci
-               <!--<lb break="no"/>-->gonfia le vele per <del>l’Ame</del> Costarica.</p>
+               <lb break="no"/>gonfia le vele per <del>l’Ame</del> Costarica.</p>
             <p>Il Barone gridava, fremeva, <del>e</del> sbuffava, e le risa della ciurma <del>r</del>
-               raddoppiavano <!--<lb break="no"/>-->per le sue convulsioni; volle <del>alfine</del> cercar un conforto
-               nella filosofia, ma questa gli man<!--<lb break="no"/>-->cava sotto, come una tavola zoppa al
-               brancicare d’un ubbriaco: finì col rinchiudersi <!--<lb break="no"/>-->nella sua cella, e anche là lo
-               perseguitavano i dileggi clamorosi de’ marinaj, e le dispe<!--<lb break="no"/>-->rate paure della
-               coscienza. Infinallora, anziché abbattersi in alcuno che per far suo pro’ <!--<lb break="no"/>-->della
+               raddoppiavano <lb break="no"/>per le sue convulsioni; volle <del>alfine</del> cercar un conforto
+               nella filosofia, ma questa gli man<lb break="no"/>cava sotto, come una tavola zoppa al
+               brancicare d’un ubbriaco: finì col rinchiudersi <lb break="no"/>nella sua cella, e anche là lo
+               perseguitavano i dileggi clamorosi de’ marinaj, e le dispe<lb break="no"/>rate paure della
+               coscienza. Infinallora, anziché abbattersi in alcuno che per far suo pro’ <lb break="no"/>della
                fortuna adoperasse gli argomenti della virtù, avea trovato la birbonaggine padrona
             </p>
          </div>
@@ -3599,69 +3580,69 @@
             <p>‒ Qual atroce colpo mi date con questa sentenza! gli disse. <lb break="yes"/>‒ Siete
                filosofo e non sapevate una tal verità? domandò l’altro. <lb break="yes"/>‒ Viaggio
                per persuadermi del contrario; riprese mogio mogio il Barone; e cerco il
-               <!--<lb break="no"/>-->perfetto accordo della virtù colla felicità; almeno colla
+               <lb break="no"/>perfetto accordo della virtù colla felicità; almeno colla
                felicità interiore degli stoici. <lb break="yes"/>‒ La troverete! disse gravemente
                l’Americano. <lb break="yes"/>‒ Dove? chiese con ansia il Barone. <lb break="yes"/>‒
                In Paradiso; rispose l’altro; se avete fede, speranza, carità…… e pazienza. <lb break="yes"/>‒ Vi dirò; riprese indi a poco Don Camillo ‒ Sì, è vero che nel mondo
-               trovai finora <!--<lb break="no"/>-->la contraddizione del male col minor male, e
+               trovai finora <lb break="no"/>la contraddizione del male col minor male, e
                come dicono <persName ref="#pitagora">Pitagora</persName> e il Baron Clodoveo mio
-               ri<!--<lb break="no"/>-->spettabile avo, il binario senza complemento, l’oscillazione
-               fra due termini senza la quiete <!--<lb break="no"/>-->conciliativa del terzo. Ma se
+               ri<lb break="no"/>spettabile avo, il binario senza complemento, l’oscillazione
+               fra due termini senza la quiete <lb break="no"/>conciliativa del terzo. Ma se
                no l’ trovai finora (badate che ho visitato soltanto Genova la
-               <!--<lb break="no"/>-->Spagna, Tunisi, <del>e</del> Costarica, e gli Stati-Uniti)
-               confido di essere più fortunato in seguito. Poiché, <!--<lb break="no"/>-->argomento
+               <lb break="no"/>Spagna, Tunisi, <del>e</del> Costarica, e gli Stati-Uniti)
+               confido di essere più fortunato in seguito. Poiché, <lb break="no"/>argomento
                io, questo accordo finale, questo <foreign xml:lang="lat"><hi rend="underline">trinum
                      perfectum</hi></foreign>
                <persName ref="#pitagora">Pitagora</persName> e il Baron Clodoveo hanno
-               <!--<lb break="no"/>-->potuto pensarlo. Ora il pensiero è un ideale, cioè un riflesso
-               del reale, il quale non avreb<!--<lb break="no"/>-->be potuto separarsi dal suo
+               <lb break="no"/>potuto pensarlo. Ora il pensiero è un ideale, cioè un riflesso
+               del reale, il quale non avreb<lb break="no"/>be potuto separarsi dal suo
                intero, o essere astratto dalla concezione, o più chiaramente essere
-               <!--<lb break="no"/>-->concepito, se egli già prima realmente non esisteva
+               <lb break="no"/>concepito, se egli già prima realmente non esisteva
                   <del>anch</del> ‒ E così del pari; se egli ha una volta
-               <!--<lb break="no"/>-->esistito, deve tuttora esistere; poiché il perfetto è
-               incorruttibile; come noi a Nicastro, per esempio, di<!--<lb break="no"/>-->ciamo
+               <lb break="no"/>esistito, deve tuttora esistere; poiché il perfetto è
+               incorruttibile; come noi a Nicastro, per esempio, di<lb break="no"/>ciamo
                perfetto quel vino che in ragion di tempo guadagna anziché perdere di soavità e di
-               vigoria; <del>a</del><!--<lb break="no"/>-->e che l’incorruttibile poi sia di sua
+               vigoria; <del>a</del><lb break="no"/>e che l’incorruttibile poi sia di sua
                natura eterno anche le oche lo sanno. <lb break="yes"/>‒ Benissimo, <foreign xml:lang="lat"><hi rend="underline">optime</hi></foreign>! soggiunse l’Americano ‒
-               Ma vi sono due filosofie per dar ordine a <!--<lb break="no"/>-->codesta materia.
+               Ma vi sono due filosofie per dar ordine a <lb break="no"/>codesta materia.
                L’una che cerca questo finale accordo, persuasa ch’esso esista, l’altra
-               per<!--<lb break="no"/>-->suasa parimenti di ciò, e persuasa tanto, anzi
-               persuasissima, che non crede opportuno sconciarsi <!--<lb break="no"/>-->per
+               per<lb break="no"/>suasa parimenti di ciò, e persuasa tanto, anzi
+               persuasissima, che non crede opportuno sconciarsi <lb break="no"/>per
                corrergli dietro. <lb break="yes"/>‒ Oh no io voglio vedere! Io ho scelto la prima!
                sclamò l’Europeo. <lb break="yes"/>‒ Ed io la seconda, riprese sorridendo
                l’Americano. <lb break="yes"/>‒ Ma non sarete mai completamente illuminato; disse Don
                Camillo. <lb break="yes"/>‒ E voi non avrete un<!-- nell’originale spazio senza apostrofo -->’ora sola di quiete; continuò il
                giudice. <lb break="yes"/>‒ Trovato ch’io abbia il mio ideale; proseguì Don Camillo;
-               mi ridurrò nel bel castello di <!--<lb break="no"/>-->Nicastro col mio segretario
+               mi ridurrò nel bel castello di <lb break="no"/>Nicastro col mio segretario
                Floriano, e con una bella sposina…. (Oh se quella che
-               m’in<!--<lb break="no"/>-->tendo io avesse i sessantaquattro quarti!...<supplied reason="omitted-in-original">)</supplied> <lb break="yes"/>‒ Cosa dite? … chiese l’Americano. <lb break="yes"/>‒ Dico; riprese
+               m’in<lb break="no"/>tendo io avesse i sessantaquattro quarti!...<supplied reason="omitted-in-original">)</supplied> <lb break="yes"/>‒ Cosa dite? … chiese l’Americano. <lb break="yes"/>‒ Dico; riprese
                il Barone; che dato ordine al punto cardinale della discendenza, scriverò
-               un’O<!--<lb break="no"/>-->pera in venti volumi con note commenti e carte
+               un’O<lb break="no"/>pera in venti volumi con note commenti e carte
                topografiche contro quel vanerello di <persName ref="#bruto">Bruto</persName>
-               <!--<lb break="no"/>-->ch’ebbe la <del>sfatt</del> sfacciataggine d’equiparare la
+               <lb break="no"/>ch’ebbe la <del>sfatt</del> sfacciataggine d’equiparare la
                virtù a un zero matematico. <lb break="yes"/>‒ Tutto sta che troviate il <foreign xml:lang="lat"><hi rend="underline">trinum perfectum</hi></foreign>; obiettò il
-               Giudice ‒ lì è il salto dell’asino. <!--<lb break="no"/>--><choice><sic>a</sic> <corr>A</corr></choice> mia veduta le cose
+               Giudice ‒ lì è il salto dell’asino. <lb break="no"/><supplied reason="capital">A</supplied> mia veduta le cose
                umane sono zoppe, imperfette, e doppie come cipolle, ma nessuna
-               rag<!--<lb break="no"/>-->giunge l’accordo triplice e finale che voi cercate. Due,
-               per esempio, sono i poli del mondo e <!--<lb break="no"/>-->perciò il mondo gira a
+               rag<lb break="no"/>giunge l’accordo triplice e finale che voi cercate. Due,
+               per esempio, sono i poli del mondo e <lb break="no"/>perciò il mondo gira a
                traballone che ci fa perder la pazienza; due sono i sessi degli
-               ani<!--<lb break="no"/>-->mali, onde la guerra è diventata fra essi il pane d’ogni
-               giorno: e per parlarvi specialmente dell’uo<!--<lb break="no"/>-->mo, esso ha due
+               ani<lb break="no"/>mali, onde la guerra è diventata fra essi il pane d’ogni
+               giorno: e per parlarvi specialmente dell’uo<lb break="no"/>mo, esso ha due
                gambe, colle quali, giungile e sgiungile, non arriva in alcun luogo: ha due
-               oc<!--<lb break="no"/>-->chi, uno che vede l’altro che stravede; due orecchie
+               oc<lb break="no"/>chi, uno che vede l’altro che stravede; due orecchie
                   <del>l’u</del> messe là apposta per lasciar passare</p>
             <pb corresp="#FP3941" facs="ms_3491_c2v.jpg" n="4"/>
             <p>nette di dazio la verità; due mani per distruggere vicendevolmente l’opera di
-               cadauna; <!--<lb break="no"/>-->due ginocchi per frusciarli sui piedistalli d’Iside e d’Anubi; due mascelle
-               per rubar <!--<lb break="no"/>-->il pasto al vicino, due spalle capaci di addossarsi animosamente ogni
-               furfanteria ben pa<!--<lb break="no"/>-->gata, due natiche da offrirle allo scudiscio purché gli si ricolmi
-               la mangiatoja, due <!--<lb break="no"/>-->ventricoli da travasar il sangue fino a che si guasti, due…….
+               cadauna; <lb break="no"/>due ginocchi per frusciarli sui piedistalli d’Iside e d’Anubi; due mascelle
+               per rubar <lb break="no"/>il pasto al vicino, due spalle capaci di addossarsi animosamente ogni
+               furfanteria ben pa<lb break="no"/>gata, due natiche da offrirle allo scudiscio purché gli si ricolmi
+               la mangiatoja, due <lb break="no"/>ventricoli da travasar il sangue fino a che si guasti, due…….
              <lb break="yes"/>‒ Per pietà, non vi incaponite nella vostra dimostrazione anatomica! sclamò Don
-               Ca<!--<lb break="no"/>-->millo ‒ Dio sa dove andreste a cascare!..... e del resto sappiatelo, che li conosco
-               anch’io <!--<lb break="no"/>-->quei Signori filosofi i quali ci consentono la facoltà generativa solo per
-               metter al mondo <!--<lb break="no"/>-->o dei vigliacchi o dei piagnoni. Un certo nostro <persName ref="#leopardi">Leopardi</persName> che la
-               sapea più m lunga di <!--<lb break="no"/>-->molti celebri Inglesi, e celeberrimi Francesini, ci è cascato
-               anche a lui quando ad una sua <!--<lb break="no"/>-->sorella prossima a maritarsi scriveva;</p>
+               Ca<lb break="no"/>millo ‒ Dio sa dove andreste a cascare!..... e del resto sappiatelo, che li conosco
+               anch’io <lb break="no"/>quei Signori filosofi i quali ci consentono la facoltà generativa solo per
+               metter al mondo <lb break="no"/>o dei vigliacchi o dei piagnoni. Un certo nostro <persName ref="#leopardi">Leopardi</persName> che la
+               sapea più m lunga di <lb break="no"/>molti celebri Inglesi, e celeberrimi Francesini, ci è cascato
+               anche a lui quando ad una sua <lb break="no"/>sorella prossima a maritarsi scriveva;</p>
             <p style="text-align:center"><cit>
                <quote><l n="1">Miseri o codardi</l>
                   <l n="2">Figliuoli avrai....</l></quote>
@@ -3673,32 +3654,32 @@
                domandò meravigliato Don Camillo. <lb break="yes"/>‒ Non la so; ma l’indovino;
                rispose l’altro. <lb break="yes"/>‒ Allora indovinate male. <lb break="yes"/>‒ Forse,
                caro Barone; perché pur troppo l’uomo ebbe da natura due facoltà
-               diversis<!--<lb break="no"/>-->sime; l’intelletto e la volontà; e se colla prima
-               antepone l’onorata miseria alla com<!--<lb break="no"/>-->moda vigliaccheria, sovente
+               diversis<lb break="no"/>sime; l’intelletto e la volontà; e se colla prima
+               antepone l’onorata miseria alla com<lb break="no"/>moda vigliaccheria, sovente
                la seconda capovolge nella pratica la teoria della prima. <lb break="yes"/>‒ Voi
                bestemmiate alla bontà originale degli uomini, caro confratello; voi siete un
-               <!--<lb break="no"/>-->materialista fracido. <lb break="yes"/>‒ Cercate gli uomini
+               <lb break="no"/>materialista fracido. <lb break="yes"/>‒ Cercate gli uomini
                per tutto il mondo, e mi saprete dire se io li calunnio. <lb break="yes"/>‒ Li
                cercherei volentieri; ma cosa sarà intanto di Floriano?.....… Cosa sarà della
-               Te<!--<lb break="no"/>-->soruccia di Genova, del lampadajo di sua moglie e della mia
+               Te<lb break="no"/>soruccia di Genova, del lampadajo di sua moglie e della mia
                discendenza? <lb break="yes"/>‒ Non vi scorate; disse gravemente l’Americano ‒ Domani
-               parte un piroscafo ca<!--<lb break="no"/>-->rico di dotti degli Stati Uniti, i quali
-               faranno certi loro sperimenti astronomici in tutte <!--<lb break="no"/>-->le
+               parte un piroscafo ca<lb break="no"/>rico di dotti degli Stati Uniti, i quali
+               faranno certi loro sperimenti astronomici in tutte <lb break="no"/>le
                latitudini del globo. Io con una commendatizia vi faccio aggiungere alla schiera, e
-               <!--<lb break="no"/>-->così in meno di due anni avrete sbrigato la bisogna. Troverete
-               sani allegri ingrassati <!--<lb break="no"/>-->Floriano, la Tesoruccia, il lampadajo
-               e la moglie; quanto all’albero genealogico vi <!--<lb break="no"/>-->assicuro io, che
+               <lb break="no"/>così in meno di due anni avrete sbrigato la bisogna. Troverete
+               sani allegri ingrassati <lb break="no"/>Floriano, la Tesoruccia, il lampadajo
+               e la moglie; quanto all’albero genealogico vi <lb break="no"/>assicuro io, che
                il vostro innesto per quanto maturo può ancora arricchirlo di dodici germogli. <lb break="yes"/>‒ O benedetto te, <foreign xml:lang="lat"><hi rend="underline">per
                      omnia secula</hi></foreign>! gridò il Signor di Nicastro gettandosi a corpo
-               morto <!--<lb break="no"/>-->sul Giudice filosofo ‒ vado in due salti alla Posta e
+               morto <lb break="no"/>sul Giudice filosofo ‒ vado in due salti alla Posta e
                torno col baule. <lb break="yes"/>‒ Ci sono lettere per Sua eccellenza il Signor
-               Camillo, Bernardo, Lucio Clodoveo Barone <!--<lb break="no"/>-->di Nicastro? domandò
+               Camillo, Bernardo, Lucio Clodoveo Barone <lb break="no"/>di Nicastro? domandò
                egli al distributore. <lb break="yes"/>‒ Quante persone sono? soggiunse in francese
                costui. <lb break="yes"/>‒ Una, per bacco; rispose il Barone gonfiandosi come un
-               pollo d’India e posando <!--<lb break="no"/>-->sul petto le palme<supplied reason="omitted-in-original">.</supplied></p>
+               pollo d’India e posando <lb break="no"/>sul petto le palme<supplied reason="omitted-in-original">.</supplied></p>
             <p>Gli furono allora consegnate due lettere, nessuna delle quali offriva un esempio di
-               <!--<lb break="no"/>-->bello scrivere, e tuttavia il Barone diede la preferenza a quella fra le due la cui
-               calligrafia <!--<lb break="no"/>-->appariva più storpiata, e ne ruppe affannosamente il suggello. La
+               <lb break="no"/>bello scrivere, e tuttavia il Barone diede la preferenza a quella fra le due la cui
+               calligrafia <lb break="no"/>appariva più storpiata, e ne ruppe affannosamente il suggello. La
                Tesoruccia! Era</p>
          </div>
 </div>
@@ -4048,8 +4029,8 @@
                   a far la limosina per le anime del Purgatorio.</p>
                <p> − <persName ref="#Pitagora">Pitagora</persName> non aveva torto; riprese dal 
                   canto suo il nipote del Barone Clodoveo.
-                  − Ci vuole l’<foreign xml:lang="lat"><hi rend="italic">unum</hi></foreign> o il
-                     <foreign xml:lang="lat"><hi rend="italic">trinum</hi></foreign> per andare
+                  − Ci vuole l’<foreign xml:lang="lat">unum</foreign> o il
+                     <foreign xml:lang="lat">trinum</foreign> per andare
                   innanzi, e anche la virtù....</p>
                <p>Ma il mare si faceva sempre più grosso, e convenne lasciar in panna la filosofia
                   per lasciar parlare lo stomaco.</p>
@@ -4217,14 +4198,13 @@
                <p>− Eh, che uno d’Egitto! gridò l’illustre castellano; − se io avessi condotto da
                   Nicastro anche Madonna Nicefora, che non vuol muoversi per amore delle sue
                   galline, ci dò il capo che a quest’ora saremmo sul molo di Genova!..... <foreign
-                     xml:lang="lat"><hi rend="italic">Unum aut trinum</hi>!</foreign>.... se no si
+                     xml:lang="lat">Unum aut trinum!</foreign>.... se no si
                   zoppica sul primo passo, capisci Floriano? </p>
                <p>L’obbediente servitore fece un atto di profondo ossequio, che pure ebbe il merito
                   di non dire di sì: indi si diede a pensare cosa mai poteva essere la quarantena, e
                   come potete figurarvelo non venne a capo di imberciare nel vero.</p>
                <p>– Che fosse una specie di tortura? pensò egli con un brivido; ma dappoi gli parve
-                  atto pusillanime il rifuggire anche dalla tortura, e cominciò a mormorare <foreign xml:lang="lat"><hi
-                     rend="italic">Pater noster</hi></foreign> con quel che seguita.</p>
+                  atto pusillanime il rifuggire anche dalla tortura, e cominciò a mormorare <foreign xml:lang="lat">Pater noster</foreign> con quel che seguita.</p>
                <p>Il signor Barone intanto, ajutato dalle dita, riduceva a numeri tutto ciò che gli
                   capitava sott’occhi. Scoperse prima di tutto che due sono le punte dei vascelli,
                   la poppa e la prua, due gli alberi delle tartane, sulla qual specie di naviglio
@@ -4254,7 +4234,7 @@
                   altro, pensando ai numeri, alle dame di Cagliari, e al frutto ricavato fino allora
                   da quel viaggio per la riprova del suo sistema della virtù. </p>
                <p>– Basta! pensava egli; – quelle signore mi hanno ottima figura! esse saranno i
-                  primi argomenti <hi rend="italic">a posteriori</hi> per provare l’utilità della
+                  primi argomenti <foreign xml:lang="lat">a posteriori</foreign> per provare l’utilità della
                   mia teoria...... Quasi quasi andrei a visitarle!..... No, sì,..... sì,....
                   no....</p>
                <p>Floriano intanto, ritto dietro di lui, contemplava il disordine della sua parrucca
@@ -4337,7 +4317,7 @@
                <p> Le due dame erano a que’ giorni di Cagliari com’erano state di Genova, di Napoli
                   e di Venezia e d’altri molti paesi nei tempi addietro: viaggiavano esse
                   principalmente per piacere; non per lesineria come i Lordi del Regno Unito; non
-                  per pettegolezzo, come i <foreign xml:lang="fr"><hi rend="italic">savants</hi></foreign>
+                  per pettegolezzo, come i <foreign xml:lang="fr">savants</foreign>
                   degli ottantasei dipartimenti; non per estri
                   romantici, come i discepoli di <persName ref="#Bürger">Bürger</persName>, il poeta degli
                   scheletri; non pel quieto
@@ -4376,8 +4356,8 @@
                   finestra, l’altra per acconciarsi con miglior grazia le pieghe e direi quasi le
                   rughe dei suoi otto camuffi: e ambidue si mordevano le labbra, mentre l’ideologo
                   protettore cercava nelle fibbie delle scarpe una classica ispirazione.</p>
-               <p>− <foreign xml:lang="lat"><hi rend="italic">Nemo propheta in
-                  patria</hi></foreign>! disse finalmente il Barone alla più vistosa ed accivettata
+               <p>− <foreign xml:lang="lat">Nemo propheta in
+                  patria</foreign>! disse finalmente il Barone alla più vistosa ed accivettata
                   delle due, che sedeva sul baule, come <persName ref="#Cleopatra">Cleopatra</persName>
                   nel famoso carro di Venere. − La
                   signora; continuò egli; fugge il paese natale!</p>
@@ -4921,14 +4901,14 @@
                   quell’uomo tristo e cencioso, che solo erasi posto a bersaglio d’alquante
                   centinaja di moschetti senza stogliersi perciò dalla sua bisogna. Ad ogni tiro uno
                   degli ammiratori cadeva morto, e gli altri seguitavano ad ammirare.</p>
-               <p>− <foreign xml:lang="esp"><hi rend="italic">Por los hiios de
-                     Granada</hi></foreign>, che l’è un prodigio! diceva un sergente veterano. E non
+               <p>− <foreign xml:lang="esp">Por los hiios de
+                     Granada</foreign>, che l’è un prodigio! diceva un sergente veterano. E non
                   sentì lo scoppio dell’archibugiata perchè ne ebbe traforato il cranio da un
                   orecchio all’altro.</p>
-               <p>− Viva <foreign xml:lang="esp"><hi rend="italic">l’Espana!</hi></foreign>.... Viva
+               <p>− Viva <foreign xml:lang="esp">l’Espana!</foreign>.... Viva
                   la <persName resp="#Isabella_II">Regina</persName> e le 
                   <foreign xml:lang="esp">Cortes</foreign>!... Bravo!.... Viva la
-                     <foreign xml:lang="esp"><hi rend="italic">ciudad de Granada!</hi></foreign>
+                     <foreign xml:lang="esp">ciudad de Granada!</foreign>
                   vociavano alla rinfusa soldati e cittadini; mentre lo strano cavaliero seguitava
                   quieto quieto, come se mirasse, sto per dire alle rondini.</p>
                <p>Allora ad un cattivello di giornalista saltò il ticchio di rivaleggiare col
@@ -5065,9 +5045,8 @@
                <p>− Non signore; continuò il capitano − il padrone vuol solamente che facciamo scalo
                   a Tunisi per completarvi il carico di datteri e di fichi secchi.</p>
                <p>− Ohimè! anche i fichi secchi; mormorò Don Camillo.</p>
-               <p>− Però la si faccia animo, riprese il capitano; le insegnerò a fumare tanto <choice><orig>di</orig><reg>da</reg><!--sic--></choice>
-                  ingannar il tempo. Trenta <foreign xml:lang="esp"><hi rend="italic"
-                     >paquitos</hi></foreign> al giorno, e, lo creda a me, le parrà che Tunisi sia
+               <p>− Però la si faccia animo, riprese il capitano; le insegnerò a fumare tanto <choice><sic>di</sic><corr>da</corr></choice>
+                  ingannar il tempo. Trenta <foreign xml:lang="esp">paquitos</foreign> al giorno, e, lo creda a me, le parrà che Tunisi sia
                   una scorciatoja per Nuova York.</p>
                <p>− Proveremo anche questa, borbottò il Barone; e si mise gravemente a rotolar fra
                   le dita i suoi cigaretti come vedeva fare al maestro. Cionnonpertanto, fumati che
@@ -5207,7 +5186,7 @@
                   angeli!</p>
                <p>– È un’infamia! è una beccheria! gridò il Barone – e volgendosi all’altro santone:
                   Che ne dite voi? soggiunse. </p>
-               <p>– <hi rend="italic"><foreign xml:lang="ar">Salamalech</foreign>!</hi> rispose
+               <p>– <foreign xml:lang="ar">Salamalech</foreign>! rispose
                   costui – Allah è Allah, e <persName resp="#Maometto">Maometto</persName> è il 
                   suo profeta.</p>
                <p>– <persName resp="#Maometto">Maometto</persName> è un boja! sclamò Don 
@@ -5225,8 +5204,7 @@
                   dovrebbe essere allestito da un mese.</p>
                <p>– Anche per questa volta il danno è che siamo in due; ribattè lo Spagnuolo. – Il
                   padrone della nave è via pel deserto, e per quanto il carico sia lesto, io non
-                  posso già partire prima ch’ei ritorni. Abbia pazienza, <foreign xml:lang="esp"><hi
-                        rend="italic">Senor Baron</hi></foreign>! fumi dei cigaretti!</p>
+                  posso già partire prima ch’ei ritorni. Abbia pazienza, <foreign xml:lang="esp">Senor Baron</foreign>! fumi dei cigaretti!</p>
                <p>– Sarà il minor male; brontolò il Barone – Ma ricoveratosi a bordo, ne fumò tanti
                   e tanti, che gli ebbe a scoppiare addosso una febbre cerebrale</p>
                <pb n="224" facs="pung57_08_22_224.jpg"/>
@@ -5381,7 +5359,7 @@
                   per non essere burlato come tutti gli altri, che nel 
                   giorno appunto che compiva i quarant’anni potè 
                   alzarsi dallo scrittojo e spalancar la finestra dicendo: 
-                  Ho finito! – Povero filosofo!... <choice><orig>primo</orig><reg>prima</reg></choice> di 
+                  Ho finito! – Povero filosofo!... <choice><sic>primo</sic><corr>prima</corr></choice> di 
                   cominciare credeva sul serio di aver finito!... – Ma 
                   come poi aveva finito?... Col ficcarsi appunto in 
                   capo la fede più santa, più generosa che mai
@@ -5595,8 +5573,8 @@
                   L’alba del terzo giorno vide don Chisciotte e Sancio
                   imbarcarsi sur una tartana che salpava da 
                   Cagliari per Genova. Floriano recitava
-                     l’<foreign xml:lang="lat"><hi rend="italic">Angelus 
-                           Domini</hi></foreign>; il
+                     l’<foreign xml:lang="lat">Angelus 
+                           Domini</foreign>; il
                   Barone mormorava che l’avrebbe fatta 
                   tenere a quel miscredente di <persName ref="#Bruto">Bruto</persName>.</p>
             </div>
@@ -5659,8 +5637,8 @@
                <p>− <persName ref="#Pitagora">Pitagora</persName> non aveva torto; riprese dal canto 
                   suo <supplied reason="omitted-in-original">il nipote del</supplied>del Barone Clodoveo. 
                   − Ci vuole
-                     l’<foreign xml:lang="lat"><hi rend="italic">unum</hi></foreign> o il <foreign
-                     xml:lang="lat"><hi rend="italic">trinum</hi></foreign> per andare innanzi, e
+                     l’<foreign xml:lang="lat">unum</foreign> o il <foreign
+                     xml:lang="lat">trinum</foreign> per andare innanzi, e
                   anche la virtù....</p>
                <p>Ma il mare si faceva sempre più grosso, e convenne lasciar in panna la filosofia
                   per lasciar parlare lo stomaco.</p>
@@ -6008,8 +5986,7 @@
                <p>Le due dame erano a que’ giorni di Cagliari com’erano state di Genova, di Napoli e
                   di Venezia e d’altri molti paesi nei tempi addietro: viaggiavano esse
                   principalmente per piacere; non per lesineria come i lordi del Regno Unito; non
-                  per pettegolezzo, come i <foreign xml:lang="fr"><hi rend="italic"
-                     >savants</hi></foreign> degli ottantasei dipartimenti; non per estri romantici,
+                  per pettegolezzo, come i <foreign xml:lang="fr">savants</foreign> degli ottantasei dipartimenti; non per estri romantici,
                   come i discepoli di <persName ref="#Bürger">Bürger</persName>, il poeta degli scheletri; non pel quieto vivere, come
                   gli Spagnuoli; non per superbia, come gli Americani; non per seminar genovine,
                   come taluno che però io non conosco; non pel ruzzo di pelare, come molti altri che
@@ -6044,8 +6021,8 @@
                   finestra, l’altra per acconciarsi con miglior grazia le pieghe e direi quasi le
                   rughe dei suoi otto camuffi: e ambidue si mordevano le labbra, mentre l’ideologo
                   protettore cercava nelle fibbie delle scarpe una classica ispirazione.</p>
-               <p>− <foreign xml:lang="lat"><hi rend="italic">Nemo propheta in
-                  patria</hi></foreign><hi rend="italic">!</hi> disse finalmente il Barone alla più vistosa ed accivettata
+               <p>− <foreign xml:lang="lat">Nemo propheta in
+                  patria</foreign><hi rend="italic">!</hi> disse finalmente il Barone alla più vistosa ed accivettata
                   delle due, che sedeva sul baule, come <persName ref="#Cleopatra">Cleopatra</persName> nel famoso carro di Venere. − La
                   signora; continuò egli; fugge il paese natale!</p>
                <p>− Il nobile Barone ha colto nel segno, rispose la dama; − fuggo il paese natale,
@@ -6317,8 +6294,7 @@
                   nominarla, così me ne dispenso anch’io, lasciando
                   alla vostra fantasia il divertimento di figurarsela, e alla 
                   vostra salute
-                  l’augurio che possa essa farne senza in <foreign xml:lang="lat"><hi rend="italic"
-                        >saecula saeculorum</hi></foreign>.</p>
+                  l’augurio che possa essa farne senza in <foreign xml:lang="lat">saecula saeculorum</foreign>.</p>
             </div>
             <pb n="250" facs="fugg_250.jpg"/>
             <div type="textpart" subtype="chapter" corresp="#R" n="9">
@@ -6516,8 +6492,7 @@
                <p>− Sempre uno di più, o uno di meno! mormorò sospirando il Barone. − E siccome il
                   marrano di mulattiere erasene andato coi gentiluomini Carlisti, egli riprese solo
                   soletto il suo viaggio Pitagorico, divisando di farsi scontare una cambiale nella
-                  vicina città, e di pregare una dozzina di <foreign xml:lang="esp"><hi
-                        rend="italic">hidalghi</hi></foreign> di fargli compagnia fino a Cadice, ove
+                  vicina città, e di pregare una dozzina di <foreign xml:lang="esp">hidalghi</foreign> di fargli compagnia fino a Cadice, ove
                   voleva imbarcarsi per Montevideo.</p>
             </div>
             <div type="textpart" subtype="chapter" corresp="#R" n="12">
@@ -6542,8 +6517,7 @@
                   Generali e dei Ministri, e la Spagna delle 
                   <foreign xml:lang="esp"
                      >Cortes</foreign>, doi Governatori e dei 
-                  <foreign xml:lang="esp"><hi
-                        rend="italic">pronunciamentos</hi></foreign>. 
+                  <foreign xml:lang="esp">pronunciamentos</foreign>. 
                   Ora Vostra Eccellenza ha
                   viaggiato con un passaporto della <persName ref="#Isabella_II">Regina</persName> la Spagna della <persName ref="#Isabella_II">Regina</persName>; 
                   e un dispaccio
@@ -6571,9 +6545,7 @@
                <p>Infatti quattr’ore dopo il Barone di Nicastro uscì dalla stessa porta di Cadice
                   che l’aveva veduto entrare il mattino, e fra un debito rastrello di picche e di
                   baionette riprese a piccole giornate la via di Madrid. Giunto nonpertanto a
-                  Granata, trovarono che vi si era fatto un <foreign xml:lang="esp"
-                     ><hi rend="italic">pronunciamento</hi></foreign> contro il <foreign xml:lang="esp"
-                        ><hi rend="italic">pronunciamento</hi></foreign>; che la guarnigione e i sobborghi aveano rialzato lo
+                  Granata, trovarono che vi si era fatto un <foreign xml:lang="esp">pronunciamento</foreign> contro il <foreign xml:lang="esp">pronunciamento</foreign>; che la guarnigione e i sobborghi aveano rialzato lo
                   stendardo dei Ministri, e che la città s’era messa in arme per difendere la
                   bandiera del Parlamento. Le guardie nazionali di Cadice furono le mal capitate; si
                   sparò loro addosso d’ogni parte, cinque o sei rimasero morte, tre furono
@@ -6631,8 +6603,8 @@
                <p>− Voi combattevate per le <foreign xml:lang="esp">Cortes</foreign> insieme ai
                   ribelli! gli ruggì nelle orecchie il Capitan Generale.</p>
                <p>− Cioè,.. mormorò il Barone che a mala pena si reggeva.</p>
-               <p>− <hi rend="italic"><foreign xml:lang="esp">Por todos los e por todes
-                        les</foreign>!</hi> gridò il Capitano − si sa che venivate in città con un
+               <p>− <foreign xml:lang="esp">Por todos los e por todes
+                        les</foreign>! gridò il Capitano − si sa che venivate in città con un
                   soccorso di guardie nazionali, e non era certo per farvi gli esercizii spirituali.</p>
                <p>− Nondimeno... s’intromise fiocamente Don Camillo.</p>
                <p>− Cospettonaccio! volete sempre parlar voi! sclamò l’altro con voce ancora più
@@ -6672,13 +6644,13 @@
                   quell’uomo tristo e cencioso, che solo erasi posto a bersaglio d’alquante
                   centinaja di moschetti senza stogliersi perciò dalla sua bisogna. Ad ogni tiro uno
                   degli ammiratori cadeva morto, e gli altri seguitavano ad ammirare.</p>
-               <p>− <foreign xml:lang="esp"><hi rend="italic">Por los hiios de
-                     Granada</hi></foreign>, che l’è un prodigio! diceva un sergente veterano. E non
+               <p>− <foreign xml:lang="esp">Por los hiios de
+                     Granada</foreign>, che l’è un prodigio! diceva un sergente veterano. E non
                   sentì lo scoppio dell’archibugiata perchè ne ebbe traforato il cranio da un
                   orecchio all’altro. − Viva <hi rend="italic">l’<foreign xml:lang="esp"
                         >Espana</foreign>!</hi>... Viva la <persName ref="#Isabella_II">regina</persName> e le <foreign xml:lang="esp"
-                     >Cortes</foreign>!... Bravo!... Viva <hi rend="italic"><foreign xml:lang="esp"
-                        >la ciudad de Granada</foreign>!</hi> vociavano alla rinfusa soldati e
+                     >Cortes</foreign>!... Bravo!... Viva <foreign xml:lang="esp"
+                        >la ciudad de Granada</foreign>! vociavano alla rinfusa soldati e
                   cittadini; mentre lo strano cavaliero seguitava quieto quieto, come se mirasse,
                   sto per dire alle rondini.</p>
                <p>Allora ad un cattivello di giornalista saltò il ticchio di rivaleggiare col
@@ -6895,7 +6867,7 @@
                <p>− Lo credo bene − rispose il Maomettano − Io acqueto la sua coscienza e quella
                   delle sue cento mogli e quelle de’ suoi ministri; e metto d’accordo i grilli
                   filantropici dei consoli Europei colla tratta dei negri nonchè la giustizia
-                  sommaria dei nostri <foreign xml:lang="ar"><hi rend="italic">cadì</hi></foreign> col <foreign xml:lang="turk"><hi rend="italic">Tanzimat</hi></foreign> di Costantinopoli! − La filosofia non è
+                  sommaria dei nostri <foreign xml:lang="ar">cadì</foreign> col <foreign xml:lang="turk">Tanzimat</foreign> di Costantinopoli! − La filosofia non è
                   onnipotente per nulla, caro Barone. Laonde io l’adopero pel mio meglio</p>
                <p>− Che razza di filosofia! pensò il Barone − Credo che lo mettessi tropp’alto a
                   crederlo un neo-platonico − Ditemi, aggiunse poi con un certo piglio furbesco,
@@ -7179,7 +7151,7 @@
                   provvista di datteri, era stato rapito dal beduino cui per avventura il capitano
                   aveva commesso di toglierlo di mezzo; senonchè il beduino per golaggine di danaro
                   avevalo venduto vivo il giorno dopo ad un 
-                  <hi rend="italic"><foreign xml:lang="turk">muezzin</foreign></hi>; e presso questo fingendosi
+                  <foreign xml:lang="turk">muezzin</foreign>; e presso questo fingendosi
                   mussulmano egli, avea potuto guadagnare Marocco, e di là col soccorso de’ suoi
                   corrispondenti un porto della Spagna; donde era partito un mese prima sulle
                   traccie del trabaccolo fuggitivo.</p>
@@ -7201,11 +7173,10 @@
                <p>− Grazie, grazie, diceva il Barone togliendosi dal sibilante cicaleccio di que’
                   signori per uscir dalla sala. − Non s’incomodino... so dove sono le scale...</p>
                <pb n="283" facs="fugg_283.jpg"/>
-               <p>− <foreign xml:lang="lat"><hi rend="italic">Permitte, Domine</hi></foreign>; gli
-                  disse rispettosamente l’interprete latinista, <foreign xml:lang="lat"><hi
-                        rend="italic">quoniam Domini <persName ref="#Walker">Walkerio</persName> 
+               <p>− <foreign xml:lang="lat">Permitte, Domine</foreign>; gli
+                  disse rispettosamente l’interprete latinista, <foreign xml:lang="lat">quoniam Domini <persName ref="#Walker">Walkerio</persName> 
                         adversus Costaricanos opem tulisti
-                        mulctam Duom mille dollariorum solvebis</hi></foreign>.</p>
+                        mulctam Duom mille dollariorum solvebis</foreign>.</p>
                <p>− Oh cosa c’entro io in questo? strillò Don Camillo alquanto stizzito − io voleva
                   venir dritto a Nuova York e fu il capitano che mi trasportò a forza laggiù. Ora
                   come stava a me di oppormi a chi poteva gettarmi alle nozze della Dea Teti!</p>
@@ -7294,8 +7265,8 @@
                   se non trovai finora
                   (badate che ho visitato soltanto Genova, la Spagna, Tunisi, Costarica e gli Stati
                   Uniti) confido di essere più fortunato in seguito, poichè, (argomento io), questo
-                  accordo finale, questo <foreign xml:lang="lat"><hi rend="italic">trinum
-                        perfectum</hi></foreign>, <persName ref="#Pitagora">Pitagora</persName> e 
+                  accordo finale, questo <foreign xml:lang="lat">trinum
+                        perfectum</foreign>, <persName ref="#Pitagora">Pitagora</persName> e 
                   il Baron Clodoveo hanno potuto
                   pensarlo. Ora il pensiero è un ideale, cioè un riflesso o un astratto del reale,
                   il quale non avrebbe potuto separarsi dal suo intero o essere astratto dalla
@@ -7307,7 +7278,7 @@
                   perfetto quel vino che in ragion di tempo guadagna anzichè perdere di soavità e
                   vigoria. E che l’incorruttibile poi sia di sua natura eterno anche le oche lo
                   sanno.</p>
-               <p>− Benissimo; <foreign xml:lang="lat"><hi rend="italic">optime</hi></foreign>!
+               <p>− Benissimo; <foreign xml:lang="lat">optime</foreign>!
                   soggiunse l’Americano. − Ma vi sono due filosofie per dar ordine a 
                   <choice><sic>codeata</sic><corr>codesta</corr></choice>
                   materia. L’una che cerca questo finale accordo, persuasa ch’esso esista; l’altra
@@ -7332,7 +7303,7 @@
                   dubbio la virtù.</p>
                <pb n="284" facs="fugg_284.jpg"/>
                <p>− Tutto sta che troviate il 
-                  <foreign xml:lang="lat"><hi rend="italic">trinum perfectum</hi></foreign> 
+                  <foreign xml:lang="lat">trinum perfectum</foreign> 
                   di cui andate in cerca − obbiettò il
                   giudice. − Sì, è il salto dell’asino. − A mia veduta le cose umane sono zoppe,
                   imperfette e doppie come cipolle, ma nessuna raggiunge quell’accordo triplice e
@@ -7369,7 +7340,7 @@
                         <biblScope unit="line">16-17</biblScope></bibl>
                   </cit></p>
                <p>− <cit><quote>Miseri eleggi</quote><bibl><author>Giacomo Leopardi</author><title>Nelle nozze della sorella Paolina</title><biblScope unit="line">17</biblScope></bibl></cit>! − suggerì l’Americano.</p>
-               <p>− <foreign xml:lang="lat"><hi rend="italic">Tu quoque?</hi></foreign>
+               <p>− <foreign xml:lang="lat">Tu quoque?</foreign>
                   poesia? − sclamò palpitando il Barone.</p>
                <p>− Non la so, ma l’indovino, rispose l’altro modestamente.</p>
                <p>− Allora, secondo me, indovinate male.</p>
@@ -7525,12 +7496,12 @@
                <p>− Qual acerba inchiesta mi fate! rispose Don Camillo. − Nè Floriano nè la
                   Tesoruccia li ho mai più veduti. − Peraltro, continuò picchiandosi sulla tasca da
                   petto e se non ho ancora trovato 
-                  <choice><orig>ne</orig><reg>nè</reg></choice> in Asia, nè in Africa, 
+                  n<supplied reason="omitted-accent">è</supplied> in Asia, nè in Africa, 
                   nè in America, nè in
                   Australia l’alleanza della virtù colla felicità, ho trovato un altro documento del
                   pari rilevante!... l’aveva sempre detto io, che Canistro è un nome storico
                   Indiano!... Ora sappiatelo, amico!... La Tesoruccia ha poco meno di
-                  centoventisettemila quarti!... <choice><orig>E</orig><reg>È</reg></choice> 
+                  centoventisettemila quarti!... <supplied reason="omitted-accent">È</supplied> 
                   la ventimillesima pronipote del Semidio Visnù!...
                   Un Bramino della Pagoda di Rameserum mi ha certificato con atto autentico ch’essa
                   appartiene alla sua famiglia!... Io potrò offrirle la mia mano... potrò...</p>
@@ -7555,7 +7526,7 @@
                <p> L’Americano accomodò l’amico d’un sì lieve favore e il Barone, recitato per
                   testo del racconto il noto verso:</p>
                <p style="text-align:center"><cit xml:lang="lat">
-                     <quote><hi rend="italic">Infandum, regina, jubes renovare dolorem,</hi></quote><bibl>
+                     <quote><foreign xml:lang="lat">Infandum, regina, jubes renovare dolorem,</foreign></quote><bibl>
                         <author>Virgilio</author>,
                         <title>Eneide</title>,
                         <biblScope unit="book">II</biblScope>,
@@ -7832,7 +7803,7 @@
                   sulla piaggia di ogni città, il popolo vive 
                   allegro, spensierato, lasciandosi menar pel naso da 
                   chicchessia; è il sistema stesso degli imperatori 
-                  romani; ma i <foreign xml:lang="lat"><hi rend="italic">circenses</hi></foreign> costavano più cari assai, e 
+                  romani; ma i <foreign xml:lang="lat">circenses</foreign> costavano più cari assai, e 
                   la buona economia ci ha guadagnato. In generale 
                   quelli che comandano possono fare, disfare e 
                   pelare senza che nessuno strilli. Sua Maestà Celeste,
@@ -7868,8 +7839,8 @@
                   non si vorrebbero) e della figliuola di lui, dalla mia 
                   vergine alunna, della divina Chimpoa!</p>
                <p>− <cit xml:lang="lat">
-                     <quote><hi rend="italic">Ehu Corydon, Corydon quae te dementia
-                           coepit?</hi></quote><bibl>
+                     <quote><foreign xml:lang="lat">Ehu Corydon, Corydon quae te dementia
+                           coepit?</foreign></quote><bibl>
                               <author>Virgilio</author>,
                               <title xml:lang="lat">Bucoliche</title>,
                               <biblScope unit="book">II</biblScope>
@@ -7877,7 +7848,7 @@
                            </bibl>
                   </cit> − gridò il signor giudice all’udire la scappata erotica 
                   del barone di Nicastro. − E Genova? e la Tesoruccia?</p>
-               <p>− <foreign xml:lang="lat"><hi rend="italic">Peccavi, Domine</hi></foreign>!
+               <p>− <foreign xml:lang="lat">Peccavi, Domine</foreign>!
                   rispose con qualche lagrima 
                   di vergogna il mutilato campione della virtù. − 
                   Sì, la maga chinese mi aveva stregato!... Aveva 
@@ -8085,7 +8056,7 @@
                   darsi, poichè 
                   comincio a credere anch’io che Floriano avesse 
                   ragione di rispondere
-                  <foreign xml:lang="lat"><hi rend="italic">vanitas vanitatum</hi></foreign>, ogniqualvolta 
+                  <foreign xml:lang="lat">vanitas vanitatum</foreign>, ogniqualvolta 
                   io gli citassi l’autorità della sapienza.
                   Comunque sia, gli Inglesi e gli Indiani sono due razze 
                   d’animali assai bizzarre, a
@@ -8145,8 +8116,7 @@
                <p>− Si imbarchi subito costui; soggiunse il governatore.</p>
                <p>E siccome io non avea capito verbo di quel loro 
                   dialogo inglese, così fui menato
-                  al porto, sospinto sul <foreign xml:lang="eng"><hi rend="italic"
-                     >bark</hi></foreign>, e spedito in Europa, senzachè potessi 
+                  al porto, sospinto sul <foreign xml:lang="eng">bark</foreign>, e spedito in Europa, senzachè potessi 
                   indovinare cosa si
                   voleva fare di me.</p>
                <p>− Schiavi e padroni! schiavi e padroni! io mulinava 
@@ -8449,8 +8419,7 @@
                   Southampton era di quei giorni un subbuglio per le
                   nuove elezioni; e com’è stile un <foreign xml:lang="eng">Whig</foreign> ed un 
                   <foreign xml:lang="eng">Tory</foreign> si contendevano il campo. Il
-                  primo, paffuto e piacevole <foreign xml:lang="eng"><hi rend="italic"
-                        >gentleman</hi></foreign>, correva per le bettole più <hi rend="italic"
+                  primo, paffuto e piacevole <foreign xml:lang="eng">gentleman</foreign>, correva per le bettole più <hi rend="italic"
                      >radicali</hi> a promettere il buon mercato del pane 
                   e il secolo della
                   cuccagna: il secondo, grave e 
@@ -8461,7 +8430,7 @@
                   vinolenta e tumultuosa al 
                   suono dei pifferi e dei tamburi, mentre i gridatori 
                   dei
-                  giornali pareggiavano a <choice><orig>Tox</orig><reg><persName ref="#Fox_C.J.">Fox</persName></reg></choice>, o a <persName ref="#Pitt_W._young">Chatam</persName> 
+                  giornali pareggiavano a <persName ref="#Fox_C.J."><choice><sic>Tox</sic><corr>Fox</corr></choice></persName>, o a <persName ref="#Pitt_W._young">Chatam</persName> 
                   i due contendenti − Che monta
                   accompagnarsi 
                   colla Giustizia, se le si guasta poi il viso con tale 
@@ -8471,7 +8440,7 @@
                   anche la Gran Bretagna dalla carta topografica del 
                   suo Eliso Pitagorico. E
                   tuttavia non s’era accorto 
-                  <choice><orig>ne’</orig><reg>nè</reg></choice> della magra Irlanda, nè delle catacombe di
+                  <choice><sic>ne’</sic><corr>nè</corr></choice> della magra Irlanda, nè delle catacombe di
                   Liverpool, nè dei postriboli – ammazzatoj della 
                   buona città di Londra!</p>
                <p>− Ognidove il duello delle volontà, delle invidie, 
@@ -8492,7 +8461,7 @@
                   marcio, finchè
                   la vera economia non s’interpone a 
                   purgarcene.</p>
-               <p>− Ah <choice><orig>si</orig><reg>sì</reg></choice> l’economia! ne udii parlare! soggiunse 
+               <p>− Ah s<supplied reason="omitted-accent">ì</supplied> l’economia! ne udii parlare! soggiunse 
                   Don Camillo. − Ci credete voi?</p>
                <p>− Se ci credo? rispose il calzolajo − ci credo 
                   tanto che prima di tre anni ho già
@@ -8602,211 +8571,196 @@
                <p>− Corse molto tempo, signore, dacchè usciste dal paese vostro? gli domandò il
                   Barone.</p>
                <p>− <hi rend="italic">Ah,</hi>
-                  <foreign xml:lang="fr"><hi rend="italic">qu’il y a longtemps</hi></foreign>!
+                  <foreign xml:lang="fr">qu’il y a longtemps</foreign>!
                   sclamò il Parigino − quasi quattro settimane. E frugacchiai per dieci stabilimenti
                   termali di Germania senza trovarci un solo di quei mille <foreign xml:lang="fr"
-                        ><hi rend="italic">agrements</hi></foreign> che fanno sì dolce il vivere a
+                        >agrements</foreign> che fanno sì dolce il vivere a
                   Parigi!</p>
                <p>− E che professione è la vostra di grazia? chiese il Barone.</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Je suis un savant</hi></foreign>:
+               <p>− <foreign xml:lang="fr">Je suis un savant</foreign>:
                   rispose modestamente inchinandosi il Francese.</p>
                <p>Don Camillo di Nicastro, martire della filosofia Pitagorica squadrò in cagnesco,
                   l’azzimato neofito; e soggiunse con uno sgrugnetto d’ironia:</p>
                <p>− Non già dei sette, voglio credere...</p>
-               <p>− Sibbene dei quaranta <foreign xml:lang="fr"><hi rend="italic">de
-                     l’Academie</hi></foreign>; rispose l’altro.</p>
+               <p>− Sibbene dei quaranta <foreign xml:lang="fr">de
+                     l’Academie</foreign>; rispose l’altro.</p>
                <p>− Che pezzo d’asino! mormorò il Barone; e cercò di cavarsela col chiudere gli
                   occhi. Ma il <foreign xml:lang="fr">savant</foreign> di Parigi, che odorava forse
                   un romanzo di venti volumi nel corpo smozzicato del Barone, non si scorò perchè
                   egli fingesse di russare e alla prima stazione colse il destro di riappiccare il
                   discorso.</p>
-               <p>– <foreign xml:lang="fr"><hi rend="italic">Je gage ma tête</hi></foreign> che voi
+               <p>– <foreign xml:lang="fr">Je gage ma tête</foreign> che voi
                   siete italiano: gli disse ajutandolo a scendere dalla carrozza.</p>
                <p>− Sono il signor Barone Camillo Bernardo Lucio Clodoveo di Nicastro dei giudici di
                   Sardegna; rispose Don Camillo</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Votre serviteur</hi></foreign>:
+               <p>− <foreign xml:lang="fr">Votre serviteur</foreign>:
                   soggiunse con un inchino il Francese; e d’onde venite?... Scommetto quasi di
                   Turchia.</p>
                <p>− Corbezzoli! sclamò maravigliato il Barone ficcandogli in viso il suo occhietto
                   stralunato; come fate ad indovinare?</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">On le voit bien</hi></foreign>; riprese
-                  il <foreign xml:lang="fr"><hi rend="italic">savant</hi></foreign>; voi siete calvo, 
-                  <foreign xml:lang="fr"><hi rend="italic">monsieur</hi></foreign>, e non portate parrucca; 
-                  <foreign xml:lang="fr"><hi
-                        rend="italic">c’est vraiment de la barbarie Turque</hi></foreign><hi rend="italic">!</hi></p>
+               <p>− <foreign xml:lang="fr">On le voit bien</foreign>; riprese
+                  il <foreign xml:lang="fr">savant</foreign>; voi siete calvo, 
+                  <foreign xml:lang="fr">monsieur</foreign>, e non portate parrucca; 
+                  <foreign xml:lang="fr">c’est vraiment de la barbarie Turque</foreign><hi rend="italic">!</hi></p>
                <p>− Che maniera di ragionare! borbottò il Barone stringendosi nelle spalle. − Cosa
                   ne cale a me di parrucca?..</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Pardon</hi></foreign>; rimbeccò il
+               <p>− <foreign xml:lang="fr">Pardon</foreign>; rimbeccò il
                   Francese; ma gli è impossibile che qualcheduna fra le volubili figliuole di Eva
-                  non v’abbia tocco il cuore. E <foreign xml:lang="fr"><hi rend="italic">croyez-en a
-                        moi</hi></foreign>, quelle bizzarre creature <foreign xml:lang="fr"><hi
-                        rend="italic">n’aiment pas les tetes chauves</hi></foreign>. − Di più vi
+                  non v’abbia tocco il cuore. E <foreign xml:lang="fr">croyez-en a
+                        moi</foreign>, quelle bizzarre creature <foreign xml:lang="fr">n’aiment pas les tetes chauves</foreign>. − Di più vi
                   consiglio, continuò parlandogli nell’orecchio, vi consiglio le dentiere di
                      <foreign xml:lang="fr">Hochet, Rue Mont-Rouge</foreign> N.° 11. <foreign
-                     xml:lang="fr"><hi rend="italic">C’est rien que cela; mais ca rehausse la
-                        prononciation</hi></foreign>. <foreign xml:lang="fr"><hi rend="italic">Et
-                        puis</hi></foreign> perchè non si deve procurar di nascondere la disgrazia
+                     xml:lang="fr">C’est rien que cela; mais ca rehausse la
+                        prononciation</foreign>. <foreign xml:lang="fr">Et
+                        puis</foreign> perchè non si deve procurar di nascondere la disgrazia
                   della natura, o il cattivo servigio del destino? Del resto a Parigi troverete,
-                     <foreign xml:lang="fr"><hi rend="italic">monsieur</hi></foreign>, di che
-                  rendervi un vero <foreign xml:lang="fr"><hi rend="italic">Adonis</hi></foreign>:
-                  e, <foreign xml:lang="fr"><hi rend="italic">il va sans dire</hi></foreign>, che vi
+                     <foreign xml:lang="fr">monsieur</foreign>, di che
+                  rendervi un vero <foreign xml:lang="fr">Adonis</foreign>:
+                  e, <foreign xml:lang="fr">il va sans dire</foreign>, che vi
                   sono occhi di cristallo d’un effetto magico, esprimenti ogni fatta di passioni,
                   dalla rabbia più feroce all’ebbrezza più soave dell’amore; laonde <foreign
-                     xml:lang="fr"><hi rend="italic">avec un petit changement</hi></foreign> voi
+                     xml:lang="fr">avec un petit changement</foreign> voi
                   potete mettere il vostro occhio destro in consonanza col sinistro <foreign
-                     xml:lang="fr"><hi rend="italic">vis-a-vis de votre maitresse</hi></foreign>...
-                     <foreign xml:lang="fr"><hi rend="italic">Et pardon, Monsieur</hi></foreign>, ma
-                  come avvenne che voi foste così <foreign xml:lang="fr"><hi rend="italic">endomnagé
-                        dans votre facultè visive</hi></foreign><hi rend="italic">?</hi></p>
+                     xml:lang="fr">vis-a-vis de votre maitresse</foreign>...
+                     <foreign xml:lang="fr">Et pardon, Monsieur</foreign>, ma
+                  come avvenne che voi foste così <foreign xml:lang="fr">endomnagé
+                        dans votre facultè visive</foreign><hi rend="italic">?</hi></p>
                <p>− Fui accecato al Giappone dai bonzi, per aver osato entrare nei confini
                   dell’impero con passaporto americano; rispose Don Camillo.</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Diable! quel pays que c’est le
-                        Japon!</foreign></hi> sclamò con una <foreign xml:lang="fr"><hi
-                        rend="italic">pirouette</hi></foreign> il sapiente Parigino; ma ve lo dico
+               <p>− <foreign xml:lang="fr">Diable! quel pays que c’est le
+                        Japon!</foreign> sclamò con una <foreign xml:lang="fr">pirouette</foreign> il sapiente Parigino; ma ve lo dico
                   io, proseguì, che la Francia compensa i difetti di tutte le altre nazioni; ci
                   troverete occhi a migliaja da far piangere d’invidia quello che ha ancora l’onore
                   di servirvi!</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Il va sans dire</hi></foreign> che non
+               <p>− <foreign xml:lang="fr">Il va sans dire</foreign> che non
                   ci vedrò meglio; disse ghignando il Barone.</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Pardon, monsieur</hi></foreign>;
+               <p>− <foreign xml:lang="fr">Pardon, monsieur</foreign>;
                   soggiunse il Francese, come punto dal fare schernevole del Barone; <foreign
-                     xml:lang="fr"><hi rend="italic">c’est pour la venusté</hi></foreign>, come
+                     xml:lang="fr">c’est pour la venusté</foreign>, come
                   dicevano i Greci. − Ma come diavolo; continuò egli allegramente; come vi frullò in
                   capo di ficcarvi al Giappone?</p>
                <p>− Ho fatto voto di cercare pel mondo la concordia della virtù colla felicità e la
                   trina armonia dialettica di <persName ref="#Pitagora">Pitagora</persName>; rispose 
                   solennemente Don Camillo.</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Vous ne cherchez que cela?... 
+               <p>− <foreign xml:lang="fr">Vous ne cherchez que cela?... 
                         et vous
-                        alliez au Japon?</foreign></hi></p>
+                        alliez au Japon?</foreign></p>
                <p>− Qual meraviglia? rispose Don Camillo − andai al Giappone perchè non mi fu dato
                   trovare altrove quanto cercava.</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Oh quelle fatalité,
-                     monsieur!</foreign></hi> sclamò il Francese; se ci fossimo incontrati prima, vi
+               <p>− <foreign xml:lang="fr">Oh quelle fatalité,
+                     monsieur!</foreign> sclamò il Francese; se ci fossimo incontrati prima, vi
                   avrei sparagnato un lungo viaggio, e la brutta accoglienza di <hi rend="italic"
                         ><foreign xml:lang="fr">messieurs le Bonze</foreign>!</hi>.. A Parigi,
-                     <foreign xml:lang="fr"><hi rend="italic">monsieur le Baron</hi></foreign>, a
-                  Parigi si trova, <foreign xml:lang="fr"><hi rend="italic">la vraie vertù, le
-                        veritable bonheur, et la parfaite armonie</hi></foreign><hi rend="italic">!</hi></p>
+                     <foreign xml:lang="fr">monsieur le Baron</foreign>, a
+                  Parigi si trova, <foreign xml:lang="fr">la vraie vertù, le
+                        veritable bonheur, et la parfaite armonie</foreign><hi rend="italic">!</hi></p>
                <p>− Davvero, signore?.. e come?... dove?...</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Parbleu!</foreign></hi>... anzitutto
-                     <foreign xml:lang="fr"><hi rend="italic">dans les coulisses</hi></foreign>.</p>
+               <p>− <foreign xml:lang="fr">Parbleu!</foreign>... anzitutto
+                     <foreign xml:lang="fr">dans les coulisses</foreign>.</p>
                <p>− Che è quanto dire?</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Excusez-moi</hi></foreign>, voleva
-                  dirvi che fra <foreign xml:lang="fr"><hi rend="italic">les danseuses et les
-                        comediennes</hi></foreign> si trova sovente quella</p>
+               <p>− <foreign xml:lang="fr">Excusez-moi</foreign>, voleva
+                  dirvi che fra <foreign xml:lang="fr">les danseuses et les
+                        comediennes</foreign> si trova sovente quella</p>
                <pb n="303" facs="fugg_303.jpg"/>
-               <p><foreign xml:lang="fr"><hi rend="italic">courte, brulante et infidele
-                        intimité</hi></foreign>, che procede dalla vera virtù, costituisce la vera
+               <p><foreign xml:lang="fr">courte, brulante et infidele
+                        intimité</foreign>, che procede dalla vera virtù, costituisce la vera
                   felicità e mena alla perfetta armonia. E se si sparla di esse, <foreign
-                     xml:lang="fr"><hi rend="italic">c’est</hi></foreign>, credetemi, <foreign
-                     xml:lang="fr"><hi rend="italic">de la calomnie</hi></foreign>.</p>
+                     xml:lang="fr">c’est</foreign>, credetemi, <foreign
+                     xml:lang="fr">de la calomnie</foreign>.</p>
                <p>− Costui è pazzo; pensò il Barone; chi gli chiese conto di comiche e di
                   ballerine?.. − Scusatemi; ridomandò volgendosi a lui; la virtù pubblica è ben
                   rimunerata a Parigi?</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">On la siffle au Gimnase, on la supporte
-                        a l’Odeon, et on l’applaudit au Theâtre Français</hi></foreign>; rispose il
+               <p>− <foreign xml:lang="fr">On la siffle au Gimnase, on la supporte
+                        a l’Odeon, et on l’applaudit au Theâtre Français</foreign>; rispose il
                   Parigino.</p>
                <p>− Capisco; ma il Governo?</p>
-               <p>− Ah, <foreign xml:lang="fr"><hi rend="italic">le gouvernement!</hi></foreign><hi rend="italic">!</hi>
-                  bisbigliò sbadatamente il <foreign xml:lang="fr"><hi rend="italic"
-                     >savant</hi></foreign>. − <foreign xml:lang="fr"><hi rend="italic">On
-                     dit</hi></foreign> che ci abbia regalato sessanta mila cavalieri della Legion
-                  d’Onore. <foreign xml:lang="fr"><hi rend="italic">Ça fait un joli budget de vertus
-                        publiques</hi></foreign>, mi sembra!</p>
+               <p>− Ah, <foreign xml:lang="fr">le gouvernement!</foreign><hi rend="italic">!</hi>
+                  bisbigliò sbadatamente il <foreign xml:lang="fr">savant</foreign>. − <foreign xml:lang="fr">On
+                     dit</foreign> che ci abbia regalato sessanta mila cavalieri della Legion
+                  d’Onore. <foreign xml:lang="fr">Ça fait un joli budget de vertus
+                        publiques</foreign>, mi sembra!</p>
                <p>− E dove si pescano, di grazia, tutte queste ricchezze di virtù?</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Mais, dans la haute finance, dans la
+               <p>− <foreign xml:lang="fr">Mais, dans la haute finance, dans la
                         haute literature, dans la haute noblesse, dans la haute fashion, dans les
-                        hautes rangs de l’armée surtout</hi></foreign>; e poi ancora 
-                  <foreign xml:lang="fr"><hi rend="italic">dans le haut commerce, dans la
-                        haute diplomatie, dans la haute</hi></foreign>...</p>
+                        hautes rangs de l’armée surtout</foreign>; e poi ancora 
+                  <foreign xml:lang="fr">dans le haut commerce, dans la
+                        haute diplomatie, dans la haute</foreign>...</p>
                <p>− Basta, basta! − strillò Don Camillo tappandosi l’orecchio che non gli si era
                   guastato nelle carceri della China: tutte virtù che costano pochi sudori<supplied reason="omitted-in-original">.</supplied> 
                   E da
                   quanto mi dite temo assai, che anche la Francia non sia paese da cercarvisi
-                  l’unità dialettica del <foreign xml:lang="lat"><hi rend="italic"
-                     >trinum</hi></foreign> Pitagorico.</p>
-               <p>− Oh <hi rend="italic"><foreign xml:lang="fr">qu’oui</foreign></hi>, che ce la
-                  trovate! sclamò a sua volta il Francese: da noi tutti <foreign xml:lang="fr"><hi
-                        rend="italic">hommes, femmes et enfans</hi></foreign>, sono <foreign
-                     xml:lang="fr"><hi rend="italic">pour la centralisation</hi></foreign>. <foreign
-                     xml:lang="fr"><hi rend="italic">C’est de l’unitè à ravir</hi></foreign>, caro
+                  l’unità dialettica del <foreign xml:lang="lat">trinum</foreign> Pitagorico.</p>
+               <p>− Oh <foreign xml:lang="fr">qu’oui</foreign>, che ce la
+                  trovate! sclamò a sua volta il Francese: da noi tutti <foreign xml:lang="fr">hommes, femmes et enfans</foreign>, sono <foreign
+                     xml:lang="fr">pour la centralisation</foreign>. <foreign
+                     xml:lang="fr">C’est de l’unitè à ravir</foreign>, caro
                   Barone, e tutto cola a Parigi.</p>
                <p>− E cosa dicono i Dipartimenti?</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Qu’est que c’est que
-                  ça?</hi></foreign>... Ah capisco!... <foreign xml:lang="fr"><hi rend="italic">Les
-                        departements!</hi></foreign> Essi mandano Parigi ai centomila diavoli.</p>
+               <p>− <foreign xml:lang="fr">Qu’est que c’est que
+                  ça?</foreign>... Ah capisco!... <foreign xml:lang="fr">Les
+                        departements!</foreign> Essi mandano Parigi ai centomila diavoli.</p>
                <p>− E Parigi?</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Il s’en f...</foreign>!</hi></p>
+               <p>− <foreign xml:lang="fr">Il s’en f...</foreign>!</p>
                <p>− Bella unità affemia! sclamò il Barone.</p>
-               <p>− Ve l’avea pur detto! soggiunse tutto raggiante il Parigino − <hi rend="italic"
-                        ><foreign xml:lang="fr">c’est à ravir!</foreign></hi></p>
+               <p>− Ve l’avea pur detto! soggiunse tutto raggiante il Parigino − <foreign xml:lang="fr">c’est à ravir!</foreign></p>
                <p>− E tuttavia; riappiccò Don Camillo; l’anno scorso alla Nuova Calcedonia udii un
                   Francese mormorare non poco d’un così soverchio accentramento.</p>
-               <p>− Sarà stato un <foreign xml:lang="fr"><hi rend="italic"
-                     >legitimiste</hi></foreign><hi rend="italic">!</hi></p>
+               <p>− Sarà stato un <foreign xml:lang="fr">legitimiste</foreign><hi rend="italic">!</hi></p>
                <p>− Non era.</p>
-               <p>− Un <foreign xml:lang="fr"><hi rend="italic">fusioniste</hi></foreign><hi rend="italic">?</hi></p>
+               <p>− Un <foreign xml:lang="fr">fusioniste</foreign><hi rend="italic">?</hi></p>
                <p>− Nemmeno.</p>
-               <p>− Un <foreign xml:lang="fr"><hi rend="italic">Orleaniste</hi></foreign><hi rend="italic">?</hi></p>
+               <p>− Un <foreign xml:lang="fr">Orleaniste</foreign><hi rend="italic">?</hi></p>
                <p>− Nè punto nè poco, era un socialista.</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Peste!</hi></foreign> non ne conosceva
-                  di questa <hi rend="italic"><foreign xml:lang="fr">nuance</foreign></hi>! mormorò il Parigino.</p>
+               <p>− <foreign xml:lang="fr">Peste!</foreign> non ne conosceva
+                  di questa <foreign xml:lang="fr">nuance</foreign>! mormorò il Parigino.</p>
                <p>− Oh la perfetta unità dialettica! sclamò ironicamente il Barone.</p>
-               <p>− Sì, certo; e ve la provo; rispose l’altro; <foreign xml:lang="fr"><hi
-                        rend="italic">c’est de l’unitè dans la multiplicitè</hi></foreign>, come
-                  diceva, mi sembra, <foreign xml:lang="fr"><hi rend="italic">un certain
+               <p>− Sì, certo; e ve la provo; rispose l’altro; <foreign xml:lang="fr">c’est de l’unitè dans la multiplicitè</foreign>, come
+                  diceva, mi sembra, <foreign xml:lang="fr">un certain
                      abbè <persName ref="#Gioberti">Giberti</persName> qui doit
-                        être Corse</hi></foreign>. − E per questo noi, ad onta dei sei, sette od
+                        être Corse</foreign>. − E per questo noi, ad onta dei sei, sette od
                   otto partiti che abbajano, e di coloro che appartengono a tutti otto o a nessuno,
-                  abbiamo tuttavia un solo scopo, e <foreign xml:lang="fr"><hi rend="italic">c’est
-                        de bien vivre</hi></foreign>; un solo passeggio <foreign xml:lang="fr"><hi
-                        rend="italic">et ce sont les boulevards; une seule Academie</hi></foreign>,
+                  abbiamo tuttavia un solo scopo, e <foreign xml:lang="fr">c’est
+                        de bien vivre</foreign>; un solo passeggio <foreign xml:lang="fr">et ce sont les boulevards; une seule Academie</foreign>,
                   ed è quella cui io ho l’onore d’appartenere; un solo giornale <foreign
-                     xml:lang="fr"><hi rend="italic">et c’est le Charivari</hi></foreign> (gli altri
-                  son fatti per dormire, ma <foreign xml:lang="fr"><hi rend="italic">pour le jour
-                        non!... Oh les journaux, quel beau calembour!</hi></foreign>) abbiamo
-                     <foreign xml:lang="fr"><hi rend="italic">un seul empereur et c’est <persName ref="#Napoleone_III">le neveu</persName> de
-                        <persName ref="#Napoleone_I">l’autre</persName></hi></foreign>; un sol canzoniere ed è 
+                     xml:lang="fr">et c’est le Charivari</foreign> (gli altri
+                  son fatti per dormire, ma <foreign xml:lang="fr">pour le jour
+                        non!... Oh les journaux, quel beau calembour!</foreign>) abbiamo
+                     <foreign xml:lang="fr">un seul empereur et c’est <persName ref="#Napoleone_III">le neveu</persName> de
+                        <persName ref="#Napoleone_I">l’autre</persName></foreign>; un sol canzoniere ed è 
                   quello di <persName ref="#Berangér">M. Beranger</persName>; un
-                  solo Parigi, <foreign xml:lang="fr"><hi rend="italic">et c’est le coeur, la tete
-                        et l’estomac de la France</hi></foreign>, un solo esercito <foreign
-                     xml:lang="fr"><hi rend="italic">et c’est celui de</hi></foreign> Marengo,
+                  solo Parigi, <foreign xml:lang="fr">et c’est le coeur, la tete
+                        et l’estomac de la France</foreign>, un solo esercito <foreign
+                     xml:lang="fr">et c’est celui de</foreign> Marengo,
                   d’Austerlitz, di Costantina, e di Sebastopoli; una sola tiranna <foreign
-                     xml:lang="fr"><hi rend="italic">et c’est la mode</hi></foreign>; una sola
-                  attrice <foreign xml:lang="fr"><hi rend="italic">et c’est mademoiselle
-                     <persName ref="#Félix">Rachel</persName></hi></foreign>; una sola faccenda <foreign xml:lang="fr"><hi
-                        rend="italic">et c’est le plaisir</hi></foreign>; un solo piacere, <foreign
-                     xml:lang="fr"><hi rend="italic">et c’est l’amour</hi></foreign>; un solo amore,
-                     <foreign xml:lang="fr"><hi rend="italic">et c’est le morir long; un seul vin
-                        chic</hi></foreign> ed è lo <hi rend="italic">Champagne</hi>; <foreign xml:lang="fr"><hi
-                        rend="italic">un seul vin bourgeois et c’est le Bordeaux</hi></foreign>, una
-                  sola virtù <foreign xml:lang="fr"><hi rend="italic">et c’est la
-                     perfection</hi></foreign>; un solo difetto <foreign xml:lang="fr"><hi
-                        rend="italic">et ce n’est pas la modestie</hi></foreign>...</p>
-               <p>− Basta, <foreign xml:lang="lat"><hi rend="italic">suffit</hi></foreign>, vi
-                  prego; mi conterete il resto <foreign xml:lang="fr"><hi rend="italic">dans le vagon</hi></foreign>; andava dicendo Don Camillo. Ma non
+                     xml:lang="fr">et c’est la mode</foreign>; una sola
+                  attrice <foreign xml:lang="fr">et c’est mademoiselle
+                     <persName ref="#Félix">Rachel</persName></foreign>; una sola faccenda <foreign xml:lang="fr">et c’est le plaisir</foreign>; un solo piacere, <foreign
+                     xml:lang="fr">et c’est l’amour</foreign>; un solo amore,
+                     <foreign xml:lang="fr">et c’est le morir long; un seul vin
+                        chic</foreign> ed è lo <hi rend="italic">Champagne</hi>; <foreign xml:lang="fr">un seul vin bourgeois et c’est le Bordeaux</foreign>, una
+                  sola virtù <foreign xml:lang="fr">et c’est la
+                     perfection</foreign>; un solo difetto <foreign xml:lang="fr">et ce n’est pas la modestie</foreign>...</p>
+               <p>− Basta, <foreign xml:lang="lat">suffit</foreign>, vi
+                  prego; mi conterete il resto <foreign xml:lang="fr">dans le vagon</foreign>; andava dicendo Don Camillo. Ma non
                   ottenne che una brevissima tregua, perocchè infatti sul convoglio della ferrovia
                   da Strasburgo a Parigi, s’abbattè di bel nuovo nel facondo accademico; e questi
                   per tutto il viaggio d’altro non si occupò che d’assettarsi le bande della
-                  capigliatura, e di provare al Barone di Nicastro la <foreign xml:lang="fr"><hi
-                        rend="italic">parfaite unitè dialectique et Pithagorique</hi></foreign>
+                  capigliatura, e di provare al Barone di Nicastro la <foreign xml:lang="fr">parfaite unitè dialectique et Pithagorique</foreign>
                   della Francia.</p>
                <p>− E come fareste a racchiuderla nel simbolo unico e triplicato dei Pitagorici?
                   Domandò sorridendo il Barone, come furono a pochi minuti dalla capitale.</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">C’est l’affaire de quatre
-                     c.</hi></foreign> − rispose lesto lesto <hi rend="italic"><foreign
-                        xml:lang="fr">monsieur le savant.</foreign> <foreign xml:lang="fr"><hi rend="italic">− Le canon, le caquet, et le coq...
-                        forment le</hi></foreign>
+               <p>− <foreign xml:lang="fr">C’est l’affaire de quatre
+                     c.</foreign> − rispose lesto lesto <foreign
+                        xml:lang="fr">monsieur le savant.</foreign> <foreign xml:lang="fr">− Le canon, le caquet, et le coq...
+                        forment le</foreign>
                      <foreign xml:lang="lat">trinum</foreign>
-                     <foreign xml:lang="fr">parfait de notre civilisation</foreign>!</hi></p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Voilà!</hi></foreign> soggiunse il
+                     <foreign xml:lang="fr">parfait de notre civilisation</foreign>!</p>
+               <p>− <foreign xml:lang="fr">Voilà!</foreign> soggiunse il
                   Barone. Ecco tutto spiegato e ve ne ringrazio. – Spero, aggiunse in cuor suo; che
                   la Tesoruccia non imparerà mai questa applicazione parigina della formula
                   Pitagorica!</p>
-               <p>Alla stazione si salutarono, e l’uno corse in un <foreign xml:lang="fr"><hi
-                        rend="italic">cabriolet à l’Academie</hi></foreign>; l’altro si fece
-                  condurre da un <foreign xml:lang="fr"><hi rend="italic">fiacre</hi></foreign> all’<hi rend="italic">Hôtel du
+               <p>Alla stazione si salutarono, e l’uno corse in un <foreign xml:lang="fr">cabriolet à l’Academie</foreign>; l’altro si fece
+                  condurre da un <foreign xml:lang="fr">fiacre</foreign> all’<hi rend="italic">Hôtel du
                         Pavon</hi>; ruminando le strambe dicerie del suo compagno di
                   viaggio. Pure non trovò Parigi gran fatto dissimile da quanto esso se l’era
                   immaginato dietro le parole dell’accademico: e cerca e ricerca, diè sovente di
@@ -8815,8 +8769,7 @@
                   una festa senza ragione, gli sembrava quel briaco Parigi; e ci convien dirlo, il
                   Barone ne rimase tutt’altro che contento.</p>
                <p>− Oh lo veggo pur troppo! diceva egli, provandosi a camminare colla sua nuova
-                  gamba automatica nel giardino delle <foreign xml:lang="fr"><hi rend="italic"
-                        >Tuileries</hi></foreign>; converrà ch’io mi ricoveri nell’amore per
+                  gamba automatica nel giardino delle <foreign xml:lang="fr">Tuileries</foreign>; converrà ch’io mi ricoveri nell’amore per
                   riacquistar la speranza!</p>
                <p>E a proposito, se era malcontento di Parigi il povero Barone, non lo fu peraltro
                   della meccanica e della chirurgia riparatrice, che lo munirono d’un’eccellente
@@ -8864,7 +8817,7 @@
                   Francia.</p>
                <p>− Dunque vi passò il grillo di piantare un comune socialista nel Mar Pacifico?
                   chiese il Barone.</p>
-               <p>− <foreign xml:lang="fr"><hi rend="italic">Pardon!</hi></foreign> − soggiunse
+               <p>− <foreign xml:lang="fr">Pardon!</foreign> − soggiunse
                   gravemente il Dandy − ho una carica nel Ministero delle Finanze: sono
                   bonapartista.</p>
                <p>− Hum! fece il Barone. − Le conversioni in Francia non son meno miracolose delle
@@ -8884,8 +8837,8 @@
                   non era quello che facesse all’uopo e da Genova a Milano, da Milano a Venezia, da
                   Venezia ad Ancona; da Ancona a Palermo, da Palermo a Napoli, da Napoli a Roma, da
                   Roma a Firenze e da Firenze a Genova il misero Barone non fece altro che piangere.</p>
-               <p>− <cit><quote><hi rend="italic"><foreign xml:lang="lat">O Tellus Saturnia! o magna parens
-                              frugum et virum</foreign>!</hi></quote>
+               <p>− <cit><quote><foreign xml:lang="lat">O Tellus Saturnia! o magna parens
+                              frugum et virum</foreign>!</quote>
                      <bibl>      <author>Virgilio</author>,
                                  <title>Georgiche</title>
                                  <biblScope unit="book">II</biblScope>,
@@ -8903,7 +8856,7 @@
                         ><foreign xml:lang="fr">monsieur</foreign> <persName ref="#Arban">Arban</persName></hi> si preparava al suo
                   penultimo viaggio aereonautico. Un’idea luminosa gli balenò pel capo... Se
                   tornassi a Nicastro in pallone?...</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Monsieur</foreign> <persName ref="#Arban">Arban</persName></hi>, io sono
+               <p>− <foreign xml:lang="fr">Monsieur</foreign> <hi rend="italic"><persName ref="#Arban">Arban</persName></hi>, io sono
                   malcontento del mondo, ma della vostra nazione meno che delle altre, − voi siete
                   frivoli, volubili, ciarlieri, vanerelli, scapestrati, ma vi invaghite facilmente
                   della gloria, che è almeno l’ombra d’un ideale; favoreggiate l’arte che è la forma
@@ -8916,8 +8869,7 @@
                <p>− Dodicimila franchi.</p> 
                <p>− Sta bene; contratto fatto.</p>
                <p>− Il Barone contò dodici viglietti di banca, e fra gli schiamazzi del popolaccio
-                  fu adagiato nel navicello come voleva <foreign xml:lang="fr"><hi rend="italic"
-                        >monsieur</hi></foreign>. Alla fine la corda fu tagliata; essi salirono
+                  fu adagiato nel navicello come voleva <foreign xml:lang="fr">monsieur</foreign>. Alla fine la corda fu tagliata; essi salirono
                   dapprima perpendicolarmente otto mila metri; indi cominciarono a volare verso
                   Sud-Ovest colla rapidità di cento chilometri l’ora; e alla fine scomparvero
                   nell’azzurra lontananza, che ogni testa di Livornese guardava ancora in alto, 
@@ -8936,8 +8888,8 @@
                   di perdere il naso. Ma finalmente scoprirono la Sardegna, e il signor Barone ebbe
                   uno schianto di allegrezza al vedere che il pallone quasi animato dall’anima sua
                   si dirigeva difilato sopra Nicastro.</p>
-               <p>− <hi rend="italic"><foreign xml:lang="fr">Monsieur</foreign> 
-                     <persName ref="#Arban">Arban</persName></hi>, diceva
+               <p>− <foreign xml:lang="fr">Monsieur</foreign> 
+                     <hi rend="italic"><persName ref="#Arban">Arban</persName></hi>, diceva
                   egli colle lagrime agli occhi guardando per entro un telescopio − vi perdono i
                   vostri rimproveri... Veggo Nicastro!... Nicastro, capite; il castello degli avi
                   miei, che ne portarono il nome dei loro antenati di Sicilia, i quali lo
@@ -8948,8 +8900,8 @@
                   che tu sia benedetta!... Non ha perduto niente ella in tutti questi anni; anzi...
                   ha acquistato, ha acquistato!... Guarda!... ha già preparato la cuna pel nostro
                   futuro erede!... Oh, salve, sposa e colomba mia! salve, desiderata!</p>
-               <p>− Cheto, cheto, <hi rend="italic"><foreign xml:lang="fr">parbleu</foreign></hi>!
-                  gridò <hi rend="italic"><foreign xml:lang="fr">monsieur <persName ref="#Arban">Arban</persName></foreign></hi>. −
+               <p>− Cheto, cheto, <foreign xml:lang="fr">parbleu</foreign>!
+                  gridò <foreign xml:lang="fr">monsieur <persName ref="#Arban">Arban</persName></foreign>. −
                   Non vedete che scendiamo a piombo?</p>
                <p>Infatti il pallone calava rapidamente, come una</p>
                <pb n="305" facs="fugg_305.jpg"/>
@@ -8962,12 +8914,11 @@
                   ma il Barone intento nel suo
                   canocchiale si dimenava tanto per la commozione e la gioia che ad ogni momento la
                   cesta accennava di stravolgersi.</p>
-               <p>− Fermo, per carità! gridò colla voce serrata fra i denti <hi rend="italic"
-                     ><foreign xml:lang="fr">monsieur</foreign> <persName ref="#Arban">Arban</persName>
+               <p>− Fermo, per carità! gridò colla voce serrata fra i denti <foreign xml:lang="fr">monsieur</foreign> <hi rend="italic"><persName ref="#Arban">Arban</persName>
                </hi>, stiamo per rasentare
                   il campanile!</p>
                <p>Figuratevi peraltro se il Barone poteva frenarsi vedendo la Tesoruccia svegliarsi
-                  languidamente dalla sua <hi rend="italic">siesta</hi> e balzare di letto! Egli mosse 
+                  languidamente dalla sua <foreign xml:lang="esp">siesta</foreign> e balzare di letto! Egli mosse 
                   un tal salto sul suo
                   sedile, che la macchina intiera piegò a sinistra, le corde imbrogliandosi nella
                   croce del campanile andarono a pezzi, e il pallone riprese un’altra volata, e la
@@ -8976,10 +8927,10 @@
                   Barone Camillo! − Che? risuscitato? − No! cascato dalle nuvole! − Ben tornato,
                   Eccellenza! − Grazie, ahi! − Come sta? si è fatto male? − Nulla! mi si è rotto la
                   gamba. − Dunque presto, il medico. − No, piuttosto il falegname poichè l’era di
-                  legno. − E voi, signore? − Oh <hi rend="italic"><foreign xml:lang="fr">c’est
-                        rien</foreign></hi>: il Barone ha fatto il possibile per ammazzarmi; ma noi
-                  Francesi <hi rend="italic"><foreign xml:lang="fr">nous ne sommes pas de
-                        souris</foreign></hi>.</p>
+                  legno. − E voi, signore? − Oh <foreign xml:lang="fr">c’est
+                        rien</foreign>: il Barone ha fatto il possibile per ammazzarmi; ma noi
+                  Francesi <foreign xml:lang="fr">nous ne sommes pas de
+                        souris</foreign>.</p>
                <p>Cotali erano i discorsi della folla che si rimescolava dinanzi la spezieria;
                   durante i quali il Barone avea ripreso la stampella e a braccetto di <hi
                   rend="italic"><foreign xml:lang="fr">monsieur</foreign> <persName ref="#Arban">Arban</persName></hi>, 
@@ -8990,8 +8941,8 @@
                   − Zitto, voglio fare a Floriano ed alla Tesoruccia una bella improvvisata!... Fate
                   che al chiasso non s’accorgano di qualche venuta straordinaria.</p>
                <p>I paesani si arrestarono così mutoli che parvero rane al sorger del giorno: il
-                  Barone Camillo e <hi rend="italic"><foreign xml:lang="fr">monsieur</foreign>
-                     <persName ref="#Arban">Arban</persName></hi>, si avanzarono soli e a 
+                  Barone Camillo e <foreign xml:lang="fr">monsieur</foreign>
+                     <persName ref="#Arban">Arban</persName>, si avanzarono soli e a 
                   tacito passo nell’atrio moresco del castello
                   di Nicastro.</p>
             </div>
@@ -8999,8 +8950,8 @@
                <p style="text-align:center">XXVIII.</p>
                <p>Don Camillo, entrato sorridente nel refettorio, trovò Floriano seduto a merenda
                   presso la Tesoruccia; e due bimbi in mezzo a loro che intingevano le dita nelle
-                  scodelle e li chiamavano papà e mamma. <hi rend="italic"><foreign xml:lang="fr"
-                        >Monsieur</foreign> <persName ref="#Arban">Arban</persName></hi> 
+                  scodelle e li chiamavano papà e mamma. <foreign xml:lang="fr"
+                        >Monsieur</foreign> <hi rend="italic"><persName ref="#Arban">Arban</persName></hi> 
                   raccolse fra le braccia il corpo inanimato
                   del Barone . . . . . . . . . . . . . . . . . . . . . . . . . </p>
             </div>

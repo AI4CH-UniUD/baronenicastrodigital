@@ -850,12 +850,20 @@ p {
     text-align: left;
 }
 
-.missed-delation{
+.missed-delation, .omitted-in-original, .omitted-accent, .omitted-apostrophe, .missed-in-the-original{
   text-decoration-color: red;
 }
 
+.omitted-in-original, .omitted-accent, .omitted-apostrophe, .missed-in-the-original{
+  color: red;
+}
+
 .archivista{
-  color: #ff5132;
+  color: #ffa632;
+}
+
+a{
+  color: rgb(97, 96, 96);
 }
 
 /* Touch Targets and Global Mobile Constraints */
@@ -1047,31 +1055,24 @@ sup a {
 }
 
 /* Colors for specific TEI elements */
-.bg-green {
+.corr {
     background-color: #57a99a; 
 }
-.bg-green::after {
+.corr::after {
     border-top-color: #57a99a;
 }
 
-.bg-pink {
+.expan {
     background-color: #d883b7; 
 }
-.bg-pink::after {
+.expan::after {
     border-top-color: #d883b7;
 }
 
-.bg-blue {
-    background-color: #6e93f7; 
-}
-.bg-blue::after {
-    border-top-color: #6e93f7;
-}
 
 /* Make sure inner elements match parent background for arrow */
-.choice-tooltip-cloud .bg-green { background-color: #86da5f; }
-.choice-tooltip-cloud .bg-pink { background-color: #d883b7; }
-.choice-tooltip-cloud .bg-blue { background-color: #6e93f7; }
+.choice-tooltip-cloud .corr { background-color: #86da5f; }
+.choice-tooltip-cloud .expan { background-color: #d883b7; }
 
 /* ========================================= */
 /* CRONOLOGIA SCRITTURA (Writing Chronology) */
