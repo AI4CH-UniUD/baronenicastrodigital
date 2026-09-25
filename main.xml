@@ -5,10 +5,11 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Edizione Digitale della redazione manoscritta A de <title>Il Barone di
-                        Nicastro</title> di </title>
+                <title>Il <title>Barone di
+                        Nicastro</title> Digitale </title>
                 <author>Ippolito Nievo</author>
                 <editor resp="#BDB">Trascrizione e codifica a cura di <persName full="yes" xml:id="BDB">Bianca Del Buono</persName></editor>
+                <eidtor resp="#Federico-Siragusa">Sviluppo e realizzazione tecnica a cura di <persName ref="#Federico-Siragusa">Federico Siragusa</persName></editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>Progetto Progetto PRIN 2017 <hi rend="italic">Nievo e la cultura
@@ -72,6 +73,9 @@
                    <person>
                       <persName role="editore" xml:id="Bianca-Del-Buono">Bianca Del Buono</persName>
                    </person>
+                   <person>
+                      <persName role="editore" xml:id="Federico-Siragusa">Federico Siragusa</persName>
+                   </perso>
                    <person>
                       <persName role="editore" xml:id="Silvia-Contarini">Silvia Contarini</persName>
                    </person>
