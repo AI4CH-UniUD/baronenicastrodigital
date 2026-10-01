@@ -7,6 +7,11 @@ body.accessible-mode, .accessible-mode {
   --main-font-family: 'OpenDyslexic', 'Comic Sans MS', 'Arial', Helvetica, sans-serif;
 }
 
+body.accessible-mode p, .accessible-mode p,
+body.accessible-mode .justify, .accessible-mode .justify {
+  text-align: left !important;
+}
+
 /* Stili per l'intestazione e la navigazione */
 header {
   background: linear-gradient(135deg, #1c3d5a, #2a5c85);
